@@ -1,6 +1,8 @@
 import * as vscode from 'vscode';
 import * as csstree from 'css-tree';
 
+type CompletionType = 'UTILITY_CLASS_V4' | 'UTILITY_CLASS_V5' | 'CSS_VARIABLE' | 'NONE';
+
 function parseUtilityClasses(accumulatedSet: Set<string>, uri: vscode.Uri): Thenable<Set<string>> {
     return vscode.workspace.openTextDocument(uri).then((document) => {
         let text = document.getText();
@@ -23,7 +25,12 @@ function registerUtilityCompletionProvider(
     context: vscode.ExtensionContext,
     utilityClassSet: Set<string>,
 ) {
-    const utilityClasses = [...utilityClassSet];
+    const utilityClassesV4 = [...utilityClassSet];
+    const utilityClassesV5 = [...utilityClassSet].map((className) =>
+        className.replace('pf-u-', 'pf-v5-u-'),
+    );
+    const cssVariables = ['--pf-v5-global--link--Color'];
+
     const triggers = ['-'];
     const completionProvider = vscode.languages.registerCompletionItemProvider(
         ['html', 'typescriptreact', 'typescript', 'javascript', 'javascriptreact'],
@@ -47,16 +54,41 @@ function registerUtilityCompletionProvider(
                 const linePrefix = document.lineAt(position).text.slice(0, position.character);
                 console.log('providing completion items', linePrefix);
 
-                if (!linePrefix.match(/pf-u-(\w|-)*$/)) {
+                let completionType: CompletionType = 'NONE';
+
+                if (linePrefix.match(/pf-u-(\w|-)*$/)) {
+                    completionType = 'UTILITY_CLASS_V4';
+                } else if (linePrefix.match(/pf-v5-u-(\w|-)*$/)) {
+                    completionType = 'UTILITY_CLASS_V5';
+                } else if (linePrefix.match(/--pf-(\w|-)*$/)) {
+                    completionType = 'CSS_VARIABLE';
+                } else {
                     return undefined;
                 }
-                console.log('providing completion items', linePrefix);
 
-                return utilityClasses.map((label) => ({
+                const completionTextStartPosition = (() => {
+                    if (completionType === 'UTILITY_CLASS_V4') {
+                        return linePrefix.lastIndexOf('pf-u-');
+                    } else if (completionType === 'UTILITY_CLASS_V5') {
+                        return linePrefix.lastIndexOf('pf-v5-u-');
+                    }
+                    return linePrefix.lastIndexOf('--pf-');
+                })();
+
+                const completionPool = (() => {
+                    if (completionType === 'UTILITY_CLASS_V4') {
+                        return utilityClassesV4;
+                    } else if (completionType === 'UTILITY_CLASS_V5') {
+                        return utilityClassesV5;
+                    }
+                    return cssVariables;
+                })();
+
+                return completionPool.map((label) => ({
                     label,
                     range: new vscode.Range(
                         position.line,
-                        document.lineAt(position).text.lastIndexOf('pf-u-'),
+                        completionTextStartPosition,
                         position.line,
                         position.character,
                     ),
