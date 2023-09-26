@@ -25,7 +25,7 @@ const V5_UTIL_REGEXP = new RegExp(`${V5_UTIL_CLASS_IDENTIFIER}[\\w|-]*$`);
 const V4_CSS_VAR_REGEXP = new RegExp(`${V4_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 const V5_CSS_VAR_REGEXP = new RegExp(`${V5_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 
-const HEX_COLOR_REGEXP = /#[a-fA-F0-9]{6}/;
+const HEX_COLOR_REGEXP = /#([a-fA-F0-9]{3})|([a-fA-F0-9]{6})/;
 
 function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<Suggestions> {
     return vscode.workspace.openTextDocument(uri).then((document) => {

@@ -10752,6 +10752,8 @@ export default {
             {
                 label: '--pf-global--palette--blue-400',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-global--palette--blue-500',
@@ -11134,6 +11136,8 @@ export default {
             {
                 label: '--pf-global--palette--white',
                 detail: '#fff',
+                kind: 15,
+                documentation: '#fff',
             },
             {
                 label: '--pf-global--BackgroundColor--150',
@@ -11150,6 +11154,8 @@ export default {
             {
                 label: '--pf-global--BackgroundColor--light-100',
                 detail: '#fff',
+                kind: 15,
+                documentation: '#fff',
             },
             {
                 label: '--pf-global--BackgroundColor--light-200',
@@ -11210,6 +11216,8 @@ export default {
             {
                 label: '--pf-global--Color--light-100',
                 detail: '#fff',
+                kind: 15,
+                documentation: '#fff',
             },
             {
                 label: '--pf-global--Color--light-200',
@@ -11238,6 +11246,8 @@ export default {
             {
                 label: '--pf-global--active-color--100',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-global--active-color--200',
@@ -11290,6 +11300,8 @@ export default {
             {
                 label: '--pf-global--primary-color--dark-100',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-global--secondary-color--100',
@@ -11588,6 +11600,8 @@ export default {
             {
                 label: '--pf-global--link--Color--dark',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-global--link--Color--dark--hover',
@@ -11864,6 +11878,8 @@ export default {
             {
                 label: '--pf-global--primary-color--300',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
         ],
         v5: [
@@ -12002,6 +12018,8 @@ export default {
             {
                 label: '--pf-v5-global--palette--blue-400',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-v5-global--palette--blue-500',
@@ -12384,6 +12402,8 @@ export default {
             {
                 label: '--pf-v5-global--palette--white',
                 detail: '#fff',
+                kind: 15,
+                documentation: '#fff',
             },
             {
                 label: '--pf-v5-global--BackgroundColor--150',
@@ -12400,6 +12420,8 @@ export default {
             {
                 label: '--pf-v5-global--BackgroundColor--light-100',
                 detail: '#fff',
+                kind: 15,
+                documentation: '#fff',
             },
             {
                 label: '--pf-v5-global--BackgroundColor--light-200',
@@ -12460,6 +12482,8 @@ export default {
             {
                 label: '--pf-v5-global--Color--light-100',
                 detail: '#fff',
+                kind: 15,
+                documentation: '#fff',
             },
             {
                 label: '--pf-v5-global--Color--light-200',
@@ -12488,6 +12512,8 @@ export default {
             {
                 label: '--pf-v5-global--active-color--100',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-v5-global--active-color--200',
@@ -12540,6 +12566,8 @@ export default {
             {
                 label: '--pf-v5-global--primary-color--dark-100',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-v5-global--secondary-color--100',
@@ -12838,6 +12866,8 @@ export default {
             {
                 label: '--pf-v5-global--link--Color--dark',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-v5-global--link--Color--dark--hover',
@@ -12916,6 +12946,8 @@ export default {
             {
                 label: '--pf-v5-global--icon--Color--dark--light',
                 detail: '#fff',
+                kind: 15,
+                documentation: '#fff',
             },
             {
                 label: '--pf-v5-global--icon--Color--light--dark',
@@ -13088,10 +13120,14 @@ export default {
             {
                 label: '--pf-v5-global--primary-color--300',
                 detail: '#06c',
+                kind: 15,
+                documentation: '#06c',
             },
             {
                 label: '--pf-v5-global--primary-color--400',
                 detail: '#fff',
+                kind: 15,
+                documentation: '#fff',
             },
         ],
     },
