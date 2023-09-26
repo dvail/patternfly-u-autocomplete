@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 import * as cssTree from 'css-tree';
+import * as fs from 'fs';
 
 type Suggestions = {
     utilities: vscode.CompletionItem[];
@@ -53,12 +54,38 @@ function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<S
             }
         });
 
+        fs.writeFileSync('/tmp/suggestions.json', JSON.stringify(suggestions, null, 2));
+
         return suggestions;
+    });
+}
+
+function collectNodeModulesSuggestions(): Thenable<Suggestions> {
+    // Attempt to parse PF modules from node_modules and gather utility classes
+    // This will grab both v4 and v5 values if both versions are installed
+    const patternflyFileFinders = [
+        '**/node_modules/@patternfly/patternfly/patternfly-base.css', // Plain PF CSS Vars
+        '**/node_modules/@patternfly/patternfly/patternfly-charts.css', // Plain PF CSS Vars (Charts)
+        '**/node_modules/@patternfly/patternfly/css/utilities/**/*.css', // Plain PF Utility Classes
+        '**/node_modules/@patternfly/react-core/dist/styles/base.css', // React CSS Vars
+        '**/node_modules/@patternfly/react-styles/css/utilities/**/*.css', // React Utility Classes
+    ].map((pattern) => vscode.workspace.findFiles(pattern));
+
+    return Promise.all(patternflyFileFinders).then((uriResults) => {
+        const uris = uriResults.flat();
+        const parsedSuggestions = {
+            utilities: [],
+            cssVars: [],
+        };
+        return Promise.all(uris.map((uri) => parseSuggestions(parsedSuggestions, uri))).then(() => {
+            return parsedSuggestions;
+        });
     });
 }
 
 function registerUtilityCompletionProvider(
     context: vscode.ExtensionContext,
+    supportedFileTypes: string[],
     suggestionSets: Suggestions,
 ) {
     const utilityClasses = [...suggestionSets.utilities];
@@ -66,7 +93,7 @@ function registerUtilityCompletionProvider(
 
     const triggers = ['-'];
     const completionProvider = vscode.languages.registerCompletionItemProvider(
-        ['html', 'typescriptreact', 'typescript', 'javascript', 'javascriptreact'],
+        supportedFileTypes,
         {
             async provideCompletionItems(document: vscode.TextDocument, position: vscode.Position) {
                 // IDEA - Maintain list of most frequently used completion items and show them first?
@@ -107,37 +134,62 @@ function registerUtilityCompletionProvider(
     );
 
     context.subscriptions.push(completionProvider);
+
+    return completionProvider;
 }
 
 export function activate(context: vscode.ExtensionContext) {
-    console.log('Congratulations, your extension "patternfly-u-autocomplete" is now active!');
+    const outputChannel = vscode.window.createOutputChannel('PatternFly Autocomplete');
 
-    // Attempt to parse PF modules from node_modules and gather utility classes
-    // This will grab both v4 and v5 values if both versions are installed
-    const patternflyFileFinders = [
-        '**/node_modules/@patternfly/patternfly/patternfly-base.css', // Plain PF CSS Vars
-        '**/node_modules/@patternfly/patternfly/patternfly-charts.css', // Plain PF CSS Vars (Charts)
-        '**/node_modules/@patternfly/patternfly/css/utilities/**/*.css', // Plain PF Utility Classes
-        '**/node_modules/@patternfly/react-core/dist/styles/base.css', // React CSS Vars
-        '**/node_modules/@patternfly/react-styles/css/utilities/**/*.css', // React Utility Classes
-    ].map((pattern) => vscode.workspace.findFiles(pattern));
+    outputChannel.appendLine('PatternFly Autocomplete Activated');
 
-    Promise.all(patternflyFileFinders)
-        .then((uriResults) => {
-            const uris = uriResults.flat();
-            const parsedSuggestions = {
-                utilities: [],
-                cssVars: [],
-            };
-            return Promise.all(uris.map((uri) => parseSuggestions(parsedSuggestions, uri))).then(
-                () => {
-                    return parsedSuggestions;
-                },
+    let completionProvider: vscode.Disposable | undefined;
+
+    vscode.workspace.onDidChangeConfiguration(() => {
+        outputChannel.appendLine('Extension configuration has changed');
+
+        completionProvider?.dispose();
+
+        initializeCompletionProvider();
+    });
+
+    initializeCompletionProvider();
+
+    function initializeCompletionProvider() {
+        const configuration = vscode.workspace.getConfiguration('patternFlyAutocomplete');
+        const useBundledCompletionItems =
+            configuration.get<boolean>('useBundledCompletionItems') ?? false;
+        const supportedFileTypes = configuration.get<string[]>('supportedFileTypes') ?? [];
+
+        if (supportedFileTypes.length === 0) {
+            outputChannel.appendLine(
+                'No file types configured for patternfly-u-autocomplete. Please add a file type to the patternFlyAutocomplete.supportedFileTypes setting.',
             );
-        })
-        .then((results) => {
-            registerUtilityCompletionProvider(context, results);
-        });
+        }
+
+        if (useBundledCompletionItems) {
+            outputChannel.appendLine(
+                'useBundledCompletionItems is enabled. Using bundled completion items instead of parsing installed modules.',
+            );
+
+            import('./suggestions.js').then((fileContents: { default: Suggestions }) => {
+                const suggestions = fileContents.default;
+                completionProvider = registerUtilityCompletionProvider(
+                    context,
+                    supportedFileTypes,
+                    suggestions,
+                );
+            });
+        } else {
+            collectNodeModulesSuggestions().then((suggestions) => {
+                completionProvider = registerUtilityCompletionProvider(
+                    context,
+                    supportedFileTypes,
+                    suggestions,
+                );
+            });
+        }
+    }
 }
 
 export function deactivate() {}
