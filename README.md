@@ -11,6 +11,11 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### 0.2.0
+
+Fix some suggestion duplication issues.
+Fix some color swatches not displaying correctly.
+
 ### 0.1.0
 
 Testing release MVP.
