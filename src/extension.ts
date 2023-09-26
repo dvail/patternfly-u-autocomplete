@@ -1,11 +1,9 @@
 import * as vscode from 'vscode';
 import * as cssTree from 'css-tree';
 
-type SuggestionSets = {
-    v4Utilities: Set<string>;
-    v5Utilities: Set<string>;
-    v4CssVars: Set<string>;
-    v5CssVars: Set<string>;
+type Suggestions = {
+    utilities: vscode.CompletionItem[];
+    cssVars: vscode.CompletionItem[];
 };
 
 const V4_UTIL_CLASS_IDENTIFIER = 'pf-u-';
@@ -18,35 +16,37 @@ const V5_UTIL_REGEXP = new RegExp(`${V5_UTIL_CLASS_IDENTIFIER}[\\w|-]*$`);
 const V4_CSS_VAR_REGEXP = new RegExp(`${V4_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 const V5_CSS_VAR_REGEXP = new RegExp(`${V5_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 
-function parseUtilityClasses(
-    suggestionSets: SuggestionSets,
-    uri: vscode.Uri,
-): Thenable<SuggestionSets> {
+function parseUtilityClasses(suggestionSets: Suggestions, uri: vscode.Uri): Thenable<Suggestions> {
     console.log(`Parsing ${uri}`);
     return vscode.workspace.openTextDocument(uri).then((document) => {
         const text = document.getText();
         const ast = cssTree.parse(text);
 
         cssTree.walk(ast, (node) => {
-            if (node.type === 'ClassSelector' && node.name.startsWith(V4_UTIL_CLASS_IDENTIFIER)) {
-                suggestionSets.v4Utilities.add(node.name);
-            } else if (
+            const isUtility =
                 node.type === 'ClassSelector' &&
-                node.name.startsWith(V5_UTIL_CLASS_IDENTIFIER)
-            ) {
-                suggestionSets.v5Utilities.add(node.name);
-            } else if (
-                node.type === 'Declaration' &&
-                (node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) ||
-                    node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`))
-            ) {
-                suggestionSets.v4CssVars.add(node.property);
-            } else if (
+                (node.name.startsWith(V4_UTIL_CLASS_IDENTIFIER) ||
+                    node.name.startsWith(V5_UTIL_CLASS_IDENTIFIER));
+
+            const isCssVar =
                 node.type === 'Declaration' &&
                 (node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}global`) ||
-                    node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}chart`))
-            ) {
-                suggestionSets.v5CssVars.add(node.property);
+                    node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}chart`) ||
+                    node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) ||
+                    node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`));
+
+            if (isUtility) {
+                suggestionSets.utilities.push({ label: node.name });
+            } else if (isCssVar) {
+                const { property, value } = node;
+                const item: vscode.CompletionItem = { label: property };
+
+                if (value.type === 'Raw' && value.value.trim().match(/#[a-fA-F0-9]{6}/)) {
+                    item.kind = vscode.CompletionItemKind.Color;
+                    item.documentation = value.value.trim();
+                }
+
+                suggestionSets.cssVars.push(item);
             }
         });
 
@@ -56,47 +56,41 @@ function parseUtilityClasses(
 
 function registerUtilityCompletionProvider(
     context: vscode.ExtensionContext,
-    suggestionSets: SuggestionSets,
+    suggestionSets: Suggestions,
 ) {
-    const utilityClassesV4 = [...suggestionSets.v4Utilities];
-    const utilityClassesV5 = [...suggestionSets.v5Utilities];
-    const cssVariablesV4 = [...suggestionSets.v4CssVars];
-    const cssVariablesV5 = [...suggestionSets.v5CssVars];
+    const utilityClasses = [...suggestionSets.utilities];
+    const cssVariables = [...suggestionSets.cssVars];
 
     const triggers = ['-'];
     const completionProvider = vscode.languages.registerCompletionItemProvider(
         ['html', 'typescriptreact', 'typescript', 'javascript', 'javascriptreact'],
         {
             async provideCompletionItems(document: vscode.TextDocument, position: vscode.Position) {
-                // IDEA - Show inline colors in completion window?
                 // IDEA - Maintain list of most frequently used completion items and show them first?
 
                 const linePrefix = document.lineAt(position).text.slice(0, position.character);
 
                 let completionTextStartPosition: number = -1;
-                let completionPool: string[] = [];
+                let completionPool: vscode.CompletionItem[] = [];
 
                 if (linePrefix.match(V4_UTIL_REGEXP)) {
                     completionTextStartPosition = linePrefix.lastIndexOf(V4_UTIL_CLASS_IDENTIFIER);
-                    completionPool = utilityClassesV4;
+                    completionPool = utilityClasses;
                 } else if (linePrefix.match(V5_UTIL_REGEXP)) {
                     completionTextStartPosition = linePrefix.lastIndexOf(V5_UTIL_CLASS_IDENTIFIER);
-                    completionPool = utilityClassesV5;
+                    completionPool = utilityClasses;
                 } else if (linePrefix.match(V4_CSS_VAR_REGEXP)) {
                     completionTextStartPosition = linePrefix.lastIndexOf(V4_CSS_VAR_IDENTIFIER);
-                    completionPool = cssVariablesV4;
+                    completionPool = cssVariables;
                 } else if (linePrefix.match(V5_CSS_VAR_REGEXP)) {
                     completionTextStartPosition = linePrefix.lastIndexOf(V5_CSS_VAR_IDENTIFIER);
-                    completionPool = cssVariablesV5;
+                    completionPool = cssVariables;
                 } else {
                     return undefined;
                 }
 
-                return completionPool.map((label) => ({
-                    label,
-                    // kind: vscode.CompletionItemKind.Color,
-                    //  detail: 'Defaults to 100px',
-                    // documentation: '#ff0000',
+                return completionPool.map(({ ...properties }) => ({
+                    ...properties,
                     range: new vscode.Range(
                         position.line,
                         completionTextStartPosition,
@@ -129,10 +123,8 @@ export function activate(context: vscode.ExtensionContext) {
         .then((uriResults) => {
             const uris = uriResults.flat();
             const parsedSuggestionSets = {
-                v4Utilities: new Set<string>(),
-                v5Utilities: new Set<string>(),
-                v4CssVars: new Set<string>(),
-                v5CssVars: new Set<string>(),
+                utilities: [],
+                cssVars: [],
             };
             return Promise.all(
                 uris.map((uri) => parseUtilityClasses(parsedSuggestionSets, uri)),
