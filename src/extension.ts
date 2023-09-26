@@ -1,91 +1,102 @@
 import * as vscode from 'vscode';
-import * as csstree from 'css-tree';
+import * as cssTree from 'css-tree';
 
-type CompletionType = 'UTILITY_CLASS_V4' | 'UTILITY_CLASS_V5' | 'CSS_VARIABLE' | 'NONE';
+type SuggestionSets = {
+    v4Utilities: Set<string>;
+    v5Utilities: Set<string>;
+    v4CssVars: Set<string>;
+    v5CssVars: Set<string>;
+};
 
-function parseUtilityClasses(accumulatedSet: Set<string>, uri: vscode.Uri): Thenable<Set<string>> {
+const V4_UTIL_CLASS_IDENTIFIER = 'pf-u-';
+const V5_UTIL_CLASS_IDENTIFIER = 'pf-v5-u-';
+const V4_CSS_VAR_IDENTIFIER = '--pf-';
+const V5_CSS_VAR_IDENTIFIER = '--pf-v5-';
+
+const V4_UTIL_REGEXP = new RegExp(`${V4_UTIL_CLASS_IDENTIFIER}[\\w|-]*$`);
+const V5_UTIL_REGEXP = new RegExp(`${V5_UTIL_CLASS_IDENTIFIER}[\\w|-]*$`);
+const V4_CSS_VAR_REGEXP = new RegExp(`${V4_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
+const V5_CSS_VAR_REGEXP = new RegExp(`${V5_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
+
+function parseUtilityClasses(
+    suggestionSets: SuggestionSets,
+    uri: vscode.Uri,
+): Thenable<SuggestionSets> {
+    console.log(`Parsing ${uri}`);
     return vscode.workspace.openTextDocument(uri).then((document) => {
-        let text = document.getText();
-        const ast = csstree.parse(text);
+        const text = document.getText();
+        const ast = cssTree.parse(text);
 
-        csstree.walk(ast, (node) => {
-            if (
+        cssTree.walk(ast, (node) => {
+            if (node.type === 'ClassSelector' && node.name.startsWith(V4_UTIL_CLASS_IDENTIFIER)) {
+                suggestionSets.v4Utilities.add(node.name);
+            } else if (
                 node.type === 'ClassSelector' &&
-                (node.name.startsWith('pf-u-') || node.name.startsWith('pf-v5-u-'))
+                node.name.startsWith(V5_UTIL_CLASS_IDENTIFIER)
             ) {
-                accumulatedSet.add(node.name);
+                suggestionSets.v5Utilities.add(node.name);
+            } else if (
+                node.type === 'Declaration' &&
+                (node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) ||
+                    node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`))
+            ) {
+                suggestionSets.v4CssVars.add(node.property);
+            } else if (
+                node.type === 'Declaration' &&
+                (node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}global`) ||
+                    node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}chart`))
+            ) {
+                suggestionSets.v5CssVars.add(node.property);
             }
         });
 
-        return accumulatedSet;
+        return suggestionSets;
     });
 }
 
 function registerUtilityCompletionProvider(
     context: vscode.ExtensionContext,
-    utilityClassSet: Set<string>,
+    suggestionSets: SuggestionSets,
 ) {
-    const utilityClassesV4 = [...utilityClassSet];
-    const utilityClassesV5 = [...utilityClassSet].map((className) =>
-        className.replace('pf-u-', 'pf-v5-u-'),
-    );
-    const cssVariables = ['--pf-v5-global--link--Color'];
+    const utilityClassesV4 = [...suggestionSets.v4Utilities];
+    const utilityClassesV5 = [...suggestionSets.v5Utilities];
+    const cssVariablesV4 = [...suggestionSets.v4CssVars];
+    const cssVariablesV5 = [...suggestionSets.v5CssVars];
 
     const triggers = ['-'];
     const completionProvider = vscode.languages.registerCompletionItemProvider(
         ['html', 'typescriptreact', 'typescript', 'javascript', 'javascriptreact'],
         {
-            async provideCompletionItems(
-                document: vscode.TextDocument,
-                position: vscode.Position,
-                token: vscode.CancellationToken,
-                context: vscode.CompletionContext,
-            ) {
-                // For utility classes
-                // - Restrict to "string" context
-                // - Restrict to "pf-u-" prefix or "pf-v5-u-" prefix
-
-                // For CSS variables
-                // - Restrict to "--pf-" or "--pf-v5-" prefix
-
+            async provideCompletionItems(document: vscode.TextDocument, position: vscode.Position) {
                 // IDEA - Show inline colors in completion window?
                 // IDEA - Maintain list of most frequently used completion items and show them first?
 
                 const linePrefix = document.lineAt(position).text.slice(0, position.character);
-                console.log('providing completion items', linePrefix);
 
-                let completionType: CompletionType = 'NONE';
+                let completionTextStartPosition: number = -1;
+                let completionPool: string[] = [];
 
-                if (linePrefix.match(/pf-u-(\w|-)*$/)) {
-                    completionType = 'UTILITY_CLASS_V4';
-                } else if (linePrefix.match(/pf-v5-u-(\w|-)*$/)) {
-                    completionType = 'UTILITY_CLASS_V5';
-                } else if (linePrefix.match(/--pf-(\w|-)*$/)) {
-                    completionType = 'CSS_VARIABLE';
+                if (linePrefix.match(V4_UTIL_REGEXP)) {
+                    completionTextStartPosition = linePrefix.lastIndexOf(V4_UTIL_CLASS_IDENTIFIER);
+                    completionPool = utilityClassesV4;
+                } else if (linePrefix.match(V5_UTIL_REGEXP)) {
+                    completionTextStartPosition = linePrefix.lastIndexOf(V5_UTIL_CLASS_IDENTIFIER);
+                    completionPool = utilityClassesV5;
+                } else if (linePrefix.match(V4_CSS_VAR_REGEXP)) {
+                    completionTextStartPosition = linePrefix.lastIndexOf(V4_CSS_VAR_IDENTIFIER);
+                    completionPool = cssVariablesV4;
+                } else if (linePrefix.match(V5_CSS_VAR_REGEXP)) {
+                    completionTextStartPosition = linePrefix.lastIndexOf(V5_CSS_VAR_IDENTIFIER);
+                    completionPool = cssVariablesV5;
                 } else {
                     return undefined;
                 }
 
-                const completionTextStartPosition = (() => {
-                    if (completionType === 'UTILITY_CLASS_V4') {
-                        return linePrefix.lastIndexOf('pf-u-');
-                    } else if (completionType === 'UTILITY_CLASS_V5') {
-                        return linePrefix.lastIndexOf('pf-v5-u-');
-                    }
-                    return linePrefix.lastIndexOf('--pf-');
-                })();
-
-                const completionPool = (() => {
-                    if (completionType === 'UTILITY_CLASS_V4') {
-                        return utilityClassesV4;
-                    } else if (completionType === 'UTILITY_CLASS_V5') {
-                        return utilityClassesV5;
-                    }
-                    return cssVariables;
-                })();
-
                 return completionPool.map((label) => ({
                     label,
+                    // kind: vscode.CompletionItemKind.Color,
+                    //  detail: 'Defaults to 100px',
+                    // documentation: '#ff0000',
                     range: new vscode.Range(
                         position.line,
                         completionTextStartPosition,
@@ -106,19 +117,31 @@ export function activate(context: vscode.ExtensionContext) {
 
     // Attempt to parse PF modules from node_modules and gather utility classes
 
-    // TODO Check non-react style files too
-    vscode.workspace
-        .findFiles('**/node_modules/@patternfly/react-styles/css/utilities/**/*.css')
-        .then((uris) => {
-            const cssUtilityClassSet = new Set<string>();
+    const patternflyFileFinders = [
+        '**/node_modules/@patternfly/patternfly/patternfly-base.css', // Plain PF CSS Vars
+        '**/node_modules/@patternfly/patternfly/patternfly-charts.css', // Plain PF CSS Vars (Charts)
+        '**/node_modules/@patternfly/patternfly/css/utilities/**/*.css', // Plain PF Utility Classes
+        '**/node_modules/@patternfly/react-core/dist/styles/base.css', // React CSS Vars
+        '**/node_modules/@patternfly/react-styles/css/utilities/**/*.css', // React Utility Classes
+    ].map((pattern) => vscode.workspace.findFiles(pattern));
+
+    Promise.all(patternflyFileFinders)
+        .then((uriResults) => {
+            const uris = uriResults.flat();
+            const parsedSuggestionSets = {
+                v4Utilities: new Set<string>(),
+                v5Utilities: new Set<string>(),
+                v4CssVars: new Set<string>(),
+                v5CssVars: new Set<string>(),
+            };
             return Promise.all(
-                uris.map((uri) => parseUtilityClasses(cssUtilityClassSet, uri)),
+                uris.map((uri) => parseUtilityClasses(parsedSuggestionSets, uri)),
             ).then(() => {
-                return cssUtilityClassSet;
+                return parsedSuggestionSets;
             });
         })
-        .then((classes) => {
-            registerUtilityCompletionProvider(context, classes);
+        .then((results) => {
+            registerUtilityCompletionProvider(context, results);
         });
 }
 
