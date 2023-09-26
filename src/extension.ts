@@ -16,8 +16,7 @@ const V5_UTIL_REGEXP = new RegExp(`${V5_UTIL_CLASS_IDENTIFIER}[\\w|-]*$`);
 const V4_CSS_VAR_REGEXP = new RegExp(`${V4_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 const V5_CSS_VAR_REGEXP = new RegExp(`${V5_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 
-function parseUtilityClasses(suggestionSets: Suggestions, uri: vscode.Uri): Thenable<Suggestions> {
-    console.log(`Parsing ${uri}`);
+function parseUtilityClasses(suggestions: Suggestions, uri: vscode.Uri): Thenable<Suggestions> {
     return vscode.workspace.openTextDocument(uri).then((document) => {
         const text = document.getText();
         const ast = cssTree.parse(text);
@@ -36,21 +35,25 @@ function parseUtilityClasses(suggestionSets: Suggestions, uri: vscode.Uri): Then
                     node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`));
 
             if (isUtility) {
-                suggestionSets.utilities.push({ label: node.name });
+                suggestions.utilities.push({ label: node.name });
             } else if (isCssVar) {
                 const { property, value } = node;
                 const item: vscode.CompletionItem = { label: property };
 
-                if (value.type === 'Raw' && value.value.trim().match(/#[a-fA-F0-9]{6}/)) {
-                    item.kind = vscode.CompletionItemKind.Color;
-                    item.documentation = value.value.trim();
+                if (value.type === 'Raw') {
+                    item.detail = value.value.trim();
+
+                    if (value.value.trim().match(/#[a-fA-F0-9]{6}/)) {
+                        item.kind = vscode.CompletionItemKind.Color;
+                        item.documentation = value.value.trim();
+                    }
                 }
 
-                suggestionSets.cssVars.push(item);
+                suggestions.cssVars.push(item);
             }
         });
 
-        return suggestionSets;
+        return suggestions;
     });
 }
 
@@ -110,7 +113,7 @@ export function activate(context: vscode.ExtensionContext) {
     console.log('Congratulations, your extension "patternfly-u-autocomplete" is now active!');
 
     // Attempt to parse PF modules from node_modules and gather utility classes
-
+    // This will grab both v4 and v5 values if both versions are installed
     const patternflyFileFinders = [
         '**/node_modules/@patternfly/patternfly/patternfly-base.css', // Plain PF CSS Vars
         '**/node_modules/@patternfly/patternfly/patternfly-charts.css', // Plain PF CSS Vars (Charts)
