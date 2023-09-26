@@ -1,8 +1,8 @@
 {
     "name": "patternfly-autocomplete",
-    "displayName": "patternfly-autocomplete",
+    "displayName": "PatternFly Autocomplete",
     "description": "Provides autocompletion for PatternFly utility classes and more",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.82.0"
     },
