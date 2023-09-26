@@ -2,6 +2,8 @@ import * as vscode from 'vscode';
 import * as cssTree from 'css-tree';
 import { uniqBy } from 'lodash';
 
+import * as fs from 'fs';
+
 type Suggestions = {
     utilities: {
         v4: vscode.CompletionItem[];
@@ -65,12 +67,6 @@ function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<S
                 destination.push(item);
             }
         });
-
-        // Trim out duplicate suggestions
-        suggestions.cssVars.v4 = uniqBy(suggestions.cssVars.v4, 'label');
-        suggestions.cssVars.v5 = uniqBy(suggestions.cssVars.v5, 'label');
-        suggestions.utilities.v4 = uniqBy(suggestions.utilities.v4, 'label');
-        suggestions.utilities.v5 = uniqBy(suggestions.utilities.v5, 'label');
 
         return suggestions;
     });
@@ -185,6 +181,14 @@ export function activate(context: vscode.ExtensionContext) {
             });
         } else {
             collectNodeModulesSuggestions().then((suggestions) => {
+                // Trim out duplicate suggestions
+                suggestions.cssVars.v4 = uniqBy(suggestions.cssVars.v4, 'label');
+                suggestions.cssVars.v5 = uniqBy(suggestions.cssVars.v5, 'label');
+                suggestions.utilities.v4 = uniqBy(suggestions.utilities.v4, 'label');
+                suggestions.utilities.v5 = uniqBy(suggestions.utilities.v5, 'label');
+
+                fs.writeFileSync('/tmp/suggestions.json', JSON.stringify(suggestions, null, 2));
+
                 if (suggestions.cssVars.v4.length === 0 && suggestions.cssVars.v5.length === 0) {
                     outputChannel.appendLine(
                         '[WARN] No CSS variables found for completion items. Please ensure you have installed PatternFly, or set `patternFlyAutocomplete.useBundledCompletionItems` to `true`.',

@@ -6,690 +6,6 @@ export default {
     utilities: {
         v4: [
             {
-                label: 'pf-u-flex-direction-column',
-            },
-            {
-                label: 'pf-u-flex-direction-column-reverse',
-            },
-            {
-                label: 'pf-u-flex-direction-row',
-            },
-            {
-                label: 'pf-u-flex-direction-row-reverse',
-            },
-            {
-                label: 'pf-u-flex-direction-column-on-sm',
-            },
-            {
-                label: 'pf-u-flex-direction-column-reverse-on-sm',
-            },
-            {
-                label: 'pf-u-flex-direction-row-on-sm',
-            },
-            {
-                label: 'pf-u-flex-direction-row-reverse-on-sm',
-            },
-            {
-                label: 'pf-u-flex-direction-column-on-md',
-            },
-            {
-                label: 'pf-u-flex-direction-column-reverse-on-md',
-            },
-            {
-                label: 'pf-u-flex-direction-row-on-md',
-            },
-            {
-                label: 'pf-u-flex-direction-row-reverse-on-md',
-            },
-            {
-                label: 'pf-u-flex-direction-column-on-lg',
-            },
-            {
-                label: 'pf-u-flex-direction-column-reverse-on-lg',
-            },
-            {
-                label: 'pf-u-flex-direction-row-on-lg',
-            },
-            {
-                label: 'pf-u-flex-direction-row-reverse-on-lg',
-            },
-            {
-                label: 'pf-u-flex-direction-column-on-xl',
-            },
-            {
-                label: 'pf-u-flex-direction-column-reverse-on-xl',
-            },
-            {
-                label: 'pf-u-flex-direction-row-on-xl',
-            },
-            {
-                label: 'pf-u-flex-direction-row-reverse-on-xl',
-            },
-            {
-                label: 'pf-u-flex-direction-column-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-direction-column-reverse-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-direction-row-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-direction-row-reverse-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-wrap',
-            },
-            {
-                label: 'pf-u-flex-nowrap',
-            },
-            {
-                label: 'pf-u-flex-wrap-reverse',
-            },
-            {
-                label: 'pf-u-flex-wrap-on-sm',
-            },
-            {
-                label: 'pf-u-flex-nowrap-on-sm',
-            },
-            {
-                label: 'pf-u-flex-wrap-reverse-on-sm',
-            },
-            {
-                label: 'pf-u-flex-wrap-on-md',
-            },
-            {
-                label: 'pf-u-flex-nowrap-on-md',
-            },
-            {
-                label: 'pf-u-flex-wrap-reverse-on-md',
-            },
-            {
-                label: 'pf-u-flex-wrap-on-lg',
-            },
-            {
-                label: 'pf-u-flex-nowrap-on-lg',
-            },
-            {
-                label: 'pf-u-flex-wrap-reverse-on-lg',
-            },
-            {
-                label: 'pf-u-flex-wrap-on-xl',
-            },
-            {
-                label: 'pf-u-flex-nowrap-on-xl',
-            },
-            {
-                label: 'pf-u-flex-wrap-reverse-on-xl',
-            },
-            {
-                label: 'pf-u-flex-wrap-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-nowrap-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-wrap-reverse-on-2xl',
-            },
-            {
-                label: 'pf-u-align-items-flex-start',
-            },
-            {
-                label: 'pf-u-align-items-flex-end',
-            },
-            {
-                label: 'pf-u-align-items-center',
-            },
-            {
-                label: 'pf-u-align-items-baseline',
-            },
-            {
-                label: 'pf-u-align-items-stretch',
-            },
-            {
-                label: 'pf-u-align-items-flex-start-on-sm',
-            },
-            {
-                label: 'pf-u-align-items-flex-end-on-sm',
-            },
-            {
-                label: 'pf-u-align-items-center-on-sm',
-            },
-            {
-                label: 'pf-u-align-items-baseline-on-sm',
-            },
-            {
-                label: 'pf-u-align-items-stretch-on-sm',
-            },
-            {
-                label: 'pf-u-align-items-flex-start-on-md',
-            },
-            {
-                label: 'pf-u-align-items-flex-end-on-md',
-            },
-            {
-                label: 'pf-u-align-items-center-on-md',
-            },
-            {
-                label: 'pf-u-align-items-baseline-on-md',
-            },
-            {
-                label: 'pf-u-align-items-stretch-on-md',
-            },
-            {
-                label: 'pf-u-align-items-flex-start-on-lg',
-            },
-            {
-                label: 'pf-u-align-items-flex-end-on-lg',
-            },
-            {
-                label: 'pf-u-align-items-center-on-lg',
-            },
-            {
-                label: 'pf-u-align-items-baseline-on-lg',
-            },
-            {
-                label: 'pf-u-align-items-stretch-on-lg',
-            },
-            {
-                label: 'pf-u-align-items-flex-start-on-xl',
-            },
-            {
-                label: 'pf-u-align-items-flex-end-on-xl',
-            },
-            {
-                label: 'pf-u-align-items-center-on-xl',
-            },
-            {
-                label: 'pf-u-align-items-baseline-on-xl',
-            },
-            {
-                label: 'pf-u-align-items-stretch-on-xl',
-            },
-            {
-                label: 'pf-u-align-items-flex-start-on-2xl',
-            },
-            {
-                label: 'pf-u-align-items-flex-end-on-2xl',
-            },
-            {
-                label: 'pf-u-align-items-center-on-2xl',
-            },
-            {
-                label: 'pf-u-align-items-baseline-on-2xl',
-            },
-            {
-                label: 'pf-u-align-items-stretch-on-2xl',
-            },
-            {
-                label: 'pf-u-align-self-flex-start',
-            },
-            {
-                label: 'pf-u-align-self-flex-end',
-            },
-            {
-                label: 'pf-u-align-self-center',
-            },
-            {
-                label: 'pf-u-align-self-baseline',
-            },
-            {
-                label: 'pf-u-align-self-stretch',
-            },
-            {
-                label: 'pf-u-align-self-flex-start-on-sm',
-            },
-            {
-                label: 'pf-u-align-self-flex-end-on-sm',
-            },
-            {
-                label: 'pf-u-align-self-center-on-sm',
-            },
-            {
-                label: 'pf-u-align-self-baseline-on-sm',
-            },
-            {
-                label: 'pf-u-align-self-stretch-on-sm',
-            },
-            {
-                label: 'pf-u-align-self-flex-start-on-md',
-            },
-            {
-                label: 'pf-u-align-self-flex-end-on-md',
-            },
-            {
-                label: 'pf-u-align-self-center-on-md',
-            },
-            {
-                label: 'pf-u-align-self-baseline-on-md',
-            },
-            {
-                label: 'pf-u-align-self-stretch-on-md',
-            },
-            {
-                label: 'pf-u-align-self-flex-start-on-lg',
-            },
-            {
-                label: 'pf-u-align-self-flex-end-on-lg',
-            },
-            {
-                label: 'pf-u-align-self-center-on-lg',
-            },
-            {
-                label: 'pf-u-align-self-baseline-on-lg',
-            },
-            {
-                label: 'pf-u-align-self-stretch-on-lg',
-            },
-            {
-                label: 'pf-u-align-self-flex-start-on-xl',
-            },
-            {
-                label: 'pf-u-align-self-flex-end-on-xl',
-            },
-            {
-                label: 'pf-u-align-self-center-on-xl',
-            },
-            {
-                label: 'pf-u-align-self-baseline-on-xl',
-            },
-            {
-                label: 'pf-u-align-self-stretch-on-xl',
-            },
-            {
-                label: 'pf-u-align-self-flex-start-on-2xl',
-            },
-            {
-                label: 'pf-u-align-self-flex-end-on-2xl',
-            },
-            {
-                label: 'pf-u-align-self-center-on-2xl',
-            },
-            {
-                label: 'pf-u-align-self-baseline-on-2xl',
-            },
-            {
-                label: 'pf-u-align-self-stretch-on-2xl',
-            },
-            {
-                label: 'pf-u-align-content-flex-start',
-            },
-            {
-                label: 'pf-u-align-content-flex-end',
-            },
-            {
-                label: 'pf-u-align-content-center',
-            },
-            {
-                label: 'pf-u-align-content-space-between',
-            },
-            {
-                label: 'pf-u-align-content-space-around',
-            },
-            {
-                label: 'pf-u-align-content-stretch',
-            },
-            {
-                label: 'pf-u-align-content-flex-start-on-sm',
-            },
-            {
-                label: 'pf-u-align-content-flex-end-on-sm',
-            },
-            {
-                label: 'pf-u-align-content-center-on-sm',
-            },
-            {
-                label: 'pf-u-align-content-space-between-on-sm',
-            },
-            {
-                label: 'pf-u-align-content-space-around-on-sm',
-            },
-            {
-                label: 'pf-u-align-content-stretch-on-sm',
-            },
-            {
-                label: 'pf-u-align-content-flex-start-on-md',
-            },
-            {
-                label: 'pf-u-align-content-flex-end-on-md',
-            },
-            {
-                label: 'pf-u-align-content-center-on-md',
-            },
-            {
-                label: 'pf-u-align-content-space-between-on-md',
-            },
-            {
-                label: 'pf-u-align-content-space-around-on-md',
-            },
-            {
-                label: 'pf-u-align-content-stretch-on-md',
-            },
-            {
-                label: 'pf-u-align-content-flex-start-on-lg',
-            },
-            {
-                label: 'pf-u-align-content-flex-end-on-lg',
-            },
-            {
-                label: 'pf-u-align-content-center-on-lg',
-            },
-            {
-                label: 'pf-u-align-content-space-between-on-lg',
-            },
-            {
-                label: 'pf-u-align-content-space-around-on-lg',
-            },
-            {
-                label: 'pf-u-align-content-stretch-on-lg',
-            },
-            {
-                label: 'pf-u-align-content-flex-start-on-xl',
-            },
-            {
-                label: 'pf-u-align-content-flex-end-on-xl',
-            },
-            {
-                label: 'pf-u-align-content-center-on-xl',
-            },
-            {
-                label: 'pf-u-align-content-space-between-on-xl',
-            },
-            {
-                label: 'pf-u-align-content-space-around-on-xl',
-            },
-            {
-                label: 'pf-u-align-content-stretch-on-xl',
-            },
-            {
-                label: 'pf-u-align-content-flex-start-on-2xl',
-            },
-            {
-                label: 'pf-u-align-content-flex-end-on-2xl',
-            },
-            {
-                label: 'pf-u-align-content-center-on-2xl',
-            },
-            {
-                label: 'pf-u-align-content-space-between-on-2xl',
-            },
-            {
-                label: 'pf-u-align-content-space-around-on-2xl',
-            },
-            {
-                label: 'pf-u-align-content-stretch-on-2xl',
-            },
-            {
-                label: 'pf-u-justify-content-flex-start',
-            },
-            {
-                label: 'pf-u-justify-content-flex-end',
-            },
-            {
-                label: 'pf-u-justify-content-center',
-            },
-            {
-                label: 'pf-u-justify-content-space-between',
-            },
-            {
-                label: 'pf-u-justify-content-space-around',
-            },
-            {
-                label: 'pf-u-justify-content-stretch',
-            },
-            {
-                label: 'pf-u-justify-content-flex-start-on-sm',
-            },
-            {
-                label: 'pf-u-justify-content-flex-end-on-sm',
-            },
-            {
-                label: 'pf-u-justify-content-center-on-sm',
-            },
-            {
-                label: 'pf-u-justify-content-space-between-on-sm',
-            },
-            {
-                label: 'pf-u-justify-content-space-around-on-sm',
-            },
-            {
-                label: 'pf-u-justify-content-stretch-on-sm',
-            },
-            {
-                label: 'pf-u-justify-content-flex-start-on-md',
-            },
-            {
-                label: 'pf-u-justify-content-flex-end-on-md',
-            },
-            {
-                label: 'pf-u-justify-content-center-on-md',
-            },
-            {
-                label: 'pf-u-justify-content-space-between-on-md',
-            },
-            {
-                label: 'pf-u-justify-content-space-around-on-md',
-            },
-            {
-                label: 'pf-u-justify-content-stretch-on-md',
-            },
-            {
-                label: 'pf-u-justify-content-flex-start-on-lg',
-            },
-            {
-                label: 'pf-u-justify-content-flex-end-on-lg',
-            },
-            {
-                label: 'pf-u-justify-content-center-on-lg',
-            },
-            {
-                label: 'pf-u-justify-content-space-between-on-lg',
-            },
-            {
-                label: 'pf-u-justify-content-space-around-on-lg',
-            },
-            {
-                label: 'pf-u-justify-content-stretch-on-lg',
-            },
-            {
-                label: 'pf-u-justify-content-flex-start-on-xl',
-            },
-            {
-                label: 'pf-u-justify-content-flex-end-on-xl',
-            },
-            {
-                label: 'pf-u-justify-content-center-on-xl',
-            },
-            {
-                label: 'pf-u-justify-content-space-between-on-xl',
-            },
-            {
-                label: 'pf-u-justify-content-space-around-on-xl',
-            },
-            {
-                label: 'pf-u-justify-content-stretch-on-xl',
-            },
-            {
-                label: 'pf-u-justify-content-flex-start-on-2xl',
-            },
-            {
-                label: 'pf-u-justify-content-flex-end-on-2xl',
-            },
-            {
-                label: 'pf-u-justify-content-center-on-2xl',
-            },
-            {
-                label: 'pf-u-justify-content-space-between-on-2xl',
-            },
-            {
-                label: 'pf-u-justify-content-space-around-on-2xl',
-            },
-            {
-                label: 'pf-u-justify-content-stretch-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-shrink-1',
-            },
-            {
-                label: 'pf-u-flex-grow-1',
-            },
-            {
-                label: 'pf-u-flex-shrink-0',
-            },
-            {
-                label: 'pf-u-flex-grow-0',
-            },
-            {
-                label: 'pf-u-flex-shrink-1-on-sm',
-            },
-            {
-                label: 'pf-u-flex-grow-1-on-sm',
-            },
-            {
-                label: 'pf-u-flex-shrink-0-on-sm',
-            },
-            {
-                label: 'pf-u-flex-grow-0-on-sm',
-            },
-            {
-                label: 'pf-u-flex-shrink-1-on-md',
-            },
-            {
-                label: 'pf-u-flex-grow-1-on-md',
-            },
-            {
-                label: 'pf-u-flex-shrink-0-on-md',
-            },
-            {
-                label: 'pf-u-flex-grow-0-on-md',
-            },
-            {
-                label: 'pf-u-flex-shrink-1-on-lg',
-            },
-            {
-                label: 'pf-u-flex-grow-1-on-lg',
-            },
-            {
-                label: 'pf-u-flex-shrink-0-on-lg',
-            },
-            {
-                label: 'pf-u-flex-grow-0-on-lg',
-            },
-            {
-                label: 'pf-u-flex-shrink-1-on-xl',
-            },
-            {
-                label: 'pf-u-flex-grow-1-on-xl',
-            },
-            {
-                label: 'pf-u-flex-shrink-0-on-xl',
-            },
-            {
-                label: 'pf-u-flex-grow-0-on-xl',
-            },
-            {
-                label: 'pf-u-flex-shrink-1-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-grow-1-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-shrink-0-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-grow-0-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-basis-0',
-            },
-            {
-                label: 'pf-u-flex-basis-auto',
-            },
-            {
-                label: 'pf-u-flex-basis-0-on-sm',
-            },
-            {
-                label: 'pf-u-flex-basis-auto-on-sm',
-            },
-            {
-                label: 'pf-u-flex-basis-0-on-md',
-            },
-            {
-                label: 'pf-u-flex-basis-auto-on-md',
-            },
-            {
-                label: 'pf-u-flex-basis-0-on-lg',
-            },
-            {
-                label: 'pf-u-flex-basis-auto-on-lg',
-            },
-            {
-                label: 'pf-u-flex-basis-0-on-xl',
-            },
-            {
-                label: 'pf-u-flex-basis-auto-on-xl',
-            },
-            {
-                label: 'pf-u-flex-basis-0-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-basis-auto-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-none',
-            },
-            {
-                label: 'pf-u-flex-1',
-            },
-            {
-                label: 'pf-u-flex-none-on-sm',
-            },
-            {
-                label: 'pf-u-flex-1-on-sm',
-            },
-            {
-                label: 'pf-u-flex-none-on-md',
-            },
-            {
-                label: 'pf-u-flex-1-on-md',
-            },
-            {
-                label: 'pf-u-flex-none-on-lg',
-            },
-            {
-                label: 'pf-u-flex-1-on-lg',
-            },
-            {
-                label: 'pf-u-flex-none-on-xl',
-            },
-            {
-                label: 'pf-u-flex-1-on-xl',
-            },
-            {
-                label: 'pf-u-flex-none-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-1-on-2xl',
-            },
-            {
-                label: 'pf-u-flex-fill',
-            },
-            {
-                label: 'pf-u-flex-fill-on-sm',
-            },
-            {
-                label: 'pf-u-flex-fill-on-md',
-            },
-            {
-                label: 'pf-u-flex-fill-on-lg',
-            },
-            {
-                label: 'pf-u-flex-fill-on-xl',
-            },
-            {
-                label: 'pf-u-flex-fill-on-2xl',
-            },
-            {
                 label: 'pf-u-screen-reader',
             },
             {
@@ -742,231 +58,6 @@ export default {
             },
             {
                 label: 'pf-u-hidden-on-2xl',
-            },
-            {
-                label: 'pf-u-display-none',
-            },
-            {
-                label: 'pf-u-display-inline-block',
-            },
-            {
-                label: 'pf-u-display-block',
-            },
-            {
-                label: 'pf-u-display-inline',
-            },
-            {
-                label: 'pf-u-display-table',
-            },
-            {
-                label: 'pf-u-display-table-cell',
-            },
-            {
-                label: 'pf-u-display-table-row',
-            },
-            {
-                label: 'pf-u-display-flex',
-            },
-            {
-                label: 'pf-u-display-inline-flex',
-            },
-            {
-                label: 'pf-u-display-none-on-sm',
-            },
-            {
-                label: 'pf-u-display-inline-block-on-sm',
-            },
-            {
-                label: 'pf-u-display-block-on-sm',
-            },
-            {
-                label: 'pf-u-display-inline-on-sm',
-            },
-            {
-                label: 'pf-u-display-table-on-sm',
-            },
-            {
-                label: 'pf-u-display-table-cell-on-sm',
-            },
-            {
-                label: 'pf-u-display-table-row-on-sm',
-            },
-            {
-                label: 'pf-u-display-flex-on-sm',
-            },
-            {
-                label: 'pf-u-display-inline-flex-on-sm',
-            },
-            {
-                label: 'pf-u-display-none-on-md',
-            },
-            {
-                label: 'pf-u-display-inline-block-on-md',
-            },
-            {
-                label: 'pf-u-display-block-on-md',
-            },
-            {
-                label: 'pf-u-display-inline-on-md',
-            },
-            {
-                label: 'pf-u-display-table-on-md',
-            },
-            {
-                label: 'pf-u-display-table-cell-on-md',
-            },
-            {
-                label: 'pf-u-display-table-row-on-md',
-            },
-            {
-                label: 'pf-u-display-flex-on-md',
-            },
-            {
-                label: 'pf-u-display-inline-flex-on-md',
-            },
-            {
-                label: 'pf-u-display-none-on-lg',
-            },
-            {
-                label: 'pf-u-display-inline-block-on-lg',
-            },
-            {
-                label: 'pf-u-display-block-on-lg',
-            },
-            {
-                label: 'pf-u-display-inline-on-lg',
-            },
-            {
-                label: 'pf-u-display-table-on-lg',
-            },
-            {
-                label: 'pf-u-display-table-cell-on-lg',
-            },
-            {
-                label: 'pf-u-display-table-row-on-lg',
-            },
-            {
-                label: 'pf-u-display-flex-on-lg',
-            },
-            {
-                label: 'pf-u-display-inline-flex-on-lg',
-            },
-            {
-                label: 'pf-u-display-none-on-xl',
-            },
-            {
-                label: 'pf-u-display-inline-block-on-xl',
-            },
-            {
-                label: 'pf-u-display-block-on-xl',
-            },
-            {
-                label: 'pf-u-display-inline-on-xl',
-            },
-            {
-                label: 'pf-u-display-table-on-xl',
-            },
-            {
-                label: 'pf-u-display-table-cell-on-xl',
-            },
-            {
-                label: 'pf-u-display-table-row-on-xl',
-            },
-            {
-                label: 'pf-u-display-flex-on-xl',
-            },
-            {
-                label: 'pf-u-display-inline-flex-on-xl',
-            },
-            {
-                label: 'pf-u-display-none-on-2xl',
-            },
-            {
-                label: 'pf-u-display-inline-block-on-2xl',
-            },
-            {
-                label: 'pf-u-display-block-on-2xl',
-            },
-            {
-                label: 'pf-u-display-inline-on-2xl',
-            },
-            {
-                label: 'pf-u-display-table-on-2xl',
-            },
-            {
-                label: 'pf-u-display-table-cell-on-2xl',
-            },
-            {
-                label: 'pf-u-display-table-row-on-2xl',
-            },
-            {
-                label: 'pf-u-display-flex-on-2xl',
-            },
-            {
-                label: 'pf-u-display-inline-flex-on-2xl',
-            },
-            {
-                label: 'pf-u-box-shadow-sm',
-            },
-            {
-                label: 'pf-u-box-shadow-sm-top',
-            },
-            {
-                label: 'pf-u-box-shadow-sm-right',
-            },
-            {
-                label: 'pf-u-box-shadow-sm-bottom',
-            },
-            {
-                label: 'pf-u-box-shadow-sm-left',
-            },
-            {
-                label: 'pf-u-box-shadow-md',
-            },
-            {
-                label: 'pf-u-box-shadow-md-top',
-            },
-            {
-                label: 'pf-u-box-shadow-md-right',
-            },
-            {
-                label: 'pf-u-box-shadow-md-bottom',
-            },
-            {
-                label: 'pf-u-box-shadow-md-left',
-            },
-            {
-                label: 'pf-u-box-shadow-lg',
-            },
-            {
-                label: 'pf-u-box-shadow-lg-top',
-            },
-            {
-                label: 'pf-u-box-shadow-lg-right',
-            },
-            {
-                label: 'pf-u-box-shadow-lg-bottom',
-            },
-            {
-                label: 'pf-u-box-shadow-lg-left',
-            },
-            {
-                label: 'pf-u-box-shadow-xl',
-            },
-            {
-                label: 'pf-u-box-shadow-xl-top',
-            },
-            {
-                label: 'pf-u-box-shadow-xl-right',
-            },
-            {
-                label: 'pf-u-box-shadow-xl-bottom',
-            },
-            {
-                label: 'pf-u-box-shadow-xl-left',
-            },
-            {
-                label: 'pf-u-box-shadow-inset',
             },
             {
                 label: 'pf-u-font-family-sans-serif',
@@ -1818,148 +909,301 @@ export default {
                 label: 'pf-u-text-truncate',
             },
             {
-                label: 'pf-u-color-300',
+                label: 'pf-u-box-shadow-sm',
             },
             {
-                label: 'pf-u-color-light-100',
+                label: 'pf-u-box-shadow-sm-top',
             },
             {
-                label: 'pf-u-color-light-200',
+                label: 'pf-u-box-shadow-sm-right',
             },
             {
-                label: 'pf-u-default-color-300',
+                label: 'pf-u-box-shadow-sm-bottom',
             },
             {
-                label: 'pf-u-success-color-200',
+                label: 'pf-u-box-shadow-sm-left',
             },
             {
-                label: 'pf-u-info-color-200',
+                label: 'pf-u-box-shadow-md',
             },
             {
-                label: 'pf-u-danger-color-300',
+                label: 'pf-u-box-shadow-md-top',
             },
             {
-                label: 'pf-u-icon-color-dark',
+                label: 'pf-u-box-shadow-md-right',
             },
             {
-                label: 'pf-u-color-300-on-sm',
+                label: 'pf-u-box-shadow-md-bottom',
             },
             {
-                label: 'pf-u-color-light-100-on-sm',
+                label: 'pf-u-box-shadow-md-left',
             },
             {
-                label: 'pf-u-color-light-200-on-sm',
+                label: 'pf-u-box-shadow-lg',
             },
             {
-                label: 'pf-u-default-color-300-on-sm',
+                label: 'pf-u-box-shadow-lg-top',
             },
             {
-                label: 'pf-u-success-color-200-on-sm',
+                label: 'pf-u-box-shadow-lg-right',
             },
             {
-                label: 'pf-u-info-color-200-on-sm',
+                label: 'pf-u-box-shadow-lg-bottom',
             },
             {
-                label: 'pf-u-danger-color-300-on-sm',
+                label: 'pf-u-box-shadow-lg-left',
             },
             {
-                label: 'pf-u-icon-color-dark-on-sm',
+                label: 'pf-u-box-shadow-xl',
             },
             {
-                label: 'pf-u-color-300-on-md',
+                label: 'pf-u-box-shadow-xl-top',
             },
             {
-                label: 'pf-u-color-light-100-on-md',
+                label: 'pf-u-box-shadow-xl-right',
             },
             {
-                label: 'pf-u-color-light-200-on-md',
+                label: 'pf-u-box-shadow-xl-bottom',
             },
             {
-                label: 'pf-u-default-color-300-on-md',
+                label: 'pf-u-box-shadow-xl-left',
             },
             {
-                label: 'pf-u-success-color-200-on-md',
+                label: 'pf-u-box-shadow-inset',
             },
             {
-                label: 'pf-u-info-color-200-on-md',
+                label: 'pf-u-display-none',
             },
             {
-                label: 'pf-u-danger-color-300-on-md',
+                label: 'pf-u-display-inline-block',
             },
             {
-                label: 'pf-u-icon-color-dark-on-md',
+                label: 'pf-u-display-block',
             },
             {
-                label: 'pf-u-color-300-on-lg',
+                label: 'pf-u-display-inline',
             },
             {
-                label: 'pf-u-color-light-100-on-lg',
+                label: 'pf-u-display-table',
             },
             {
-                label: 'pf-u-color-light-200-on-lg',
+                label: 'pf-u-display-table-cell',
             },
             {
-                label: 'pf-u-default-color-300-on-lg',
+                label: 'pf-u-display-table-row',
             },
             {
-                label: 'pf-u-success-color-200-on-lg',
+                label: 'pf-u-display-flex',
             },
             {
-                label: 'pf-u-info-color-200-on-lg',
+                label: 'pf-u-display-inline-flex',
             },
             {
-                label: 'pf-u-danger-color-300-on-lg',
+                label: 'pf-u-display-none-on-sm',
             },
             {
-                label: 'pf-u-icon-color-dark-on-lg',
+                label: 'pf-u-display-inline-block-on-sm',
             },
             {
-                label: 'pf-u-color-300-on-xl',
+                label: 'pf-u-display-block-on-sm',
             },
             {
-                label: 'pf-u-color-light-100-on-xl',
+                label: 'pf-u-display-inline-on-sm',
             },
             {
-                label: 'pf-u-color-light-200-on-xl',
+                label: 'pf-u-display-table-on-sm',
             },
             {
-                label: 'pf-u-default-color-300-on-xl',
+                label: 'pf-u-display-table-cell-on-sm',
             },
             {
-                label: 'pf-u-success-color-200-on-xl',
+                label: 'pf-u-display-table-row-on-sm',
             },
             {
-                label: 'pf-u-info-color-200-on-xl',
+                label: 'pf-u-display-flex-on-sm',
             },
             {
-                label: 'pf-u-danger-color-300-on-xl',
+                label: 'pf-u-display-inline-flex-on-sm',
             },
             {
-                label: 'pf-u-icon-color-dark-on-xl',
+                label: 'pf-u-display-none-on-md',
             },
             {
-                label: 'pf-u-color-300-on-2xl',
+                label: 'pf-u-display-inline-block-on-md',
             },
             {
-                label: 'pf-u-color-light-100-on-2xl',
+                label: 'pf-u-display-block-on-md',
             },
             {
-                label: 'pf-u-color-light-200-on-2xl',
+                label: 'pf-u-display-inline-on-md',
             },
             {
-                label: 'pf-u-default-color-300-on-2xl',
+                label: 'pf-u-display-table-on-md',
             },
             {
-                label: 'pf-u-success-color-200-on-2xl',
+                label: 'pf-u-display-table-cell-on-md',
             },
             {
-                label: 'pf-u-info-color-200-on-2xl',
+                label: 'pf-u-display-table-row-on-md',
             },
             {
-                label: 'pf-u-danger-color-300-on-2xl',
+                label: 'pf-u-display-flex-on-md',
             },
             {
-                label: 'pf-u-icon-color-dark-on-2xl',
+                label: 'pf-u-display-inline-flex-on-md',
+            },
+            {
+                label: 'pf-u-display-none-on-lg',
+            },
+            {
+                label: 'pf-u-display-inline-block-on-lg',
+            },
+            {
+                label: 'pf-u-display-block-on-lg',
+            },
+            {
+                label: 'pf-u-display-inline-on-lg',
+            },
+            {
+                label: 'pf-u-display-table-on-lg',
+            },
+            {
+                label: 'pf-u-display-table-cell-on-lg',
+            },
+            {
+                label: 'pf-u-display-table-row-on-lg',
+            },
+            {
+                label: 'pf-u-display-flex-on-lg',
+            },
+            {
+                label: 'pf-u-display-inline-flex-on-lg',
+            },
+            {
+                label: 'pf-u-display-none-on-xl',
+            },
+            {
+                label: 'pf-u-display-inline-block-on-xl',
+            },
+            {
+                label: 'pf-u-display-block-on-xl',
+            },
+            {
+                label: 'pf-u-display-inline-on-xl',
+            },
+            {
+                label: 'pf-u-display-table-on-xl',
+            },
+            {
+                label: 'pf-u-display-table-cell-on-xl',
+            },
+            {
+                label: 'pf-u-display-table-row-on-xl',
+            },
+            {
+                label: 'pf-u-display-flex-on-xl',
+            },
+            {
+                label: 'pf-u-display-inline-flex-on-xl',
+            },
+            {
+                label: 'pf-u-display-none-on-2xl',
+            },
+            {
+                label: 'pf-u-display-inline-block-on-2xl',
+            },
+            {
+                label: 'pf-u-display-block-on-2xl',
+            },
+            {
+                label: 'pf-u-display-inline-on-2xl',
+            },
+            {
+                label: 'pf-u-display-table-on-2xl',
+            },
+            {
+                label: 'pf-u-display-table-cell-on-2xl',
+            },
+            {
+                label: 'pf-u-display-table-row-on-2xl',
+            },
+            {
+                label: 'pf-u-display-flex-on-2xl',
+            },
+            {
+                label: 'pf-u-display-inline-flex-on-2xl',
+            },
+            {
+                label: 'pf-u-text-align-left',
+            },
+            {
+                label: 'pf-u-text-align-center',
+            },
+            {
+                label: 'pf-u-text-align-right',
+            },
+            {
+                label: 'pf-u-text-align-justify',
+            },
+            {
+                label: 'pf-u-text-align-left-on-sm',
+            },
+            {
+                label: 'pf-u-text-align-center-on-sm',
+            },
+            {
+                label: 'pf-u-text-align-right-on-sm',
+            },
+            {
+                label: 'pf-u-text-align-justify-on-sm',
+            },
+            {
+                label: 'pf-u-text-align-left-on-md',
+            },
+            {
+                label: 'pf-u-text-align-center-on-md',
+            },
+            {
+                label: 'pf-u-text-align-right-on-md',
+            },
+            {
+                label: 'pf-u-text-align-justify-on-md',
+            },
+            {
+                label: 'pf-u-text-align-left-on-lg',
+            },
+            {
+                label: 'pf-u-text-align-center-on-lg',
+            },
+            {
+                label: 'pf-u-text-align-right-on-lg',
+            },
+            {
+                label: 'pf-u-text-align-justify-on-lg',
+            },
+            {
+                label: 'pf-u-text-align-left-on-xl',
+            },
+            {
+                label: 'pf-u-text-align-center-on-xl',
+            },
+            {
+                label: 'pf-u-text-align-right-on-xl',
+            },
+            {
+                label: 'pf-u-text-align-justify-on-xl',
+            },
+            {
+                label: 'pf-u-text-align-left-on-2xl',
+            },
+            {
+                label: 'pf-u-text-align-center-on-2xl',
+            },
+            {
+                label: 'pf-u-text-align-right-on-2xl',
+            },
+            {
+                label: 'pf-u-text-align-justify-on-2xl',
             },
             {
                 label: 'pf-u-float-left',
@@ -1996,6 +1240,1566 @@ export default {
             },
             {
                 label: 'pf-u-float-right-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-100',
+            },
+            {
+                label: 'pf-u-background-color-200',
+            },
+            {
+                label: 'pf-u-background-color-active-color-100',
+            },
+            {
+                label: 'pf-u-background-color-active-color-300',
+            },
+            {
+                label: 'pf-u-background-color-primary-color-200',
+            },
+            {
+                label: 'pf-u-background-color-dark-100',
+            },
+            {
+                label: 'pf-u-background-color-dark-200',
+            },
+            {
+                label: 'pf-u-background-color-dark-300',
+            },
+            {
+                label: 'pf-u-background-color-dark-400',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-200',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-300',
+            },
+            {
+                label: 'pf-u-background-color-default',
+            },
+            {
+                label: 'pf-u-background-color-success',
+            },
+            {
+                label: 'pf-u-background-color-info',
+            },
+            {
+                label: 'pf-u-background-color-warning',
+            },
+            {
+                label: 'pf-u-background-color-danger',
+            },
+            {
+                label: 'pf-u-background-color-100-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-200-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-active-color-100-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-active-color-300-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-primary-color-200-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-dark-100-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-dark-200-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-dark-300-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-dark-400-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-200-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-300-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-default-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-success-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-info-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-warning-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-danger-on-sm',
+            },
+            {
+                label: 'pf-u-background-color-100-on-md',
+            },
+            {
+                label: 'pf-u-background-color-200-on-md',
+            },
+            {
+                label: 'pf-u-background-color-active-color-100-on-md',
+            },
+            {
+                label: 'pf-u-background-color-active-color-300-on-md',
+            },
+            {
+                label: 'pf-u-background-color-primary-color-200-on-md',
+            },
+            {
+                label: 'pf-u-background-color-dark-100-on-md',
+            },
+            {
+                label: 'pf-u-background-color-dark-200-on-md',
+            },
+            {
+                label: 'pf-u-background-color-dark-300-on-md',
+            },
+            {
+                label: 'pf-u-background-color-dark-400-on-md',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-200-on-md',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-300-on-md',
+            },
+            {
+                label: 'pf-u-background-color-default-on-md',
+            },
+            {
+                label: 'pf-u-background-color-success-on-md',
+            },
+            {
+                label: 'pf-u-background-color-info-on-md',
+            },
+            {
+                label: 'pf-u-background-color-warning-on-md',
+            },
+            {
+                label: 'pf-u-background-color-danger-on-md',
+            },
+            {
+                label: 'pf-u-background-color-100-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-200-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-active-color-100-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-active-color-300-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-primary-color-200-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-dark-100-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-dark-200-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-dark-300-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-dark-400-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-200-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-300-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-default-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-success-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-info-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-warning-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-danger-on-lg',
+            },
+            {
+                label: 'pf-u-background-color-100-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-200-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-active-color-100-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-active-color-300-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-primary-color-200-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-dark-100-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-dark-200-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-dark-300-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-dark-400-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-200-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-300-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-default-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-success-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-info-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-warning-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-danger-on-xl',
+            },
+            {
+                label: 'pf-u-background-color-100-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-200-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-active-color-100-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-active-color-300-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-primary-color-200-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-dark-100-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-dark-200-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-dark-300-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-dark-400-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-200-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-disabled-color-300-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-default-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-success-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-info-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-warning-on-2xl',
+            },
+            {
+                label: 'pf-u-background-color-danger-on-2xl',
+            },
+            {
+                label: 'pf-u-w-auto',
+            },
+            {
+                label: 'pf-u-w-initial',
+            },
+            {
+                label: 'pf-u-w-inherit',
+            },
+            {
+                label: 'pf-u-w-0',
+            },
+            {
+                label: 'pf-u-w-25',
+            },
+            {
+                label: 'pf-u-w-33',
+            },
+            {
+                label: 'pf-u-w-50',
+            },
+            {
+                label: 'pf-u-w-66',
+            },
+            {
+                label: 'pf-u-w-75',
+            },
+            {
+                label: 'pf-u-w-100',
+            },
+            {
+                label: 'pf-u-w-25vw',
+            },
+            {
+                label: 'pf-u-w-33vw',
+            },
+            {
+                label: 'pf-u-w-50vw',
+            },
+            {
+                label: 'pf-u-w-66vw',
+            },
+            {
+                label: 'pf-u-w-75vw',
+            },
+            {
+                label: 'pf-u-w-100vw',
+            },
+            {
+                label: 'pf-u-w-auto-on-sm',
+            },
+            {
+                label: 'pf-u-w-initial-on-sm',
+            },
+            {
+                label: 'pf-u-w-inherit-on-sm',
+            },
+            {
+                label: 'pf-u-w-0-on-sm',
+            },
+            {
+                label: 'pf-u-w-25-on-sm',
+            },
+            {
+                label: 'pf-u-w-33-on-sm',
+            },
+            {
+                label: 'pf-u-w-50-on-sm',
+            },
+            {
+                label: 'pf-u-w-66-on-sm',
+            },
+            {
+                label: 'pf-u-w-75-on-sm',
+            },
+            {
+                label: 'pf-u-w-100-on-sm',
+            },
+            {
+                label: 'pf-u-w-25vw-on-sm',
+            },
+            {
+                label: 'pf-u-w-33vw-on-sm',
+            },
+            {
+                label: 'pf-u-w-50vw-on-sm',
+            },
+            {
+                label: 'pf-u-w-66vw-on-sm',
+            },
+            {
+                label: 'pf-u-w-75vw-on-sm',
+            },
+            {
+                label: 'pf-u-w-100vw-on-sm',
+            },
+            {
+                label: 'pf-u-w-auto-on-md',
+            },
+            {
+                label: 'pf-u-w-initial-on-md',
+            },
+            {
+                label: 'pf-u-w-inherit-on-md',
+            },
+            {
+                label: 'pf-u-w-0-on-md',
+            },
+            {
+                label: 'pf-u-w-25-on-md',
+            },
+            {
+                label: 'pf-u-w-33-on-md',
+            },
+            {
+                label: 'pf-u-w-50-on-md',
+            },
+            {
+                label: 'pf-u-w-66-on-md',
+            },
+            {
+                label: 'pf-u-w-75-on-md',
+            },
+            {
+                label: 'pf-u-w-100-on-md',
+            },
+            {
+                label: 'pf-u-w-25vw-on-md',
+            },
+            {
+                label: 'pf-u-w-33vw-on-md',
+            },
+            {
+                label: 'pf-u-w-50vw-on-md',
+            },
+            {
+                label: 'pf-u-w-66vw-on-md',
+            },
+            {
+                label: 'pf-u-w-75vw-on-md',
+            },
+            {
+                label: 'pf-u-w-100vw-on-md',
+            },
+            {
+                label: 'pf-u-w-auto-on-lg',
+            },
+            {
+                label: 'pf-u-w-initial-on-lg',
+            },
+            {
+                label: 'pf-u-w-inherit-on-lg',
+            },
+            {
+                label: 'pf-u-w-0-on-lg',
+            },
+            {
+                label: 'pf-u-w-25-on-lg',
+            },
+            {
+                label: 'pf-u-w-33-on-lg',
+            },
+            {
+                label: 'pf-u-w-50-on-lg',
+            },
+            {
+                label: 'pf-u-w-66-on-lg',
+            },
+            {
+                label: 'pf-u-w-75-on-lg',
+            },
+            {
+                label: 'pf-u-w-100-on-lg',
+            },
+            {
+                label: 'pf-u-w-25vw-on-lg',
+            },
+            {
+                label: 'pf-u-w-33vw-on-lg',
+            },
+            {
+                label: 'pf-u-w-50vw-on-lg',
+            },
+            {
+                label: 'pf-u-w-66vw-on-lg',
+            },
+            {
+                label: 'pf-u-w-75vw-on-lg',
+            },
+            {
+                label: 'pf-u-w-100vw-on-lg',
+            },
+            {
+                label: 'pf-u-w-auto-on-xl',
+            },
+            {
+                label: 'pf-u-w-initial-on-xl',
+            },
+            {
+                label: 'pf-u-w-inherit-on-xl',
+            },
+            {
+                label: 'pf-u-w-0-on-xl',
+            },
+            {
+                label: 'pf-u-w-25-on-xl',
+            },
+            {
+                label: 'pf-u-w-33-on-xl',
+            },
+            {
+                label: 'pf-u-w-50-on-xl',
+            },
+            {
+                label: 'pf-u-w-66-on-xl',
+            },
+            {
+                label: 'pf-u-w-75-on-xl',
+            },
+            {
+                label: 'pf-u-w-100-on-xl',
+            },
+            {
+                label: 'pf-u-w-25vw-on-xl',
+            },
+            {
+                label: 'pf-u-w-33vw-on-xl',
+            },
+            {
+                label: 'pf-u-w-50vw-on-xl',
+            },
+            {
+                label: 'pf-u-w-66vw-on-xl',
+            },
+            {
+                label: 'pf-u-w-75vw-on-xl',
+            },
+            {
+                label: 'pf-u-w-100vw-on-xl',
+            },
+            {
+                label: 'pf-u-w-auto-on-2xl',
+            },
+            {
+                label: 'pf-u-w-initial-on-2xl',
+            },
+            {
+                label: 'pf-u-w-inherit-on-2xl',
+            },
+            {
+                label: 'pf-u-w-0-on-2xl',
+            },
+            {
+                label: 'pf-u-w-25-on-2xl',
+            },
+            {
+                label: 'pf-u-w-33-on-2xl',
+            },
+            {
+                label: 'pf-u-w-50-on-2xl',
+            },
+            {
+                label: 'pf-u-w-66-on-2xl',
+            },
+            {
+                label: 'pf-u-w-75-on-2xl',
+            },
+            {
+                label: 'pf-u-w-100-on-2xl',
+            },
+            {
+                label: 'pf-u-w-25vw-on-2xl',
+            },
+            {
+                label: 'pf-u-w-33vw-on-2xl',
+            },
+            {
+                label: 'pf-u-w-50vw-on-2xl',
+            },
+            {
+                label: 'pf-u-w-66vw-on-2xl',
+            },
+            {
+                label: 'pf-u-w-75vw-on-2xl',
+            },
+            {
+                label: 'pf-u-w-100vw-on-2xl',
+            },
+            {
+                label: 'pf-u-h-auto',
+            },
+            {
+                label: 'pf-u-h-initial',
+            },
+            {
+                label: 'pf-u-h-inherit',
+            },
+            {
+                label: 'pf-u-h-0',
+            },
+            {
+                label: 'pf-u-h-25',
+            },
+            {
+                label: 'pf-u-h-33',
+            },
+            {
+                label: 'pf-u-h-50',
+            },
+            {
+                label: 'pf-u-h-66',
+            },
+            {
+                label: 'pf-u-h-75',
+            },
+            {
+                label: 'pf-u-h-100',
+            },
+            {
+                label: 'pf-u-h-25vh',
+            },
+            {
+                label: 'pf-u-h-33vh',
+            },
+            {
+                label: 'pf-u-h-50vh',
+            },
+            {
+                label: 'pf-u-h-66vh',
+            },
+            {
+                label: 'pf-u-h-75vh',
+            },
+            {
+                label: 'pf-u-h-100vh',
+            },
+            {
+                label: 'pf-u-h-auto-on-sm',
+            },
+            {
+                label: 'pf-u-h-initial-on-sm',
+            },
+            {
+                label: 'pf-u-h-inherit-on-sm',
+            },
+            {
+                label: 'pf-u-h-0-on-sm',
+            },
+            {
+                label: 'pf-u-h-25-on-sm',
+            },
+            {
+                label: 'pf-u-h-33-on-sm',
+            },
+            {
+                label: 'pf-u-h-50-on-sm',
+            },
+            {
+                label: 'pf-u-h-66-on-sm',
+            },
+            {
+                label: 'pf-u-h-75-on-sm',
+            },
+            {
+                label: 'pf-u-h-100-on-sm',
+            },
+            {
+                label: 'pf-u-h-25vh-on-sm',
+            },
+            {
+                label: 'pf-u-h-33vh-on-sm',
+            },
+            {
+                label: 'pf-u-h-50vh-on-sm',
+            },
+            {
+                label: 'pf-u-h-66vh-on-sm',
+            },
+            {
+                label: 'pf-u-h-75vh-on-sm',
+            },
+            {
+                label: 'pf-u-h-100vh-on-sm',
+            },
+            {
+                label: 'pf-u-h-auto-on-md',
+            },
+            {
+                label: 'pf-u-h-initial-on-md',
+            },
+            {
+                label: 'pf-u-h-inherit-on-md',
+            },
+            {
+                label: 'pf-u-h-0-on-md',
+            },
+            {
+                label: 'pf-u-h-25-on-md',
+            },
+            {
+                label: 'pf-u-h-33-on-md',
+            },
+            {
+                label: 'pf-u-h-50-on-md',
+            },
+            {
+                label: 'pf-u-h-66-on-md',
+            },
+            {
+                label: 'pf-u-h-75-on-md',
+            },
+            {
+                label: 'pf-u-h-100-on-md',
+            },
+            {
+                label: 'pf-u-h-25vh-on-md',
+            },
+            {
+                label: 'pf-u-h-33vh-on-md',
+            },
+            {
+                label: 'pf-u-h-50vh-on-md',
+            },
+            {
+                label: 'pf-u-h-66vh-on-md',
+            },
+            {
+                label: 'pf-u-h-75vh-on-md',
+            },
+            {
+                label: 'pf-u-h-100vh-on-md',
+            },
+            {
+                label: 'pf-u-h-auto-on-lg',
+            },
+            {
+                label: 'pf-u-h-initial-on-lg',
+            },
+            {
+                label: 'pf-u-h-inherit-on-lg',
+            },
+            {
+                label: 'pf-u-h-0-on-lg',
+            },
+            {
+                label: 'pf-u-h-25-on-lg',
+            },
+            {
+                label: 'pf-u-h-33-on-lg',
+            },
+            {
+                label: 'pf-u-h-50-on-lg',
+            },
+            {
+                label: 'pf-u-h-66-on-lg',
+            },
+            {
+                label: 'pf-u-h-75-on-lg',
+            },
+            {
+                label: 'pf-u-h-100-on-lg',
+            },
+            {
+                label: 'pf-u-h-25vh-on-lg',
+            },
+            {
+                label: 'pf-u-h-33vh-on-lg',
+            },
+            {
+                label: 'pf-u-h-50vh-on-lg',
+            },
+            {
+                label: 'pf-u-h-66vh-on-lg',
+            },
+            {
+                label: 'pf-u-h-75vh-on-lg',
+            },
+            {
+                label: 'pf-u-h-100vh-on-lg',
+            },
+            {
+                label: 'pf-u-h-auto-on-xl',
+            },
+            {
+                label: 'pf-u-h-initial-on-xl',
+            },
+            {
+                label: 'pf-u-h-inherit-on-xl',
+            },
+            {
+                label: 'pf-u-h-0-on-xl',
+            },
+            {
+                label: 'pf-u-h-25-on-xl',
+            },
+            {
+                label: 'pf-u-h-33-on-xl',
+            },
+            {
+                label: 'pf-u-h-50-on-xl',
+            },
+            {
+                label: 'pf-u-h-66-on-xl',
+            },
+            {
+                label: 'pf-u-h-75-on-xl',
+            },
+            {
+                label: 'pf-u-h-100-on-xl',
+            },
+            {
+                label: 'pf-u-h-25vh-on-xl',
+            },
+            {
+                label: 'pf-u-h-33vh-on-xl',
+            },
+            {
+                label: 'pf-u-h-50vh-on-xl',
+            },
+            {
+                label: 'pf-u-h-66vh-on-xl',
+            },
+            {
+                label: 'pf-u-h-75vh-on-xl',
+            },
+            {
+                label: 'pf-u-h-100vh-on-xl',
+            },
+            {
+                label: 'pf-u-h-auto-on-2xl',
+            },
+            {
+                label: 'pf-u-h-initial-on-2xl',
+            },
+            {
+                label: 'pf-u-h-inherit-on-2xl',
+            },
+            {
+                label: 'pf-u-h-0-on-2xl',
+            },
+            {
+                label: 'pf-u-h-25-on-2xl',
+            },
+            {
+                label: 'pf-u-h-33-on-2xl',
+            },
+            {
+                label: 'pf-u-h-50-on-2xl',
+            },
+            {
+                label: 'pf-u-h-66-on-2xl',
+            },
+            {
+                label: 'pf-u-h-75-on-2xl',
+            },
+            {
+                label: 'pf-u-h-100-on-2xl',
+            },
+            {
+                label: 'pf-u-h-25vh-on-2xl',
+            },
+            {
+                label: 'pf-u-h-33vh-on-2xl',
+            },
+            {
+                label: 'pf-u-h-50vh-on-2xl',
+            },
+            {
+                label: 'pf-u-h-66vh-on-2xl',
+            },
+            {
+                label: 'pf-u-h-75vh-on-2xl',
+            },
+            {
+                label: 'pf-u-h-100vh-on-2xl',
+            },
+            {
+                label: 'pf-u-min-width',
+            },
+            {
+                label: 'pf-u-max-width',
+            },
+            {
+                label: 'pf-u-min-height',
+            },
+            {
+                label: 'pf-u-max-height',
+            },
+            {
+                label: 'pf-u-flex-direction-column',
+            },
+            {
+                label: 'pf-u-flex-direction-column-reverse',
+            },
+            {
+                label: 'pf-u-flex-direction-row',
+            },
+            {
+                label: 'pf-u-flex-direction-row-reverse',
+            },
+            {
+                label: 'pf-u-flex-direction-column-on-sm',
+            },
+            {
+                label: 'pf-u-flex-direction-column-reverse-on-sm',
+            },
+            {
+                label: 'pf-u-flex-direction-row-on-sm',
+            },
+            {
+                label: 'pf-u-flex-direction-row-reverse-on-sm',
+            },
+            {
+                label: 'pf-u-flex-direction-column-on-md',
+            },
+            {
+                label: 'pf-u-flex-direction-column-reverse-on-md',
+            },
+            {
+                label: 'pf-u-flex-direction-row-on-md',
+            },
+            {
+                label: 'pf-u-flex-direction-row-reverse-on-md',
+            },
+            {
+                label: 'pf-u-flex-direction-column-on-lg',
+            },
+            {
+                label: 'pf-u-flex-direction-column-reverse-on-lg',
+            },
+            {
+                label: 'pf-u-flex-direction-row-on-lg',
+            },
+            {
+                label: 'pf-u-flex-direction-row-reverse-on-lg',
+            },
+            {
+                label: 'pf-u-flex-direction-column-on-xl',
+            },
+            {
+                label: 'pf-u-flex-direction-column-reverse-on-xl',
+            },
+            {
+                label: 'pf-u-flex-direction-row-on-xl',
+            },
+            {
+                label: 'pf-u-flex-direction-row-reverse-on-xl',
+            },
+            {
+                label: 'pf-u-flex-direction-column-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-direction-column-reverse-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-direction-row-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-direction-row-reverse-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-wrap',
+            },
+            {
+                label: 'pf-u-flex-nowrap',
+            },
+            {
+                label: 'pf-u-flex-wrap-reverse',
+            },
+            {
+                label: 'pf-u-flex-wrap-on-sm',
+            },
+            {
+                label: 'pf-u-flex-nowrap-on-sm',
+            },
+            {
+                label: 'pf-u-flex-wrap-reverse-on-sm',
+            },
+            {
+                label: 'pf-u-flex-wrap-on-md',
+            },
+            {
+                label: 'pf-u-flex-nowrap-on-md',
+            },
+            {
+                label: 'pf-u-flex-wrap-reverse-on-md',
+            },
+            {
+                label: 'pf-u-flex-wrap-on-lg',
+            },
+            {
+                label: 'pf-u-flex-nowrap-on-lg',
+            },
+            {
+                label: 'pf-u-flex-wrap-reverse-on-lg',
+            },
+            {
+                label: 'pf-u-flex-wrap-on-xl',
+            },
+            {
+                label: 'pf-u-flex-nowrap-on-xl',
+            },
+            {
+                label: 'pf-u-flex-wrap-reverse-on-xl',
+            },
+            {
+                label: 'pf-u-flex-wrap-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-nowrap-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-wrap-reverse-on-2xl',
+            },
+            {
+                label: 'pf-u-align-items-flex-start',
+            },
+            {
+                label: 'pf-u-align-items-flex-end',
+            },
+            {
+                label: 'pf-u-align-items-center',
+            },
+            {
+                label: 'pf-u-align-items-baseline',
+            },
+            {
+                label: 'pf-u-align-items-stretch',
+            },
+            {
+                label: 'pf-u-align-items-flex-start-on-sm',
+            },
+            {
+                label: 'pf-u-align-items-flex-end-on-sm',
+            },
+            {
+                label: 'pf-u-align-items-center-on-sm',
+            },
+            {
+                label: 'pf-u-align-items-baseline-on-sm',
+            },
+            {
+                label: 'pf-u-align-items-stretch-on-sm',
+            },
+            {
+                label: 'pf-u-align-items-flex-start-on-md',
+            },
+            {
+                label: 'pf-u-align-items-flex-end-on-md',
+            },
+            {
+                label: 'pf-u-align-items-center-on-md',
+            },
+            {
+                label: 'pf-u-align-items-baseline-on-md',
+            },
+            {
+                label: 'pf-u-align-items-stretch-on-md',
+            },
+            {
+                label: 'pf-u-align-items-flex-start-on-lg',
+            },
+            {
+                label: 'pf-u-align-items-flex-end-on-lg',
+            },
+            {
+                label: 'pf-u-align-items-center-on-lg',
+            },
+            {
+                label: 'pf-u-align-items-baseline-on-lg',
+            },
+            {
+                label: 'pf-u-align-items-stretch-on-lg',
+            },
+            {
+                label: 'pf-u-align-items-flex-start-on-xl',
+            },
+            {
+                label: 'pf-u-align-items-flex-end-on-xl',
+            },
+            {
+                label: 'pf-u-align-items-center-on-xl',
+            },
+            {
+                label: 'pf-u-align-items-baseline-on-xl',
+            },
+            {
+                label: 'pf-u-align-items-stretch-on-xl',
+            },
+            {
+                label: 'pf-u-align-items-flex-start-on-2xl',
+            },
+            {
+                label: 'pf-u-align-items-flex-end-on-2xl',
+            },
+            {
+                label: 'pf-u-align-items-center-on-2xl',
+            },
+            {
+                label: 'pf-u-align-items-baseline-on-2xl',
+            },
+            {
+                label: 'pf-u-align-items-stretch-on-2xl',
+            },
+            {
+                label: 'pf-u-align-self-flex-start',
+            },
+            {
+                label: 'pf-u-align-self-flex-end',
+            },
+            {
+                label: 'pf-u-align-self-center',
+            },
+            {
+                label: 'pf-u-align-self-baseline',
+            },
+            {
+                label: 'pf-u-align-self-stretch',
+            },
+            {
+                label: 'pf-u-align-self-flex-start-on-sm',
+            },
+            {
+                label: 'pf-u-align-self-flex-end-on-sm',
+            },
+            {
+                label: 'pf-u-align-self-center-on-sm',
+            },
+            {
+                label: 'pf-u-align-self-baseline-on-sm',
+            },
+            {
+                label: 'pf-u-align-self-stretch-on-sm',
+            },
+            {
+                label: 'pf-u-align-self-flex-start-on-md',
+            },
+            {
+                label: 'pf-u-align-self-flex-end-on-md',
+            },
+            {
+                label: 'pf-u-align-self-center-on-md',
+            },
+            {
+                label: 'pf-u-align-self-baseline-on-md',
+            },
+            {
+                label: 'pf-u-align-self-stretch-on-md',
+            },
+            {
+                label: 'pf-u-align-self-flex-start-on-lg',
+            },
+            {
+                label: 'pf-u-align-self-flex-end-on-lg',
+            },
+            {
+                label: 'pf-u-align-self-center-on-lg',
+            },
+            {
+                label: 'pf-u-align-self-baseline-on-lg',
+            },
+            {
+                label: 'pf-u-align-self-stretch-on-lg',
+            },
+            {
+                label: 'pf-u-align-self-flex-start-on-xl',
+            },
+            {
+                label: 'pf-u-align-self-flex-end-on-xl',
+            },
+            {
+                label: 'pf-u-align-self-center-on-xl',
+            },
+            {
+                label: 'pf-u-align-self-baseline-on-xl',
+            },
+            {
+                label: 'pf-u-align-self-stretch-on-xl',
+            },
+            {
+                label: 'pf-u-align-self-flex-start-on-2xl',
+            },
+            {
+                label: 'pf-u-align-self-flex-end-on-2xl',
+            },
+            {
+                label: 'pf-u-align-self-center-on-2xl',
+            },
+            {
+                label: 'pf-u-align-self-baseline-on-2xl',
+            },
+            {
+                label: 'pf-u-align-self-stretch-on-2xl',
+            },
+            {
+                label: 'pf-u-align-content-flex-start',
+            },
+            {
+                label: 'pf-u-align-content-flex-end',
+            },
+            {
+                label: 'pf-u-align-content-center',
+            },
+            {
+                label: 'pf-u-align-content-space-between',
+            },
+            {
+                label: 'pf-u-align-content-space-around',
+            },
+            {
+                label: 'pf-u-align-content-stretch',
+            },
+            {
+                label: 'pf-u-align-content-flex-start-on-sm',
+            },
+            {
+                label: 'pf-u-align-content-flex-end-on-sm',
+            },
+            {
+                label: 'pf-u-align-content-center-on-sm',
+            },
+            {
+                label: 'pf-u-align-content-space-between-on-sm',
+            },
+            {
+                label: 'pf-u-align-content-space-around-on-sm',
+            },
+            {
+                label: 'pf-u-align-content-stretch-on-sm',
+            },
+            {
+                label: 'pf-u-align-content-flex-start-on-md',
+            },
+            {
+                label: 'pf-u-align-content-flex-end-on-md',
+            },
+            {
+                label: 'pf-u-align-content-center-on-md',
+            },
+            {
+                label: 'pf-u-align-content-space-between-on-md',
+            },
+            {
+                label: 'pf-u-align-content-space-around-on-md',
+            },
+            {
+                label: 'pf-u-align-content-stretch-on-md',
+            },
+            {
+                label: 'pf-u-align-content-flex-start-on-lg',
+            },
+            {
+                label: 'pf-u-align-content-flex-end-on-lg',
+            },
+            {
+                label: 'pf-u-align-content-center-on-lg',
+            },
+            {
+                label: 'pf-u-align-content-space-between-on-lg',
+            },
+            {
+                label: 'pf-u-align-content-space-around-on-lg',
+            },
+            {
+                label: 'pf-u-align-content-stretch-on-lg',
+            },
+            {
+                label: 'pf-u-align-content-flex-start-on-xl',
+            },
+            {
+                label: 'pf-u-align-content-flex-end-on-xl',
+            },
+            {
+                label: 'pf-u-align-content-center-on-xl',
+            },
+            {
+                label: 'pf-u-align-content-space-between-on-xl',
+            },
+            {
+                label: 'pf-u-align-content-space-around-on-xl',
+            },
+            {
+                label: 'pf-u-align-content-stretch-on-xl',
+            },
+            {
+                label: 'pf-u-align-content-flex-start-on-2xl',
+            },
+            {
+                label: 'pf-u-align-content-flex-end-on-2xl',
+            },
+            {
+                label: 'pf-u-align-content-center-on-2xl',
+            },
+            {
+                label: 'pf-u-align-content-space-between-on-2xl',
+            },
+            {
+                label: 'pf-u-align-content-space-around-on-2xl',
+            },
+            {
+                label: 'pf-u-align-content-stretch-on-2xl',
+            },
+            {
+                label: 'pf-u-justify-content-flex-start',
+            },
+            {
+                label: 'pf-u-justify-content-flex-end',
+            },
+            {
+                label: 'pf-u-justify-content-center',
+            },
+            {
+                label: 'pf-u-justify-content-space-between',
+            },
+            {
+                label: 'pf-u-justify-content-space-around',
+            },
+            {
+                label: 'pf-u-justify-content-stretch',
+            },
+            {
+                label: 'pf-u-justify-content-flex-start-on-sm',
+            },
+            {
+                label: 'pf-u-justify-content-flex-end-on-sm',
+            },
+            {
+                label: 'pf-u-justify-content-center-on-sm',
+            },
+            {
+                label: 'pf-u-justify-content-space-between-on-sm',
+            },
+            {
+                label: 'pf-u-justify-content-space-around-on-sm',
+            },
+            {
+                label: 'pf-u-justify-content-stretch-on-sm',
+            },
+            {
+                label: 'pf-u-justify-content-flex-start-on-md',
+            },
+            {
+                label: 'pf-u-justify-content-flex-end-on-md',
+            },
+            {
+                label: 'pf-u-justify-content-center-on-md',
+            },
+            {
+                label: 'pf-u-justify-content-space-between-on-md',
+            },
+            {
+                label: 'pf-u-justify-content-space-around-on-md',
+            },
+            {
+                label: 'pf-u-justify-content-stretch-on-md',
+            },
+            {
+                label: 'pf-u-justify-content-flex-start-on-lg',
+            },
+            {
+                label: 'pf-u-justify-content-flex-end-on-lg',
+            },
+            {
+                label: 'pf-u-justify-content-center-on-lg',
+            },
+            {
+                label: 'pf-u-justify-content-space-between-on-lg',
+            },
+            {
+                label: 'pf-u-justify-content-space-around-on-lg',
+            },
+            {
+                label: 'pf-u-justify-content-stretch-on-lg',
+            },
+            {
+                label: 'pf-u-justify-content-flex-start-on-xl',
+            },
+            {
+                label: 'pf-u-justify-content-flex-end-on-xl',
+            },
+            {
+                label: 'pf-u-justify-content-center-on-xl',
+            },
+            {
+                label: 'pf-u-justify-content-space-between-on-xl',
+            },
+            {
+                label: 'pf-u-justify-content-space-around-on-xl',
+            },
+            {
+                label: 'pf-u-justify-content-stretch-on-xl',
+            },
+            {
+                label: 'pf-u-justify-content-flex-start-on-2xl',
+            },
+            {
+                label: 'pf-u-justify-content-flex-end-on-2xl',
+            },
+            {
+                label: 'pf-u-justify-content-center-on-2xl',
+            },
+            {
+                label: 'pf-u-justify-content-space-between-on-2xl',
+            },
+            {
+                label: 'pf-u-justify-content-space-around-on-2xl',
+            },
+            {
+                label: 'pf-u-justify-content-stretch-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-shrink-1',
+            },
+            {
+                label: 'pf-u-flex-grow-1',
+            },
+            {
+                label: 'pf-u-flex-shrink-0',
+            },
+            {
+                label: 'pf-u-flex-grow-0',
+            },
+            {
+                label: 'pf-u-flex-shrink-1-on-sm',
+            },
+            {
+                label: 'pf-u-flex-grow-1-on-sm',
+            },
+            {
+                label: 'pf-u-flex-shrink-0-on-sm',
+            },
+            {
+                label: 'pf-u-flex-grow-0-on-sm',
+            },
+            {
+                label: 'pf-u-flex-shrink-1-on-md',
+            },
+            {
+                label: 'pf-u-flex-grow-1-on-md',
+            },
+            {
+                label: 'pf-u-flex-shrink-0-on-md',
+            },
+            {
+                label: 'pf-u-flex-grow-0-on-md',
+            },
+            {
+                label: 'pf-u-flex-shrink-1-on-lg',
+            },
+            {
+                label: 'pf-u-flex-grow-1-on-lg',
+            },
+            {
+                label: 'pf-u-flex-shrink-0-on-lg',
+            },
+            {
+                label: 'pf-u-flex-grow-0-on-lg',
+            },
+            {
+                label: 'pf-u-flex-shrink-1-on-xl',
+            },
+            {
+                label: 'pf-u-flex-grow-1-on-xl',
+            },
+            {
+                label: 'pf-u-flex-shrink-0-on-xl',
+            },
+            {
+                label: 'pf-u-flex-grow-0-on-xl',
+            },
+            {
+                label: 'pf-u-flex-shrink-1-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-grow-1-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-shrink-0-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-grow-0-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-basis-0',
+            },
+            {
+                label: 'pf-u-flex-basis-auto',
+            },
+            {
+                label: 'pf-u-flex-basis-0-on-sm',
+            },
+            {
+                label: 'pf-u-flex-basis-auto-on-sm',
+            },
+            {
+                label: 'pf-u-flex-basis-0-on-md',
+            },
+            {
+                label: 'pf-u-flex-basis-auto-on-md',
+            },
+            {
+                label: 'pf-u-flex-basis-0-on-lg',
+            },
+            {
+                label: 'pf-u-flex-basis-auto-on-lg',
+            },
+            {
+                label: 'pf-u-flex-basis-0-on-xl',
+            },
+            {
+                label: 'pf-u-flex-basis-auto-on-xl',
+            },
+            {
+                label: 'pf-u-flex-basis-0-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-basis-auto-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-none',
+            },
+            {
+                label: 'pf-u-flex-1',
+            },
+            {
+                label: 'pf-u-flex-none-on-sm',
+            },
+            {
+                label: 'pf-u-flex-1-on-sm',
+            },
+            {
+                label: 'pf-u-flex-none-on-md',
+            },
+            {
+                label: 'pf-u-flex-1-on-md',
+            },
+            {
+                label: 'pf-u-flex-none-on-lg',
+            },
+            {
+                label: 'pf-u-flex-1-on-lg',
+            },
+            {
+                label: 'pf-u-flex-none-on-xl',
+            },
+            {
+                label: 'pf-u-flex-1-on-xl',
+            },
+            {
+                label: 'pf-u-flex-none-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-1-on-2xl',
+            },
+            {
+                label: 'pf-u-flex-fill',
+            },
+            {
+                label: 'pf-u-flex-fill-on-sm',
+            },
+            {
+                label: 'pf-u-flex-fill-on-md',
+            },
+            {
+                label: 'pf-u-flex-fill-on-lg',
+            },
+            {
+                label: 'pf-u-flex-fill-on-xl',
+            },
+            {
+                label: 'pf-u-flex-fill-on-2xl',
             },
             {
                 label: 'pf-u-m-auto',
@@ -4517,1457 +5321,8 @@ export default {
             {
                 label: 'pf-u-py-4xl-on-2xl',
             },
-            {
-                label: 'pf-u-background-color-100',
-            },
-            {
-                label: 'pf-u-background-color-200',
-            },
-            {
-                label: 'pf-u-background-color-active-color-100',
-            },
-            {
-                label: 'pf-u-background-color-active-color-300',
-            },
-            {
-                label: 'pf-u-background-color-primary-color-200',
-            },
-            {
-                label: 'pf-u-background-color-dark-100',
-            },
-            {
-                label: 'pf-u-background-color-dark-200',
-            },
-            {
-                label: 'pf-u-background-color-dark-300',
-            },
-            {
-                label: 'pf-u-background-color-dark-400',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-200',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-300',
-            },
-            {
-                label: 'pf-u-background-color-default',
-            },
-            {
-                label: 'pf-u-background-color-success',
-            },
-            {
-                label: 'pf-u-background-color-info',
-            },
-            {
-                label: 'pf-u-background-color-warning',
-            },
-            {
-                label: 'pf-u-background-color-danger',
-            },
-            {
-                label: 'pf-u-background-color-100-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-200-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-active-color-100-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-active-color-300-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-primary-color-200-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-dark-100-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-dark-200-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-dark-300-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-dark-400-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-200-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-300-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-default-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-success-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-info-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-100-on-md',
-            },
-            {
-                label: 'pf-u-background-color-200-on-md',
-            },
-            {
-                label: 'pf-u-background-color-active-color-100-on-md',
-            },
-            {
-                label: 'pf-u-background-color-active-color-300-on-md',
-            },
-            {
-                label: 'pf-u-background-color-primary-color-200-on-md',
-            },
-            {
-                label: 'pf-u-background-color-dark-100-on-md',
-            },
-            {
-                label: 'pf-u-background-color-dark-200-on-md',
-            },
-            {
-                label: 'pf-u-background-color-dark-300-on-md',
-            },
-            {
-                label: 'pf-u-background-color-dark-400-on-md',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-200-on-md',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-300-on-md',
-            },
-            {
-                label: 'pf-u-background-color-default-on-md',
-            },
-            {
-                label: 'pf-u-background-color-success-on-md',
-            },
-            {
-                label: 'pf-u-background-color-info-on-md',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-md',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-md',
-            },
-            {
-                label: 'pf-u-background-color-100-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-200-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-active-color-100-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-active-color-300-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-primary-color-200-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-dark-100-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-dark-200-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-dark-300-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-dark-400-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-200-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-300-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-default-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-success-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-info-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-100-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-200-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-active-color-100-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-active-color-300-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-primary-color-200-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-dark-100-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-dark-200-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-dark-300-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-dark-400-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-200-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-300-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-default-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-success-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-info-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-100-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-200-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-active-color-100-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-active-color-300-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-primary-color-200-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-dark-100-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-dark-200-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-dark-300-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-dark-400-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-200-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-disabled-color-300-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-default-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-success-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-info-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-default',
-            },
-            {
-                label: 'pf-u-background-color-success',
-            },
-            {
-                label: 'pf-u-background-color-info',
-            },
-            {
-                label: 'pf-u-background-color-warning',
-            },
-            {
-                label: 'pf-u-background-color-danger',
-            },
-            {
-                label: 'pf-u-background-color-default-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-success-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-info-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-sm',
-            },
-            {
-                label: 'pf-u-background-color-default-on-md',
-            },
-            {
-                label: 'pf-u-background-color-success-on-md',
-            },
-            {
-                label: 'pf-u-background-color-info-on-md',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-md',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-md',
-            },
-            {
-                label: 'pf-u-background-color-default-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-success-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-info-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-lg',
-            },
-            {
-                label: 'pf-u-background-color-default-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-success-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-info-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-xl',
-            },
-            {
-                label: 'pf-u-background-color-default-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-success-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-info-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-warning-on-2xl',
-            },
-            {
-                label: 'pf-u-background-color-danger-on-2xl',
-            },
-            {
-                label: 'pf-u-text-align-left',
-            },
-            {
-                label: 'pf-u-text-align-center',
-            },
-            {
-                label: 'pf-u-text-align-right',
-            },
-            {
-                label: 'pf-u-text-align-justify',
-            },
-            {
-                label: 'pf-u-text-align-left-on-sm',
-            },
-            {
-                label: 'pf-u-text-align-center-on-sm',
-            },
-            {
-                label: 'pf-u-text-align-right-on-sm',
-            },
-            {
-                label: 'pf-u-text-align-justify-on-sm',
-            },
-            {
-                label: 'pf-u-text-align-left-on-md',
-            },
-            {
-                label: 'pf-u-text-align-center-on-md',
-            },
-            {
-                label: 'pf-u-text-align-right-on-md',
-            },
-            {
-                label: 'pf-u-text-align-justify-on-md',
-            },
-            {
-                label: 'pf-u-text-align-left-on-lg',
-            },
-            {
-                label: 'pf-u-text-align-center-on-lg',
-            },
-            {
-                label: 'pf-u-text-align-right-on-lg',
-            },
-            {
-                label: 'pf-u-text-align-justify-on-lg',
-            },
-            {
-                label: 'pf-u-text-align-left-on-xl',
-            },
-            {
-                label: 'pf-u-text-align-center-on-xl',
-            },
-            {
-                label: 'pf-u-text-align-right-on-xl',
-            },
-            {
-                label: 'pf-u-text-align-justify-on-xl',
-            },
-            {
-                label: 'pf-u-text-align-left-on-2xl',
-            },
-            {
-                label: 'pf-u-text-align-center-on-2xl',
-            },
-            {
-                label: 'pf-u-text-align-right-on-2xl',
-            },
-            {
-                label: 'pf-u-text-align-justify-on-2xl',
-            },
-            {
-                label: 'pf-u-w-auto',
-            },
-            {
-                label: 'pf-u-w-initial',
-            },
-            {
-                label: 'pf-u-w-inherit',
-            },
-            {
-                label: 'pf-u-w-0',
-            },
-            {
-                label: 'pf-u-w-25',
-            },
-            {
-                label: 'pf-u-w-33',
-            },
-            {
-                label: 'pf-u-w-50',
-            },
-            {
-                label: 'pf-u-w-66',
-            },
-            {
-                label: 'pf-u-w-75',
-            },
-            {
-                label: 'pf-u-w-100',
-            },
-            {
-                label: 'pf-u-w-25vw',
-            },
-            {
-                label: 'pf-u-w-33vw',
-            },
-            {
-                label: 'pf-u-w-50vw',
-            },
-            {
-                label: 'pf-u-w-66vw',
-            },
-            {
-                label: 'pf-u-w-75vw',
-            },
-            {
-                label: 'pf-u-w-100vw',
-            },
-            {
-                label: 'pf-u-w-auto-on-sm',
-            },
-            {
-                label: 'pf-u-w-initial-on-sm',
-            },
-            {
-                label: 'pf-u-w-inherit-on-sm',
-            },
-            {
-                label: 'pf-u-w-0-on-sm',
-            },
-            {
-                label: 'pf-u-w-25-on-sm',
-            },
-            {
-                label: 'pf-u-w-33-on-sm',
-            },
-            {
-                label: 'pf-u-w-50-on-sm',
-            },
-            {
-                label: 'pf-u-w-66-on-sm',
-            },
-            {
-                label: 'pf-u-w-75-on-sm',
-            },
-            {
-                label: 'pf-u-w-100-on-sm',
-            },
-            {
-                label: 'pf-u-w-25vw-on-sm',
-            },
-            {
-                label: 'pf-u-w-33vw-on-sm',
-            },
-            {
-                label: 'pf-u-w-50vw-on-sm',
-            },
-            {
-                label: 'pf-u-w-66vw-on-sm',
-            },
-            {
-                label: 'pf-u-w-75vw-on-sm',
-            },
-            {
-                label: 'pf-u-w-100vw-on-sm',
-            },
-            {
-                label: 'pf-u-w-auto-on-md',
-            },
-            {
-                label: 'pf-u-w-initial-on-md',
-            },
-            {
-                label: 'pf-u-w-inherit-on-md',
-            },
-            {
-                label: 'pf-u-w-0-on-md',
-            },
-            {
-                label: 'pf-u-w-25-on-md',
-            },
-            {
-                label: 'pf-u-w-33-on-md',
-            },
-            {
-                label: 'pf-u-w-50-on-md',
-            },
-            {
-                label: 'pf-u-w-66-on-md',
-            },
-            {
-                label: 'pf-u-w-75-on-md',
-            },
-            {
-                label: 'pf-u-w-100-on-md',
-            },
-            {
-                label: 'pf-u-w-25vw-on-md',
-            },
-            {
-                label: 'pf-u-w-33vw-on-md',
-            },
-            {
-                label: 'pf-u-w-50vw-on-md',
-            },
-            {
-                label: 'pf-u-w-66vw-on-md',
-            },
-            {
-                label: 'pf-u-w-75vw-on-md',
-            },
-            {
-                label: 'pf-u-w-100vw-on-md',
-            },
-            {
-                label: 'pf-u-w-auto-on-lg',
-            },
-            {
-                label: 'pf-u-w-initial-on-lg',
-            },
-            {
-                label: 'pf-u-w-inherit-on-lg',
-            },
-            {
-                label: 'pf-u-w-0-on-lg',
-            },
-            {
-                label: 'pf-u-w-25-on-lg',
-            },
-            {
-                label: 'pf-u-w-33-on-lg',
-            },
-            {
-                label: 'pf-u-w-50-on-lg',
-            },
-            {
-                label: 'pf-u-w-66-on-lg',
-            },
-            {
-                label: 'pf-u-w-75-on-lg',
-            },
-            {
-                label: 'pf-u-w-100-on-lg',
-            },
-            {
-                label: 'pf-u-w-25vw-on-lg',
-            },
-            {
-                label: 'pf-u-w-33vw-on-lg',
-            },
-            {
-                label: 'pf-u-w-50vw-on-lg',
-            },
-            {
-                label: 'pf-u-w-66vw-on-lg',
-            },
-            {
-                label: 'pf-u-w-75vw-on-lg',
-            },
-            {
-                label: 'pf-u-w-100vw-on-lg',
-            },
-            {
-                label: 'pf-u-w-auto-on-xl',
-            },
-            {
-                label: 'pf-u-w-initial-on-xl',
-            },
-            {
-                label: 'pf-u-w-inherit-on-xl',
-            },
-            {
-                label: 'pf-u-w-0-on-xl',
-            },
-            {
-                label: 'pf-u-w-25-on-xl',
-            },
-            {
-                label: 'pf-u-w-33-on-xl',
-            },
-            {
-                label: 'pf-u-w-50-on-xl',
-            },
-            {
-                label: 'pf-u-w-66-on-xl',
-            },
-            {
-                label: 'pf-u-w-75-on-xl',
-            },
-            {
-                label: 'pf-u-w-100-on-xl',
-            },
-            {
-                label: 'pf-u-w-25vw-on-xl',
-            },
-            {
-                label: 'pf-u-w-33vw-on-xl',
-            },
-            {
-                label: 'pf-u-w-50vw-on-xl',
-            },
-            {
-                label: 'pf-u-w-66vw-on-xl',
-            },
-            {
-                label: 'pf-u-w-75vw-on-xl',
-            },
-            {
-                label: 'pf-u-w-100vw-on-xl',
-            },
-            {
-                label: 'pf-u-w-auto-on-2xl',
-            },
-            {
-                label: 'pf-u-w-initial-on-2xl',
-            },
-            {
-                label: 'pf-u-w-inherit-on-2xl',
-            },
-            {
-                label: 'pf-u-w-0-on-2xl',
-            },
-            {
-                label: 'pf-u-w-25-on-2xl',
-            },
-            {
-                label: 'pf-u-w-33-on-2xl',
-            },
-            {
-                label: 'pf-u-w-50-on-2xl',
-            },
-            {
-                label: 'pf-u-w-66-on-2xl',
-            },
-            {
-                label: 'pf-u-w-75-on-2xl',
-            },
-            {
-                label: 'pf-u-w-100-on-2xl',
-            },
-            {
-                label: 'pf-u-w-25vw-on-2xl',
-            },
-            {
-                label: 'pf-u-w-33vw-on-2xl',
-            },
-            {
-                label: 'pf-u-w-50vw-on-2xl',
-            },
-            {
-                label: 'pf-u-w-66vw-on-2xl',
-            },
-            {
-                label: 'pf-u-w-75vw-on-2xl',
-            },
-            {
-                label: 'pf-u-w-100vw-on-2xl',
-            },
-            {
-                label: 'pf-u-h-auto',
-            },
-            {
-                label: 'pf-u-h-initial',
-            },
-            {
-                label: 'pf-u-h-inherit',
-            },
-            {
-                label: 'pf-u-h-0',
-            },
-            {
-                label: 'pf-u-h-25',
-            },
-            {
-                label: 'pf-u-h-33',
-            },
-            {
-                label: 'pf-u-h-50',
-            },
-            {
-                label: 'pf-u-h-66',
-            },
-            {
-                label: 'pf-u-h-75',
-            },
-            {
-                label: 'pf-u-h-100',
-            },
-            {
-                label: 'pf-u-h-25vh',
-            },
-            {
-                label: 'pf-u-h-33vh',
-            },
-            {
-                label: 'pf-u-h-50vh',
-            },
-            {
-                label: 'pf-u-h-66vh',
-            },
-            {
-                label: 'pf-u-h-75vh',
-            },
-            {
-                label: 'pf-u-h-100vh',
-            },
-            {
-                label: 'pf-u-h-auto-on-sm',
-            },
-            {
-                label: 'pf-u-h-initial-on-sm',
-            },
-            {
-                label: 'pf-u-h-inherit-on-sm',
-            },
-            {
-                label: 'pf-u-h-0-on-sm',
-            },
-            {
-                label: 'pf-u-h-25-on-sm',
-            },
-            {
-                label: 'pf-u-h-33-on-sm',
-            },
-            {
-                label: 'pf-u-h-50-on-sm',
-            },
-            {
-                label: 'pf-u-h-66-on-sm',
-            },
-            {
-                label: 'pf-u-h-75-on-sm',
-            },
-            {
-                label: 'pf-u-h-100-on-sm',
-            },
-            {
-                label: 'pf-u-h-25vh-on-sm',
-            },
-            {
-                label: 'pf-u-h-33vh-on-sm',
-            },
-            {
-                label: 'pf-u-h-50vh-on-sm',
-            },
-            {
-                label: 'pf-u-h-66vh-on-sm',
-            },
-            {
-                label: 'pf-u-h-75vh-on-sm',
-            },
-            {
-                label: 'pf-u-h-100vh-on-sm',
-            },
-            {
-                label: 'pf-u-h-auto-on-md',
-            },
-            {
-                label: 'pf-u-h-initial-on-md',
-            },
-            {
-                label: 'pf-u-h-inherit-on-md',
-            },
-            {
-                label: 'pf-u-h-0-on-md',
-            },
-            {
-                label: 'pf-u-h-25-on-md',
-            },
-            {
-                label: 'pf-u-h-33-on-md',
-            },
-            {
-                label: 'pf-u-h-50-on-md',
-            },
-            {
-                label: 'pf-u-h-66-on-md',
-            },
-            {
-                label: 'pf-u-h-75-on-md',
-            },
-            {
-                label: 'pf-u-h-100-on-md',
-            },
-            {
-                label: 'pf-u-h-25vh-on-md',
-            },
-            {
-                label: 'pf-u-h-33vh-on-md',
-            },
-            {
-                label: 'pf-u-h-50vh-on-md',
-            },
-            {
-                label: 'pf-u-h-66vh-on-md',
-            },
-            {
-                label: 'pf-u-h-75vh-on-md',
-            },
-            {
-                label: 'pf-u-h-100vh-on-md',
-            },
-            {
-                label: 'pf-u-h-auto-on-lg',
-            },
-            {
-                label: 'pf-u-h-initial-on-lg',
-            },
-            {
-                label: 'pf-u-h-inherit-on-lg',
-            },
-            {
-                label: 'pf-u-h-0-on-lg',
-            },
-            {
-                label: 'pf-u-h-25-on-lg',
-            },
-            {
-                label: 'pf-u-h-33-on-lg',
-            },
-            {
-                label: 'pf-u-h-50-on-lg',
-            },
-            {
-                label: 'pf-u-h-66-on-lg',
-            },
-            {
-                label: 'pf-u-h-75-on-lg',
-            },
-            {
-                label: 'pf-u-h-100-on-lg',
-            },
-            {
-                label: 'pf-u-h-25vh-on-lg',
-            },
-            {
-                label: 'pf-u-h-33vh-on-lg',
-            },
-            {
-                label: 'pf-u-h-50vh-on-lg',
-            },
-            {
-                label: 'pf-u-h-66vh-on-lg',
-            },
-            {
-                label: 'pf-u-h-75vh-on-lg',
-            },
-            {
-                label: 'pf-u-h-100vh-on-lg',
-            },
-            {
-                label: 'pf-u-h-auto-on-xl',
-            },
-            {
-                label: 'pf-u-h-initial-on-xl',
-            },
-            {
-                label: 'pf-u-h-inherit-on-xl',
-            },
-            {
-                label: 'pf-u-h-0-on-xl',
-            },
-            {
-                label: 'pf-u-h-25-on-xl',
-            },
-            {
-                label: 'pf-u-h-33-on-xl',
-            },
-            {
-                label: 'pf-u-h-50-on-xl',
-            },
-            {
-                label: 'pf-u-h-66-on-xl',
-            },
-            {
-                label: 'pf-u-h-75-on-xl',
-            },
-            {
-                label: 'pf-u-h-100-on-xl',
-            },
-            {
-                label: 'pf-u-h-25vh-on-xl',
-            },
-            {
-                label: 'pf-u-h-33vh-on-xl',
-            },
-            {
-                label: 'pf-u-h-50vh-on-xl',
-            },
-            {
-                label: 'pf-u-h-66vh-on-xl',
-            },
-            {
-                label: 'pf-u-h-75vh-on-xl',
-            },
-            {
-                label: 'pf-u-h-100vh-on-xl',
-            },
-            {
-                label: 'pf-u-h-auto-on-2xl',
-            },
-            {
-                label: 'pf-u-h-initial-on-2xl',
-            },
-            {
-                label: 'pf-u-h-inherit-on-2xl',
-            },
-            {
-                label: 'pf-u-h-0-on-2xl',
-            },
-            {
-                label: 'pf-u-h-25-on-2xl',
-            },
-            {
-                label: 'pf-u-h-33-on-2xl',
-            },
-            {
-                label: 'pf-u-h-50-on-2xl',
-            },
-            {
-                label: 'pf-u-h-66-on-2xl',
-            },
-            {
-                label: 'pf-u-h-75-on-2xl',
-            },
-            {
-                label: 'pf-u-h-100-on-2xl',
-            },
-            {
-                label: 'pf-u-h-25vh-on-2xl',
-            },
-            {
-                label: 'pf-u-h-33vh-on-2xl',
-            },
-            {
-                label: 'pf-u-h-50vh-on-2xl',
-            },
-            {
-                label: 'pf-u-h-66vh-on-2xl',
-            },
-            {
-                label: 'pf-u-h-75vh-on-2xl',
-            },
-            {
-                label: 'pf-u-h-100vh-on-2xl',
-            },
-            {
-                label: 'pf-u-min-width',
-            },
-            {
-                label: 'pf-u-min-width',
-            },
-            {
-                label: 'pf-u-min-width',
-            },
-            {
-                label: 'pf-u-min-width',
-            },
-            {
-                label: 'pf-u-min-width',
-            },
-            {
-                label: 'pf-u-min-width',
-            },
-            {
-                label: 'pf-u-max-width',
-            },
-            {
-                label: 'pf-u-max-width',
-            },
-            {
-                label: 'pf-u-max-width',
-            },
-            {
-                label: 'pf-u-max-width',
-            },
-            {
-                label: 'pf-u-max-width',
-            },
-            {
-                label: 'pf-u-max-width',
-            },
-            {
-                label: 'pf-u-min-height',
-            },
-            {
-                label: 'pf-u-min-height',
-            },
-            {
-                label: 'pf-u-min-height',
-            },
-            {
-                label: 'pf-u-min-height',
-            },
-            {
-                label: 'pf-u-min-height',
-            },
-            {
-                label: 'pf-u-min-height',
-            },
-            {
-                label: 'pf-u-max-height',
-            },
-            {
-                label: 'pf-u-max-height',
-            },
-            {
-                label: 'pf-u-max-height',
-            },
-            {
-                label: 'pf-u-max-height',
-            },
-            {
-                label: 'pf-u-max-height',
-            },
-            {
-                label: 'pf-u-max-height',
-            },
         ],
         v5: [
-            {
-                label: 'pf-v5-u-display-none',
-            },
-            {
-                label: 'pf-v5-u-display-inline-block',
-            },
-            {
-                label: 'pf-v5-u-display-block',
-            },
-            {
-                label: 'pf-v5-u-display-inline',
-            },
-            {
-                label: 'pf-v5-u-display-table',
-            },
-            {
-                label: 'pf-v5-u-display-table-cell',
-            },
-            {
-                label: 'pf-v5-u-display-table-row',
-            },
-            {
-                label: 'pf-v5-u-display-flex',
-            },
-            {
-                label: 'pf-v5-u-display-inline-flex',
-            },
-            {
-                label: 'pf-v5-u-display-none-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-inline-block-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-block-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-inline-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-table-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-table-cell-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-table-row-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-flex-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-inline-flex-on-sm',
-            },
-            {
-                label: 'pf-v5-u-display-none-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-inline-block-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-block-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-inline-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-table-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-table-cell-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-table-row-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-flex-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-inline-flex-on-md',
-            },
-            {
-                label: 'pf-v5-u-display-none-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-inline-block-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-block-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-inline-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-table-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-table-cell-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-table-row-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-flex-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-inline-flex-on-lg',
-            },
-            {
-                label: 'pf-v5-u-display-none-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-inline-block-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-block-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-inline-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-table-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-table-cell-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-table-row-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-flex-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-inline-flex-on-xl',
-            },
-            {
-                label: 'pf-v5-u-display-none-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-display-inline-block-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-display-block-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-display-inline-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-display-table-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-display-table-cell-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-display-table-row-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-display-flex-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-display-inline-flex-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-text-align-left',
-            },
-            {
-                label: 'pf-v5-u-text-align-center',
-            },
-            {
-                label: 'pf-v5-u-text-align-right',
-            },
-            {
-                label: 'pf-v5-u-text-align-justify',
-            },
-            {
-                label: 'pf-v5-u-text-align-left-on-sm',
-            },
-            {
-                label: 'pf-v5-u-text-align-center-on-sm',
-            },
-            {
-                label: 'pf-v5-u-text-align-right-on-sm',
-            },
-            {
-                label: 'pf-v5-u-text-align-justify-on-sm',
-            },
-            {
-                label: 'pf-v5-u-text-align-left-on-md',
-            },
-            {
-                label: 'pf-v5-u-text-align-center-on-md',
-            },
-            {
-                label: 'pf-v5-u-text-align-right-on-md',
-            },
-            {
-                label: 'pf-v5-u-text-align-justify-on-md',
-            },
-            {
-                label: 'pf-v5-u-text-align-left-on-lg',
-            },
-            {
-                label: 'pf-v5-u-text-align-center-on-lg',
-            },
-            {
-                label: 'pf-v5-u-text-align-right-on-lg',
-            },
-            {
-                label: 'pf-v5-u-text-align-justify-on-lg',
-            },
-            {
-                label: 'pf-v5-u-text-align-left-on-xl',
-            },
-            {
-                label: 'pf-v5-u-text-align-center-on-xl',
-            },
-            {
-                label: 'pf-v5-u-text-align-right-on-xl',
-            },
-            {
-                label: 'pf-v5-u-text-align-justify-on-xl',
-            },
-            {
-                label: 'pf-v5-u-text-align-left-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-text-align-center-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-text-align-right-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-text-align-justify-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-sm',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-sm-top',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-sm-right',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-sm-bottom',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-sm-left',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-md',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-md-top',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-md-right',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-md-bottom',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-md-left',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-lg',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-lg-top',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-lg-right',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-lg-bottom',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-lg-left',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-xl',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-xl-top',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-xl-right',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-xl-bottom',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-xl-left',
-            },
-            {
-                label: 'pf-v5-u-box-shadow-inset',
-            },
-            {
-                label: 'pf-v5-u-screen-reader',
-            },
-            {
-                label: 'pf-v5-u-visible',
-            },
-            {
-                label: 'pf-v5-u-hidden',
-            },
-            {
-                label: 'pf-v5-u-screen-reader-on-sm',
-            },
-            {
-                label: 'pf-v5-u-visible-on-sm',
-            },
-            {
-                label: 'pf-v5-u-hidden-on-sm',
-            },
-            {
-                label: 'pf-v5-u-screen-reader-on-md',
-            },
-            {
-                label: 'pf-v5-u-visible-on-md',
-            },
-            {
-                label: 'pf-v5-u-hidden-on-md',
-            },
-            {
-                label: 'pf-v5-u-screen-reader-on-lg',
-            },
-            {
-                label: 'pf-v5-u-visible-on-lg',
-            },
-            {
-                label: 'pf-v5-u-hidden-on-lg',
-            },
-            {
-                label: 'pf-v5-u-screen-reader-on-xl',
-            },
-            {
-                label: 'pf-v5-u-visible-on-xl',
-            },
-            {
-                label: 'pf-v5-u-hidden-on-xl',
-            },
-            {
-                label: 'pf-v5-u-screen-reader-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-visible-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-hidden-on-2xl',
-            },
             {
                 label: 'pf-v5-u-flex-direction-column',
             },
@@ -6651,6 +6006,222 @@ export default {
             },
             {
                 label: 'pf-v5-u-flex-fill-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-screen-reader',
+            },
+            {
+                label: 'pf-v5-u-visible',
+            },
+            {
+                label: 'pf-v5-u-hidden',
+            },
+            {
+                label: 'pf-v5-u-screen-reader-on-sm',
+            },
+            {
+                label: 'pf-v5-u-visible-on-sm',
+            },
+            {
+                label: 'pf-v5-u-hidden-on-sm',
+            },
+            {
+                label: 'pf-v5-u-screen-reader-on-md',
+            },
+            {
+                label: 'pf-v5-u-visible-on-md',
+            },
+            {
+                label: 'pf-v5-u-hidden-on-md',
+            },
+            {
+                label: 'pf-v5-u-screen-reader-on-lg',
+            },
+            {
+                label: 'pf-v5-u-visible-on-lg',
+            },
+            {
+                label: 'pf-v5-u-hidden-on-lg',
+            },
+            {
+                label: 'pf-v5-u-screen-reader-on-xl',
+            },
+            {
+                label: 'pf-v5-u-visible-on-xl',
+            },
+            {
+                label: 'pf-v5-u-hidden-on-xl',
+            },
+            {
+                label: 'pf-v5-u-screen-reader-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-visible-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-hidden-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-none',
+            },
+            {
+                label: 'pf-v5-u-display-inline-block',
+            },
+            {
+                label: 'pf-v5-u-display-block',
+            },
+            {
+                label: 'pf-v5-u-display-inline',
+            },
+            {
+                label: 'pf-v5-u-display-table',
+            },
+            {
+                label: 'pf-v5-u-display-table-cell',
+            },
+            {
+                label: 'pf-v5-u-display-table-row',
+            },
+            {
+                label: 'pf-v5-u-display-flex',
+            },
+            {
+                label: 'pf-v5-u-display-inline-flex',
+            },
+            {
+                label: 'pf-v5-u-display-none-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-inline-block-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-block-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-inline-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-table-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-table-cell-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-table-row-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-flex-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-inline-flex-on-sm',
+            },
+            {
+                label: 'pf-v5-u-display-none-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-inline-block-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-block-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-inline-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-table-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-table-cell-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-table-row-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-flex-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-inline-flex-on-md',
+            },
+            {
+                label: 'pf-v5-u-display-none-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-inline-block-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-block-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-inline-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-table-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-table-cell-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-table-row-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-flex-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-inline-flex-on-lg',
+            },
+            {
+                label: 'pf-v5-u-display-none-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-inline-block-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-block-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-inline-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-table-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-table-cell-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-table-row-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-flex-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-inline-flex-on-xl',
+            },
+            {
+                label: 'pf-v5-u-display-none-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-inline-block-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-block-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-inline-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-table-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-table-cell-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-table-row-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-flex-on-2xl',
+            },
+            {
+                label: 'pf-v5-u-display-inline-flex-on-2xl',
             },
             {
                 label: 'pf-v5-u-font-family-text',
@@ -7484,148 +7055,76 @@ export default {
                 label: 'pf-v5-u-text-truncate',
             },
             {
-                label: 'pf-v5-u-color-300',
+                label: 'pf-v5-u-text-align-left',
             },
             {
-                label: 'pf-v5-u-color-light-100',
+                label: 'pf-v5-u-text-align-center',
             },
             {
-                label: 'pf-v5-u-color-light-200',
+                label: 'pf-v5-u-text-align-right',
             },
             {
-                label: 'pf-v5-u-custom-color-300',
+                label: 'pf-v5-u-text-align-justify',
             },
             {
-                label: 'pf-v5-u-success-color-200',
+                label: 'pf-v5-u-text-align-left-on-sm',
             },
             {
-                label: 'pf-v5-u-info-color-200',
+                label: 'pf-v5-u-text-align-center-on-sm',
             },
             {
-                label: 'pf-v5-u-danger-color-300',
+                label: 'pf-v5-u-text-align-right-on-sm',
             },
             {
-                label: 'pf-v5-u-icon-color-dark',
+                label: 'pf-v5-u-text-align-justify-on-sm',
             },
             {
-                label: 'pf-v5-u-color-300-on-sm',
+                label: 'pf-v5-u-text-align-left-on-md',
             },
             {
-                label: 'pf-v5-u-color-light-100-on-sm',
+                label: 'pf-v5-u-text-align-center-on-md',
             },
             {
-                label: 'pf-v5-u-color-light-200-on-sm',
+                label: 'pf-v5-u-text-align-right-on-md',
             },
             {
-                label: 'pf-v5-u-custom-color-300-on-sm',
+                label: 'pf-v5-u-text-align-justify-on-md',
             },
             {
-                label: 'pf-v5-u-success-color-200-on-sm',
+                label: 'pf-v5-u-text-align-left-on-lg',
             },
             {
-                label: 'pf-v5-u-info-color-200-on-sm',
+                label: 'pf-v5-u-text-align-center-on-lg',
             },
             {
-                label: 'pf-v5-u-danger-color-300-on-sm',
+                label: 'pf-v5-u-text-align-right-on-lg',
             },
             {
-                label: 'pf-v5-u-icon-color-dark-on-sm',
+                label: 'pf-v5-u-text-align-justify-on-lg',
             },
             {
-                label: 'pf-v5-u-color-300-on-md',
+                label: 'pf-v5-u-text-align-left-on-xl',
             },
             {
-                label: 'pf-v5-u-color-light-100-on-md',
+                label: 'pf-v5-u-text-align-center-on-xl',
             },
             {
-                label: 'pf-v5-u-color-light-200-on-md',
+                label: 'pf-v5-u-text-align-right-on-xl',
             },
             {
-                label: 'pf-v5-u-custom-color-300-on-md',
+                label: 'pf-v5-u-text-align-justify-on-xl',
             },
             {
-                label: 'pf-v5-u-success-color-200-on-md',
+                label: 'pf-v5-u-text-align-left-on-2xl',
             },
             {
-                label: 'pf-v5-u-info-color-200-on-md',
+                label: 'pf-v5-u-text-align-center-on-2xl',
             },
             {
-                label: 'pf-v5-u-danger-color-300-on-md',
+                label: 'pf-v5-u-text-align-right-on-2xl',
             },
             {
-                label: 'pf-v5-u-icon-color-dark-on-md',
-            },
-            {
-                label: 'pf-v5-u-color-300-on-lg',
-            },
-            {
-                label: 'pf-v5-u-color-light-100-on-lg',
-            },
-            {
-                label: 'pf-v5-u-color-light-200-on-lg',
-            },
-            {
-                label: 'pf-v5-u-custom-color-300-on-lg',
-            },
-            {
-                label: 'pf-v5-u-success-color-200-on-lg',
-            },
-            {
-                label: 'pf-v5-u-info-color-200-on-lg',
-            },
-            {
-                label: 'pf-v5-u-danger-color-300-on-lg',
-            },
-            {
-                label: 'pf-v5-u-icon-color-dark-on-lg',
-            },
-            {
-                label: 'pf-v5-u-color-300-on-xl',
-            },
-            {
-                label: 'pf-v5-u-color-light-100-on-xl',
-            },
-            {
-                label: 'pf-v5-u-color-light-200-on-xl',
-            },
-            {
-                label: 'pf-v5-u-custom-color-300-on-xl',
-            },
-            {
-                label: 'pf-v5-u-success-color-200-on-xl',
-            },
-            {
-                label: 'pf-v5-u-info-color-200-on-xl',
-            },
-            {
-                label: 'pf-v5-u-danger-color-300-on-xl',
-            },
-            {
-                label: 'pf-v5-u-icon-color-dark-on-xl',
-            },
-            {
-                label: 'pf-v5-u-color-300-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-color-light-100-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-color-light-200-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-custom-color-300-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-success-color-200-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-info-color-200-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-danger-color-300-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-icon-color-dark-on-2xl',
+                label: 'pf-v5-u-text-align-justify-on-2xl',
             },
             {
                 label: 'pf-v5-u-m-auto',
@@ -10472,96 +9971,6 @@ export default {
                 label: 'pf-v5-u-background-color-danger-on-2xl',
             },
             {
-                label: 'pf-v5-u-background-color-default',
-            },
-            {
-                label: 'pf-v5-u-background-color-success',
-            },
-            {
-                label: 'pf-v5-u-background-color-info',
-            },
-            {
-                label: 'pf-v5-u-background-color-warning',
-            },
-            {
-                label: 'pf-v5-u-background-color-danger',
-            },
-            {
-                label: 'pf-v5-u-background-color-default-on-sm',
-            },
-            {
-                label: 'pf-v5-u-background-color-success-on-sm',
-            },
-            {
-                label: 'pf-v5-u-background-color-info-on-sm',
-            },
-            {
-                label: 'pf-v5-u-background-color-warning-on-sm',
-            },
-            {
-                label: 'pf-v5-u-background-color-danger-on-sm',
-            },
-            {
-                label: 'pf-v5-u-background-color-default-on-md',
-            },
-            {
-                label: 'pf-v5-u-background-color-success-on-md',
-            },
-            {
-                label: 'pf-v5-u-background-color-info-on-md',
-            },
-            {
-                label: 'pf-v5-u-background-color-warning-on-md',
-            },
-            {
-                label: 'pf-v5-u-background-color-danger-on-md',
-            },
-            {
-                label: 'pf-v5-u-background-color-default-on-lg',
-            },
-            {
-                label: 'pf-v5-u-background-color-success-on-lg',
-            },
-            {
-                label: 'pf-v5-u-background-color-info-on-lg',
-            },
-            {
-                label: 'pf-v5-u-background-color-warning-on-lg',
-            },
-            {
-                label: 'pf-v5-u-background-color-danger-on-lg',
-            },
-            {
-                label: 'pf-v5-u-background-color-default-on-xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-success-on-xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-info-on-xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-warning-on-xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-danger-on-xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-default-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-success-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-info-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-warning-on-2xl',
-            },
-            {
-                label: 'pf-v5-u-background-color-danger-on-2xl',
-            },
-            {
                 label: 'pf-v5-u-w-auto',
             },
             {
@@ -11141,52 +10550,7 @@ export default {
                 label: 'pf-v5-u-min-width',
             },
             {
-                label: 'pf-v5-u-min-width',
-            },
-            {
-                label: 'pf-v5-u-min-width',
-            },
-            {
-                label: 'pf-v5-u-min-width',
-            },
-            {
-                label: 'pf-v5-u-min-width',
-            },
-            {
-                label: 'pf-v5-u-min-width',
-            },
-            {
                 label: 'pf-v5-u-max-width',
-            },
-            {
-                label: 'pf-v5-u-max-width',
-            },
-            {
-                label: 'pf-v5-u-max-width',
-            },
-            {
-                label: 'pf-v5-u-max-width',
-            },
-            {
-                label: 'pf-v5-u-max-width',
-            },
-            {
-                label: 'pf-v5-u-max-width',
-            },
-            {
-                label: 'pf-v5-u-min-height',
-            },
-            {
-                label: 'pf-v5-u-min-height',
-            },
-            {
-                label: 'pf-v5-u-min-height',
-            },
-            {
-                label: 'pf-v5-u-min-height',
-            },
-            {
-                label: 'pf-v5-u-min-height',
             },
             {
                 label: 'pf-v5-u-min-height',
@@ -11195,19 +10559,67 @@ export default {
                 label: 'pf-v5-u-max-height',
             },
             {
-                label: 'pf-v5-u-max-height',
+                label: 'pf-v5-u-box-shadow-sm',
             },
             {
-                label: 'pf-v5-u-max-height',
+                label: 'pf-v5-u-box-shadow-sm-top',
             },
             {
-                label: 'pf-v5-u-max-height',
+                label: 'pf-v5-u-box-shadow-sm-right',
             },
             {
-                label: 'pf-v5-u-max-height',
+                label: 'pf-v5-u-box-shadow-sm-bottom',
             },
             {
-                label: 'pf-v5-u-max-height',
+                label: 'pf-v5-u-box-shadow-sm-left',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-md',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-md-top',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-md-right',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-md-bottom',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-md-left',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-lg',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-lg-top',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-lg-right',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-lg-bottom',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-lg-left',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-xl',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-xl-top',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-xl-right',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-xl-bottom',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-xl-left',
+            },
+            {
+                label: 'pf-v5-u-box-shadow-inset',
             },
         ],
     },
@@ -11240,34 +10652,6 @@ export default {
             {
                 label: '--pf-global--BackgroundColor--100',
                 detail: 'var(--pf-global--BackgroundColor--light-100)',
-            },
-            {
-                label: '--pf-global--Color--100',
-                detail: 'var(--pf-global--Color--light-100)',
-            },
-            {
-                label: '--pf-global--Color--200',
-                detail: 'var(--pf-global--Color--light-200)',
-            },
-            {
-                label: '--pf-global--BorderColor--100',
-                detail: 'var(--pf-global--BorderColor--light-100)',
-            },
-            {
-                label: '--pf-global--primary-color--100',
-                detail: 'var(--pf-global--primary-color--light-100)',
-            },
-            {
-                label: '--pf-global--link--Color',
-                detail: 'var(--pf-global--link--Color--light)',
-            },
-            {
-                label: '--pf-global--link--Color--hover',
-                detail: 'var(--pf-global--link--Color--light)',
-            },
-            {
-                label: '--pf-global--BackgroundColor--100',
-                detail: 'var(--pf-global--BackgroundColor--dark-100)',
             },
             {
                 label: '--pf-global--palette--black-100',
@@ -11752,10 +11136,6 @@ export default {
                 detail: '#fff',
             },
             {
-                label: '--pf-global--BackgroundColor--100',
-                detail: '#fff',
-            },
-            {
                 label: '--pf-global--BackgroundColor--150',
                 detail: '#fafafa',
                 kind: 15,
@@ -11814,18 +11194,6 @@ export default {
             {
                 label: '--pf-global--BackgroundColor--dark-transparent-200',
                 detail: 'rgba(3, 3, 3, 0.32)',
-            },
-            {
-                label: '--pf-global--Color--100',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-global--Color--200',
-                detail: '#6a6e73',
-                kind: 15,
-                documentation: '#6a6e73',
             },
             {
                 label: '--pf-global--Color--300',
@@ -11906,10 +11274,6 @@ export default {
                 detail: '#f0f0f0',
                 kind: 15,
                 documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-global--primary-color--100',
-                detail: '#06c',
             },
             {
                 label: '--pf-global--primary-color--200',
@@ -12210,16 +11574,6 @@ export default {
                 detail: '80rem',
             },
             {
-                label: '--pf-global--link--Color',
-                detail: '#06c',
-            },
-            {
-                label: '--pf-global--link--Color--hover',
-                detail: '#004080',
-                kind: 15,
-                documentation: '#004080',
-            },
-            {
                 label: '--pf-global--link--Color--light',
                 detail: '#2b9af3',
                 kind: 15,
@@ -12270,12 +11624,6 @@ export default {
             {
                 label: '--pf-global--BorderWidth--xl',
                 detail: '4px',
-            },
-            {
-                label: '--pf-global--BorderColor--100',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
             },
             {
                 label: '--pf-global--BorderColor--200',
@@ -12478,108 +11826,10 @@ export default {
                 detail: '44px',
             },
             {
-                label: '--pf-global--FontFamily--sans-serif',
-                detail: 'var(--pf-global--FontFamily--overpass--sans-serif)',
-            },
-            {
-                label: '--pf-global--FontFamily--heading--sans-serif',
-                detail: 'var(--pf-global--FontFamily--sans-serif)',
-            },
-            {
-                label: '--pf-global--FontFamily--monospace',
-                detail: 'var(--pf-global--FontFamily--overpass--monospace)',
-            },
-            {
-                label: '--pf-global--FontWeight--semi-bold',
-                detail: 'var(--pf-global--FontWeight--overpass--semi-bold)',
-            },
-            {
-                label: '--pf-global--FontWeight--bold',
-                detail: 'var(--pf-global--FontWeight--overpass--bold)',
-            },
-            {
-                label: '--pf-global--FontFamily--sans-serif',
-                detail: 'var(--pf-global--FontFamily--redhat-updated--sans-serif)',
-            },
-            {
-                label: '--pf-global--FontFamily--heading--sans-serif',
-                detail: 'var(--pf-global--FontFamily--redhat-updated--heading--sans-serif)',
-            },
-            {
-                label: '--pf-global--FontFamily--monospace',
-                detail: 'var(--pf-global--FontFamily--redhat--monospace)',
-            },
-            {
-                label: '--pf-global--FontFamily--sans-serif',
-                detail: 'var(--pf-global--FontFamily--redhatVF--sans-serif)',
-            },
-            {
-                label: '--pf-global--FontFamily--heading--sans-serif',
-                detail: 'var(--pf-global--FontFamily--redhatVF--heading--sans-serif)',
-            },
-            {
-                label: '--pf-global--FontFamily--monospace',
-                detail: 'var(--pf-global--FontFamily--redhatVF--monospace)',
-            },
-            {
                 label: '--pf-global--palette--black-50',
                 detail: '#e0e0e0',
                 kind: 15,
                 documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-global--palette--black-100',
-                detail: '#c6c7c8',
-                kind: 15,
-                documentation: '#c6c7c8',
-            },
-            {
-                label: '--pf-global--palette--black-200',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-global--palette--black-300',
-                detail: '#868789',
-                kind: 15,
-                documentation: '#868789',
-            },
-            {
-                label: '--pf-global--palette--black-400',
-                detail: '#57585a',
-                kind: 15,
-                documentation: '#57585a',
-            },
-            {
-                label: '--pf-global--palette--black-500',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-global--palette--black-600',
-                detail: '#36373a',
-                kind: 15,
-                documentation: '#36373a',
-            },
-            {
-                label: '--pf-global--palette--black-700',
-                detail: '#26292d',
-                kind: 15,
-                documentation: '#26292d',
-            },
-            {
-                label: '--pf-global--palette--black-800',
-                detail: '#1b1d21',
-                kind: 15,
-                documentation: '#1b1d21',
-            },
-            {
-                label: '--pf-global--palette--black-900',
-                detail: '#0f1214',
-                kind: 15,
-                documentation: '#0f1214',
             },
             {
                 label: '--pf-global--palette--red-9999',
@@ -12594,30 +11844,6 @@ export default {
                 documentation: '#ff7468',
             },
             {
-                label: '--pf-global--palette--blue-300',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-global--BackgroundColor--100',
-                detail: '#1b1d21',
-                kind: 15,
-                documentation: '#1b1d21',
-            },
-            {
-                label: '--pf-global--BackgroundColor--150',
-                detail: '#212427',
-                kind: 15,
-                documentation: '#212427',
-            },
-            {
-                label: '--pf-global--BackgroundColor--200',
-                detail: '#0f1214',
-                kind: 15,
-                documentation: '#0f1214',
-            },
-            {
                 label: '--pf-global--BackgroundColor--300',
                 detail: '#26292d',
                 kind: 15,
@@ -12630,348 +11856,14 @@ export default {
                 documentation: '#36373a',
             },
             {
-                label: '--pf-global--BorderColor--100',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-global--BorderColor--200',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-global--BorderColor--300',
-                detail: '#57585a',
-                kind: 15,
-                documentation: '#57585a',
-            },
-            {
                 label: '--pf-global--BorderColor--400',
                 detail: '#aaabac',
                 kind: 15,
                 documentation: '#aaabac',
             },
             {
-                label: '--pf-global--Color--100',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-global--Color--200',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-global--active-color--100',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-global--primary-color--100',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
                 label: '--pf-global--primary-color--300',
                 detail: '#06c',
-            },
-            {
-                label: '--pf-global--success-color--100',
-                detail: '#5ba352',
-                kind: 15,
-                documentation: '#5ba352',
-            },
-            {
-                label: '--pf-global--warning-color--100',
-                detail: '#f0ab00',
-                kind: 15,
-                documentation: '#f0ab00',
-            },
-            {
-                label: '--pf-global--warning-color--200',
-                detail: '#f4c145',
-                kind: 15,
-                documentation: '#f4c145',
-            },
-            {
-                label: '--pf-global--danger-color--100',
-                detail: '#fe5142',
-                kind: 15,
-                documentation: '#fe5142',
-            },
-            {
-                label: '--pf-global--danger-color--200',
-                detail: '#ff7468',
-                kind: 15,
-                documentation: '#ff7468',
-            },
-            {
-                label: '--pf-global--link--Color',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-global--link--Color--hover',
-                detail: '#73bcf7',
-                kind: 15,
-                documentation: '#73bcf7',
-            },
-            {
-                label: '--pf-global--link--Color--visited',
-                detail: '#a18fff',
-                kind: 15,
-                documentation: '#a18fff',
-            },
-            {
-                label: '--pf-global--disabled-color--100',
-                detail: '#57585a',
-                kind: 15,
-                documentation: '#57585a',
-            },
-            {
-                label: '--pf-global--disabled-color--200',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-global--disabled-color--300',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-global--icon--Color--light',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-global--icon--Color--dark',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-global--Color--dark-100',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-global--Color--dark-200',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-global--Color--light-100',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-global--Color--light-200',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-global--Color--light-300',
-                detail: '#3c3f42',
-                kind: 15,
-                documentation: '#3c3f42',
-            },
-            {
-                label: '--pf-global--BorderColor--dark-100',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-global--BorderColor--light-100',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-global--primary-color--light-100',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-global--primary-color--dark-100',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-global--link--Color--light',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-global--link--Color--light--hover',
-                detail: '#73bcf7',
-                kind: 15,
-                documentation: '#73bcf7',
-            },
-            {
-                label: '--pf-global--link--Color--dark',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-global--link--Color--dark--hover',
-                detail: '#73bcf7',
-                kind: 15,
-                documentation: '#73bcf7',
-            },
-            {
-                label: '--pf-global--BackgroundColor--light-100',
-                detail: '#1b1d21',
-                kind: 15,
-                documentation: '#1b1d21',
-            },
-            {
-                label: '--pf-global--BackgroundColor--light-200',
-                detail: '#0f1214',
-                kind: 15,
-                documentation: '#0f1214',
-            },
-            {
-                label: '--pf-global--BackgroundColor--light-300',
-                detail: '#26292d',
-                kind: 15,
-                documentation: '#26292d',
-            },
-            {
-                label: '--pf-global--BackgroundColor--dark-100',
-                detail: '#1b1d21',
-                kind: 15,
-                documentation: '#1b1d21',
-            },
-            {
-                label: '--pf-global--BackgroundColor--dark-200',
-                detail: '#0f1214',
-                kind: 15,
-                documentation: '#0f1214',
-            },
-            {
-                label: '--pf-global--BackgroundColor--dark-300',
-                detail: '#26292d',
-                kind: 15,
-                documentation: '#26292d',
-            },
-            {
-                label: '--pf-global--BackgroundColor--dark-400',
-                detail: '#36373a',
-                kind: 15,
-                documentation: '#36373a',
-            },
-            {
-                label: '--pf-global--BoxShadow--sm',
-                detail: '0 0.0625rem 0.125rem 0 rgba(3, 3, 3, 0.48), 0 0 0.125rem 0 rgba(3, 3, 3, 0.24)',
-            },
-            {
-                label: '--pf-global--BoxShadow--sm-top',
-                detail: '0 -0.125rem 0.25rem -0.0625rem rgba(3, 3, 3, 0.64)',
-            },
-            {
-                label: '--pf-global--BoxShadow--sm-right',
-                detail: '0.125rem 0 0.25rem -0.0625rem rgba(3, 3, 3, 0.64)',
-            },
-            {
-                label: '--pf-global--BoxShadow--sm-bottom',
-                detail: '0 0.125rem 0.25rem -0.0625rem rgba(3, 3, 3, 0.64)',
-            },
-            {
-                label: '--pf-global--BoxShadow--sm-left',
-                detail: '-0.125rem 0 0.25rem -0.0625rem rgba(3, 3, 3, 0.64)',
-            },
-            {
-                label: '--pf-global--BoxShadow--md',
-                detail: '0 0.25rem 0.5rem 0rem rgba(3, 3, 3, 0.48), 0 0 0.25rem 0 rgba(3, 3, 3, 0.24)',
-            },
-            {
-                label: '--pf-global--BoxShadow--md-top',
-                detail: '0 -0.5rem 0.5rem -0.375rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-global--BoxShadow--md-right',
-                detail: '0.5rem 0 0.5rem -0.375rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-global--BoxShadow--md-bottom',
-                detail: '0 0.5rem 0.5rem -0.375rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-global--BoxShadow--md-left',
-                detail: '-0.5rem 0 0.5rem -0.375rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-global--BoxShadow--lg',
-                detail: '0 0.5rem 1rem 0 rgba(3, 3, 3, 0.64), 0 0 0.375rem 0 rgba(3, 3, 3, 0.32)',
-            },
-            {
-                label: '--pf-global--BoxShadow--lg-top',
-                detail: '0 -0.75rem 0.75rem -0.5rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-global--BoxShadow--lg-right',
-                detail: '0.75rem 0 0.75rem -0.5rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-global--BoxShadow--lg-bottom',
-                detail: '0 0.75rem 0.75rem -0.5rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-global--BoxShadow--lg-left',
-                detail: '-0.75rem 0 0.75rem -0.5rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-global--BoxShadow--xl',
-                detail: '0 1rem 2rem 0 rgba(3, 3, 3, 0.64), 0 0 0.5rem 0 rgba(3, 3, 3, 0.4)',
-            },
-            {
-                label: '--pf-global--BoxShadow--xl-top',
-                detail: '0 -1rem 1rem -0.5rem rgba(3, 3, 3, 0.8)',
-            },
-            {
-                label: '--pf-global--BoxShadow--xl-right',
-                detail: '1rem 0 1rem -0.5rem rgba(3, 3, 3, 0.8)',
-            },
-            {
-                label: '--pf-global--BoxShadow--xl-bottom',
-                detail: '0 1rem 1rem -0.5rem rgba(3, 3, 3, 0.8)',
-            },
-            {
-                label: '--pf-global--BoxShadow--xl-left',
-                detail: '-1rem 0 1rem -0.5rem rgba(3, 3, 3, 0.8)',
-            },
-            {
-                label: '--pf-global--BoxShadow--inset',
-                detail: 'inset 0 0 0.625rem 0 #030303',
-                kind: 15,
-                documentation: 'inset 0 0 0.625rem 0 #030303',
-            },
-            {
-                label: '--pf-global--link--Color',
-                detail: 'var(--pf-global--link--Color--hover)',
-            },
-            {
-                label: '--pf-global--link--TextDecoration',
-                detail: 'var(--pf-global--link--TextDecoration--hover)',
             },
         ],
         v5: [
@@ -13010,42 +11902,6 @@ export default {
             {
                 label: '--pf-v5-global--icon--Color--dark',
                 detail: 'var(--pf-v5-global--icon--Color--dark--dark)',
-            },
-            {
-                label: '--pf-v5-global--Color--100',
-                detail: 'var(--pf-v5-global--Color--light-100)',
-            },
-            {
-                label: '--pf-v5-global--Color--200',
-                detail: 'var(--pf-v5-global--Color--light-200)',
-            },
-            {
-                label: '--pf-v5-global--BorderColor--100',
-                detail: 'var(--pf-v5-global--BorderColor--light-100)',
-            },
-            {
-                label: '--pf-v5-global--primary-color--100',
-                detail: 'var(--pf-v5-global--primary-color--light-100)',
-            },
-            {
-                label: '--pf-v5-global--link--Color',
-                detail: 'var(--pf-v5-global--link--Color--light)',
-            },
-            {
-                label: '--pf-v5-global--link--Color--hover',
-                detail: 'var(--pf-v5-global--link--Color--light)',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--100',
-                detail: 'var(--pf-v5-global--BackgroundColor--dark-100)',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--light',
-                detail: 'var(--pf-v5-global--icon--Color--light--light)',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--dark',
-                detail: 'var(--pf-v5-global--icon--Color--dark--light)',
             },
             {
                 label: '--pf-v5-global--palette--black-100',
@@ -13530,10 +12386,6 @@ export default {
                 detail: '#fff',
             },
             {
-                label: '--pf-v5-global--BackgroundColor--100',
-                detail: '#fff',
-            },
-            {
                 label: '--pf-v5-global--BackgroundColor--150',
                 detail: '#fafafa',
                 kind: 15,
@@ -13592,18 +12444,6 @@ export default {
             {
                 label: '--pf-v5-global--BackgroundColor--dark-transparent-200',
                 detail: 'rgba(3, 3, 3, 0.32)',
-            },
-            {
-                label: '--pf-v5-global--Color--100',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-global--Color--200',
-                detail: '#6a6e73',
-                kind: 15,
-                documentation: '#6a6e73',
             },
             {
                 label: '--pf-v5-global--Color--300',
@@ -13684,10 +12524,6 @@ export default {
                 detail: '#f0f0f0',
                 kind: 15,
                 documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-global--primary-color--100',
-                detail: '#06c',
             },
             {
                 label: '--pf-v5-global--primary-color--200',
@@ -13988,16 +12824,6 @@ export default {
                 detail: '80rem',
             },
             {
-                label: '--pf-v5-global--link--Color',
-                detail: '#06c',
-            },
-            {
-                label: '--pf-v5-global--link--Color--hover',
-                detail: '#004080',
-                kind: 15,
-                documentation: '#004080',
-            },
-            {
                 label: '--pf-v5-global--link--Color--light',
                 detail: '#2b9af3',
                 kind: 15,
@@ -14050,12 +12876,6 @@ export default {
                 detail: '4px',
             },
             {
-                label: '--pf-v5-global--BorderColor--100',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
                 label: '--pf-v5-global--BorderColor--200',
                 detail: '#8a8d90',
                 kind: 15,
@@ -14086,18 +12906,6 @@ export default {
             {
                 label: '--pf-v5-global--BorderRadius--lg',
                 detail: '30em',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--light',
-                detail: '#6a6e73',
-                kind: 15,
-                documentation: '#6a6e73',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--dark',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
             },
             {
                 label: '--pf-v5-global--icon--Color--light--light',
@@ -14248,60 +13056,6 @@ export default {
                 documentation: '#e0e0e0',
             },
             {
-                label: '--pf-v5-global--palette--black-100',
-                detail: '#c6c7c8',
-                kind: 15,
-                documentation: '#c6c7c8',
-            },
-            {
-                label: '--pf-v5-global--palette--black-200',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--palette--black-300',
-                detail: '#868789',
-                kind: 15,
-                documentation: '#868789',
-            },
-            {
-                label: '--pf-v5-global--palette--black-400',
-                detail: '#57585a',
-                kind: 15,
-                documentation: '#57585a',
-            },
-            {
-                label: '--pf-v5-global--palette--black-500',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-v5-global--palette--black-600',
-                detail: '#36373a',
-                kind: 15,
-                documentation: '#36373a',
-            },
-            {
-                label: '--pf-v5-global--palette--black-700',
-                detail: '#26292d',
-                kind: 15,
-                documentation: '#26292d',
-            },
-            {
-                label: '--pf-v5-global--palette--black-800',
-                detail: '#1b1d21',
-                kind: 15,
-                documentation: '#1b1d21',
-            },
-            {
-                label: '--pf-v5-global--palette--black-900',
-                detail: '#0f1214',
-                kind: 15,
-                documentation: '#0f1214',
-            },
-            {
                 label: '--pf-v5-global--palette--red-9999',
                 detail: '#fe5142',
                 kind: 15,
@@ -14312,30 +13066,6 @@ export default {
                 detail: '#ff7468',
                 kind: 15,
                 documentation: '#ff7468',
-            },
-            {
-                label: '--pf-v5-global--palette--blue-300',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--100',
-                detail: '#1b1d21',
-                kind: 15,
-                documentation: '#1b1d21',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--150',
-                detail: '#212427',
-                kind: 15,
-                documentation: '#212427',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--200',
-                detail: '#0f1214',
-                kind: 15,
-                documentation: '#0f1214',
             },
             {
                 label: '--pf-v5-global--BackgroundColor--300',
@@ -14350,52 +13080,10 @@ export default {
                 documentation: '#36373a',
             },
             {
-                label: '--pf-v5-global--BorderColor--100',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-v5-global--BorderColor--200',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-v5-global--BorderColor--300',
-                detail: '#57585a',
-                kind: 15,
-                documentation: '#57585a',
-            },
-            {
                 label: '--pf-v5-global--BorderColor--400',
                 detail: '#aaabac',
                 kind: 15,
                 documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--Color--100',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-v5-global--Color--200',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--active-color--100',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-v5-global--primary-color--100',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
             },
             {
                 label: '--pf-v5-global--primary-color--300',
@@ -14404,2000 +13092,6 @@ export default {
             {
                 label: '--pf-v5-global--primary-color--400',
                 detail: '#fff',
-            },
-            {
-                label: '--pf-v5-global--custom-color--200',
-                detail: '#73c5c5',
-                kind: 15,
-                documentation: '#73c5c5',
-            },
-            {
-                label: '--pf-v5-global--success-color--100',
-                detail: '#5ba352',
-                kind: 15,
-                documentation: '#5ba352',
-            },
-            {
-                label: '--pf-v5-global--warning-color--100',
-                detail: '#f0ab00',
-                kind: 15,
-                documentation: '#f0ab00',
-            },
-            {
-                label: '--pf-v5-global--warning-color--200',
-                detail: '#f4c145',
-                kind: 15,
-                documentation: '#f4c145',
-            },
-            {
-                label: '--pf-v5-global--danger-color--100',
-                detail: '#fe5142',
-                kind: 15,
-                documentation: '#fe5142',
-            },
-            {
-                label: '--pf-v5-global--danger-color--200',
-                detail: '#ff7468',
-                kind: 15,
-                documentation: '#ff7468',
-            },
-            {
-                label: '--pf-v5-global--link--Color',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-v5-global--link--Color--hover',
-                detail: '#73bcf7',
-                kind: 15,
-                documentation: '#73bcf7',
-            },
-            {
-                label: '--pf-v5-global--link--Color--visited',
-                detail: '#a18fff',
-                kind: 15,
-                documentation: '#a18fff',
-            },
-            {
-                label: '--pf-v5-global--disabled-color--100',
-                detail: '#868789',
-                kind: 15,
-                documentation: '#868789',
-            },
-            {
-                label: '--pf-v5-global--disabled-color--200',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-v5-global--disabled-color--300',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--light',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--dark',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-v5-global--Color--dark-100',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-v5-global--Color--dark-200',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--Color--light-100',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-v5-global--Color--light-200',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--Color--light-300',
-                detail: '#3c3f42',
-                kind: 15,
-                documentation: '#3c3f42',
-            },
-            {
-                label: '--pf-v5-global--BorderColor--dark-100',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-v5-global--BorderColor--light-100',
-                detail: '#444548',
-                kind: 15,
-                documentation: '#444548',
-            },
-            {
-                label: '--pf-v5-global--primary-color--light-100',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-v5-global--primary-color--dark-100',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-v5-global--link--Color--light',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-v5-global--link--Color--light--hover',
-                detail: '#73bcf7',
-                kind: 15,
-                documentation: '#73bcf7',
-            },
-            {
-                label: '--pf-v5-global--link--Color--dark',
-                detail: '#1fa7f8',
-                kind: 15,
-                documentation: '#1fa7f8',
-            },
-            {
-                label: '--pf-v5-global--link--Color--dark--hover',
-                detail: '#73bcf7',
-                kind: 15,
-                documentation: '#73bcf7',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--light--light',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--dark--light',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--light--dark',
-                detail: '#aaabac',
-                kind: 15,
-                documentation: '#aaabac',
-            },
-            {
-                label: '--pf-v5-global--icon--Color--dark--dark',
-                detail: '#e0e0e0',
-                kind: 15,
-                documentation: '#e0e0e0',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--light-100',
-                detail: '#1b1d21',
-                kind: 15,
-                documentation: '#1b1d21',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--light-200',
-                detail: '#0f1214',
-                kind: 15,
-                documentation: '#0f1214',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--light-300',
-                detail: '#26292d',
-                kind: 15,
-                documentation: '#26292d',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--dark-100',
-                detail: '#1b1d21',
-                kind: 15,
-                documentation: '#1b1d21',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--dark-200',
-                detail: '#0f1214',
-                kind: 15,
-                documentation: '#0f1214',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--dark-300',
-                detail: '#26292d',
-                kind: 15,
-                documentation: '#26292d',
-            },
-            {
-                label: '--pf-v5-global--BackgroundColor--dark-400',
-                detail: '#36373a',
-                kind: 15,
-                documentation: '#36373a',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--sm',
-                detail: '0 0.0625rem 0.125rem 0 rgba(3, 3, 3, 0.48), 0 0 0.125rem 0 rgba(3, 3, 3, 0.24)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--sm-top',
-                detail: '0 -0.125rem 0.25rem -0.0625rem rgba(3, 3, 3, 0.64)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--sm-right',
-                detail: '0.125rem 0 0.25rem -0.0625rem rgba(3, 3, 3, 0.64)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--sm-bottom',
-                detail: '0 0.125rem 0.25rem -0.0625rem rgba(3, 3, 3, 0.64)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--sm-left',
-                detail: '-0.125rem 0 0.25rem -0.0625rem rgba(3, 3, 3, 0.64)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--md',
-                detail: '0 0.25rem 0.5rem 0rem rgba(3, 3, 3, 0.48), 0 0 0.25rem 0 rgba(3, 3, 3, 0.24)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--md-top',
-                detail: '0 -0.5rem 0.5rem -0.375rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--md-right',
-                detail: '0.5rem 0 0.5rem -0.375rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--md-bottom',
-                detail: '0 0.5rem 0.5rem -0.375rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--md-left',
-                detail: '-0.5rem 0 0.5rem -0.375rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--lg',
-                detail: '0 0.5rem 1rem 0 rgba(3, 3, 3, 0.64), 0 0 0.375rem 0 rgba(3, 3, 3, 0.32)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--lg-top',
-                detail: '0 -0.75rem 0.75rem -0.5rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--lg-right',
-                detail: '0.75rem 0 0.75rem -0.5rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--lg-bottom',
-                detail: '0 0.75rem 0.75rem -0.5rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--lg-left',
-                detail: '-0.75rem 0 0.75rem -0.5rem rgba(3, 3, 3, 0.72)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--xl',
-                detail: '0 1rem 2rem 0 rgba(3, 3, 3, 0.64), 0 0 0.5rem 0 rgba(3, 3, 3, 0.4)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--xl-top',
-                detail: '0 -1rem 1rem -0.5rem rgba(3, 3, 3, 0.8)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--xl-right',
-                detail: '1rem 0 1rem -0.5rem rgba(3, 3, 3, 0.8)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--xl-bottom',
-                detail: '0 1rem 1rem -0.5rem rgba(3, 3, 3, 0.8)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--xl-left',
-                detail: '-1rem 0 1rem -0.5rem rgba(3, 3, 3, 0.8)',
-            },
-            {
-                label: '--pf-v5-global--BoxShadow--inset',
-                detail: 'inset 0 0 0.625rem 0 #030303',
-                kind: 15,
-                documentation: 'inset 0 0 0.625rem 0 #030303',
-            },
-            {
-                label: '--pf-v5-global--FontFamily--text',
-                detail: 'var(--pf-v5-global--FontFamily--text--vf)',
-            },
-            {
-                label: '--pf-v5-global--FontFamily--heading',
-                detail: 'var(--pf-v5-global--FontFamily--heading--vf)',
-            },
-            {
-                label: '--pf-v5-global--FontFamily--monospace',
-                detail: 'var(--pf-v5-global--FontFamily--monospace--vf)',
-            },
-            {
-                label: '--pf-v5-global--link--Color',
-                detail: 'var(--pf-v5-global--link--Color--hover)',
-            },
-            {
-                label: '--pf-v5-global--link--TextDecoration',
-                detail: 'var(--pf-v5-global--link--TextDecoration--hover)',
-            },
-            {
-                label: '--pf-v5-chart-color-blue-100',
-                detail: '#8bc1f7',
-                kind: 15,
-                documentation: '#8bc1f7',
-            },
-            {
-                label: '--pf-v5-chart-color-blue-200',
-                detail: '#519de9',
-                kind: 15,
-                documentation: '#519de9',
-            },
-            {
-                label: '--pf-v5-chart-color-blue-300',
-                detail: '#06c',
-            },
-            {
-                label: '--pf-v5-chart-color-blue-400',
-                detail: '#004b95',
-                kind: 15,
-                documentation: '#004b95',
-            },
-            {
-                label: '--pf-v5-chart-color-blue-500',
-                detail: '#002f5d',
-                kind: 15,
-                documentation: '#002f5d',
-            },
-            {
-                label: '--pf-v5-chart-color-green-100',
-                detail: '#bde2b9',
-                kind: 15,
-                documentation: '#bde2b9',
-            },
-            {
-                label: '--pf-v5-chart-color-green-200',
-                detail: '#7cc674',
-                kind: 15,
-                documentation: '#7cc674',
-            },
-            {
-                label: '--pf-v5-chart-color-green-300',
-                detail: '#4cb140',
-                kind: 15,
-                documentation: '#4cb140',
-            },
-            {
-                label: '--pf-v5-chart-color-green-400',
-                detail: '#38812f',
-                kind: 15,
-                documentation: '#38812f',
-            },
-            {
-                label: '--pf-v5-chart-color-green-500',
-                detail: '#23511e',
-                kind: 15,
-                documentation: '#23511e',
-            },
-            {
-                label: '--pf-v5-chart-color-cyan-100',
-                detail: '#a2d9d9',
-                kind: 15,
-                documentation: '#a2d9d9',
-            },
-            {
-                label: '--pf-v5-chart-color-cyan-200',
-                detail: '#73c5c5',
-                kind: 15,
-                documentation: '#73c5c5',
-            },
-            {
-                label: '--pf-v5-chart-color-cyan-300',
-                detail: '#009596',
-                kind: 15,
-                documentation: '#009596',
-            },
-            {
-                label: '--pf-v5-chart-color-cyan-400',
-                detail: '#005f60',
-                kind: 15,
-                documentation: '#005f60',
-            },
-            {
-                label: '--pf-v5-chart-color-cyan-500',
-                detail: '#003737',
-                kind: 15,
-                documentation: '#003737',
-            },
-            {
-                label: '--pf-v5-chart-color-purple-100',
-                detail: '#b2b0ea',
-                kind: 15,
-                documentation: '#b2b0ea',
-            },
-            {
-                label: '--pf-v5-chart-color-purple-200',
-                detail: '#8481dd',
-                kind: 15,
-                documentation: '#8481dd',
-            },
-            {
-                label: '--pf-v5-chart-color-purple-300',
-                detail: '#5752d1',
-                kind: 15,
-                documentation: '#5752d1',
-            },
-            {
-                label: '--pf-v5-chart-color-purple-400',
-                detail: '#3c3d99',
-                kind: 15,
-                documentation: '#3c3d99',
-            },
-            {
-                label: '--pf-v5-chart-color-purple-500',
-                detail: '#2a265f',
-                kind: 15,
-                documentation: '#2a265f',
-            },
-            {
-                label: '--pf-v5-chart-color-gold-100',
-                detail: '#f9e0a2',
-                kind: 15,
-                documentation: '#f9e0a2',
-            },
-            {
-                label: '--pf-v5-chart-color-gold-200',
-                detail: '#f6d173',
-                kind: 15,
-                documentation: '#f6d173',
-            },
-            {
-                label: '--pf-v5-chart-color-gold-300',
-                detail: '#f4c145',
-                kind: 15,
-                documentation: '#f4c145',
-            },
-            {
-                label: '--pf-v5-chart-color-gold-400',
-                detail: '#f0ab00',
-                kind: 15,
-                documentation: '#f0ab00',
-            },
-            {
-                label: '--pf-v5-chart-color-gold-500',
-                detail: '#c58c00',
-                kind: 15,
-                documentation: '#c58c00',
-            },
-            {
-                label: '--pf-v5-chart-color-orange-100',
-                detail: '#f4b678',
-                kind: 15,
-                documentation: '#f4b678',
-            },
-            {
-                label: '--pf-v5-chart-color-orange-200',
-                detail: '#ef9234',
-                kind: 15,
-                documentation: '#ef9234',
-            },
-            {
-                label: '--pf-v5-chart-color-orange-300',
-                detail: '#ec7a08',
-                kind: 15,
-                documentation: '#ec7a08',
-            },
-            {
-                label: '--pf-v5-chart-color-orange-400',
-                detail: '#c46100',
-                kind: 15,
-                documentation: '#c46100',
-            },
-            {
-                label: '--pf-v5-chart-color-orange-500',
-                detail: '#8f4700',
-                kind: 15,
-                documentation: '#8f4700',
-            },
-            {
-                label: '--pf-v5-chart-color-red-100',
-                detail: '#c9190b',
-                kind: 15,
-                documentation: '#c9190b',
-            },
-            {
-                label: '--pf-v5-chart-color-red-200',
-                detail: '#a30000',
-                kind: 15,
-                documentation: '#a30000',
-            },
-            {
-                label: '--pf-v5-chart-color-red-300',
-                detail: '#7d1007',
-                kind: 15,
-                documentation: '#7d1007',
-            },
-            {
-                label: '--pf-v5-chart-color-red-400',
-                detail: '#470000',
-                kind: 15,
-                documentation: '#470000',
-            },
-            {
-                label: '--pf-v5-chart-color-red-500',
-                detail: '#2c0000',
-                kind: 15,
-                documentation: '#2c0000',
-            },
-            {
-                label: '--pf-v5-chart-color-black-100',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-color-black-200',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-color-black-300',
-                detail: '#b8bbbe',
-                kind: 15,
-                documentation: '#b8bbbe',
-            },
-            {
-                label: '--pf-v5-chart-color-black-400',
-                detail: '#8a8d90',
-                kind: 15,
-                documentation: '#8a8d90',
-            },
-            {
-                label: '--pf-v5-chart-color-black-500',
-                detail: '#6a6e73',
-                kind: 15,
-                documentation: '#6a6e73',
-            },
-            {
-                label: '--pf-v5-chart-global--FontSize--xs',
-                detail: '12',
-            },
-            {
-                label: '--pf-v5-chart-global--FontSize--sm',
-                detail: '14',
-            },
-            {
-                label: '--pf-v5-chart-global--FontSize--lg',
-                detail: '18',
-            },
-            {
-                label: '--pf-v5-chart-global--FontSize--2xl',
-                detail: '24',
-            },
-            {
-                label: '--pf-v5-chart-global--FontFamily',
-                detail: '"RedHatText", helvetica, arial, sans-serif',
-            },
-            {
-                label: '--pf-v5-chart-global--letter-spacing',
-                detail: 'normal',
-            },
-            {
-                label: '--pf-v5-chart-global--label--Padding',
-                detail: '10',
-            },
-            {
-                label: '--pf-v5-chart-global--label--Margin',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-global--label--stroke',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-global--label--text-anchor',
-                detail: 'middle',
-            },
-            {
-                label: '--pf-v5-chart-global--label--stroke--Width',
-                detail: '0',
-            },
-            {
-                label: '--pf-v5-chart-global--label--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-global--layout--Padding',
-                detail: '50',
-            },
-            {
-                label: '--pf-v5-chart-global--layout--Height',
-                detail: '300',
-            },
-            {
-                label: '--pf-v5-chart-global--layout--Width',
-                detail: '450',
-            },
-            {
-                label: '--pf-v5-chart-global--stroke--Width--xs',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-global--stroke--Width--sm',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-global--BorderWidth--xs',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-global--BorderWidth--sm',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-global--BorderWidth--lg',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-global--stroke-line-cap',
-                detail: 'round',
-            },
-            {
-                label: '--pf-v5-chart-global--stroke-line-join',
-                detail: 'round',
-            },
-            {
-                label: '--pf-v5-chart-global--danger--Color--100',
-                detail: '#c9190b',
-                kind: 15,
-                documentation: '#c9190b',
-            },
-            {
-                label: '--pf-v5-chart-global--warning--Color--100',
-                detail: '#ec7a08',
-                kind: 15,
-                documentation: '#ec7a08',
-            },
-            {
-                label: '--pf-v5-chart-global--warning--Color--200',
-                detail: '#f0ab00',
-                kind: 15,
-                documentation: '#f0ab00',
-            },
-            {
-                label: '--pf-v5-chart-global--success--Color--100',
-                detail: '#06c',
-            },
-            {
-                label: '--pf-v5-chart-global--Fill--Color--900',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-global--Fill--Color--700',
-                detail: '#4f5255',
-                kind: 15,
-                documentation: '#4f5255',
-            },
-            {
-                label: '--pf-v5-chart-global--Fill--Color--500',
-                detail: '#8a8d90',
-                kind: 15,
-                documentation: '#8a8d90',
-            },
-            {
-                label: '--pf-v5-chart-global--Fill--Color--400',
-                detail: '#b8bbbe',
-                kind: 15,
-                documentation: '#b8bbbe',
-            },
-            {
-                label: '--pf-v5-chart-global--Fill--Color--300',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-global--Fill--Color--200',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-global--Fill--Color--white',
-                detail: '#fff',
-            },
-            {
-                label: '--pf-v5-chart-area--Opacity',
-                detail: '0.3',
-            },
-            {
-                label: '--pf-v5-chart-area--stroke--Width',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-area--data--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-axis--axis--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-axis--axis--stroke--Color',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-axis--axis--Fill',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-axis--axis-label--Padding',
-                detail: '40',
-            },
-            {
-                label: '--pf-v5-chart-axis--axis-label--stroke--Color',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-axis--grid--Fill',
-                detail: 'none',
-            },
-            {
-                label: '--pf-v5-chart-axis--grid--stroke--Color',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-axis--grid--PointerEvents',
-                detail: 'painted',
-            },
-            {
-                label: '--pf-v5-chart-axis--tick--Fill',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-axis--tick--Size',
-                detail: '5',
-            },
-            {
-                label: '--pf-v5-chart-axis--tick--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-axis--tick--stroke--Color',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-axis--tick-label--Fill',
-                detail: '#4f5255',
-                kind: 15,
-                documentation: '#4f5255',
-            },
-            {
-                label: '--pf-v5-chart-bar--Width',
-                detail: '10',
-            },
-            {
-                label: '--pf-v5-chart-bar--data--stroke',
-                detail: 'none',
-            },
-            {
-                label: '--pf-v5-chart-bar--data--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-bar--data--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-bar--data-stroke--Width',
-                detail: '0',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--max--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--max--stroke--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--max--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--median--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--median--stroke--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--median--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--min--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--min--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--min--stroke--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--lower-quartile--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--lower-quartile--Fill',
-                detail: '#8a8d90',
-                kind: 15,
-                documentation: '#8a8d90',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--upper-quartile--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--upper-quartile--Fill',
-                detail: '#8a8d90',
-                kind: 15,
-                documentation: '#8a8d90',
-            },
-            {
-                label: '--pf-v5-chart-boxplot--box--Width',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-bullet--axis--tick--count',
-                detail: '5',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--Fill--Color',
-                detail: '#4f5255',
-                kind: 15,
-                documentation: '#4f5255',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--stroke--Color',
-                detail: '#4f5255',
-                kind: 15,
-                documentation: '#4f5255',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--error--Fill--Color',
-                detail: '#c9190b',
-                kind: 15,
-                documentation: '#c9190b',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--error--stroke--Color',
-                detail: '#c9190b',
-                kind: 15,
-                documentation: '#c9190b',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--error--stroke--Width',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--error--Width',
-                detail: '30',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--warning--Fill--Color',
-                detail: '#ec7a08',
-                kind: 15,
-                documentation: '#ec7a08',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--warning--stroke--Color',
-                detail: '#ec7a08',
-                kind: 15,
-                documentation: '#ec7a08',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--warning--stroke--Width',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--warning--Width',
-                detail: '30',
-            },
-            {
-                label: '--pf-v5-chart-bullet--comparative-measure--Width',
-                detail: '30',
-            },
-            {
-                label: '--pf-v5-chart-bullet--group-title--divider--Fill--Color',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-bullet--group-title--divider--stroke--Color',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-bullet--group-title--divider--stroke--Width',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-bullet--Height',
-                detail: '140',
-            },
-            {
-                label: '--pf-v5-chart-bullet--label--title--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-bullet--label--grouptitle--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-bullet--label--subtitle--Fill',
-                detail: '#b8bbbe',
-                kind: 15,
-                documentation: '#b8bbbe',
-            },
-            {
-                label: '--pf-v5-chart-bullet--primary-measure--dot--size',
-                detail: '6',
-            },
-            {
-                label: '--pf-v5-chart-bullet--primary-measure--segmented--Width',
-                detail: '9',
-            },
-            {
-                label: '--pf-v5-chart-bullet--negative-measure--ColorScale--100',
-                detail: '#c9190b',
-                kind: 15,
-                documentation: '#c9190b',
-            },
-            {
-                label: '--pf-v5-chart-bullet--negative-measure--ColorScale--200',
-                detail: '#a30000',
-                kind: 15,
-                documentation: '#a30000',
-            },
-            {
-                label: '--pf-v5-chart-bullet--negative-measure--ColorScale--300',
-                detail: '#7d1007',
-                kind: 15,
-                documentation: '#7d1007',
-            },
-            {
-                label: '--pf-v5-chart-bullet--negative-measure--ColorScale--400',
-                detail: '#470000',
-                kind: 15,
-                documentation: '#470000',
-            },
-            {
-                label: '--pf-v5-chart-bullet--negative-measure--ColorScale--500',
-                detail: '#2c0000',
-                kind: 15,
-                documentation: '#2c0000',
-            },
-            {
-                label: '--pf-v5-chart-bullet--qualitative-range--Width',
-                detail: '30',
-            },
-            {
-                label: '--pf-v5-chart-bullet--qualitative-range--ColorScale--100',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-bullet--qualitative-range--ColorScale--200',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-bullet--qualitative-range--ColorScale--300',
-                detail: '#b8bbbe',
-                kind: 15,
-                documentation: '#b8bbbe',
-            },
-            {
-                label: '--pf-v5-chart-bullet--qualitative-range--ColorScale--400',
-                detail: '#8a8d90',
-                kind: 15,
-                documentation: '#8a8d90',
-            },
-            {
-                label: '--pf-v5-chart-bullet--qualitative-range--ColorScale--500',
-                detail: '#6a6e73',
-                kind: 15,
-                documentation: '#6a6e73',
-            },
-            {
-                label: '--pf-v5-chart-candelstick--data--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-candelstick--data--stroke--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-candelstick--candle--positive--Color',
-                detail: '#fff',
-            },
-            {
-                label: '--pf-v5-chart-candelstick--candle--negative--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-container--cursor--line--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-donut--label--title--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-donut--label--subtitle--Fill',
-                detail: '#b8bbbe',
-                kind: 15,
-                documentation: '#b8bbbe',
-            },
-            {
-                label: '--pf-v5-chart-donut--label--subtitle--position',
-                detail: 'center',
-            },
-            {
-                label: '--pf-v5-chart-donut--pie--Height',
-                detail: '230',
-            },
-            {
-                label: '--pf-v5-chart-donut--pie--angle--Padding',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-donut--pie--Padding',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-donut--pie--Width',
-                detail: '230',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--first--Color',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--second--Color',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--third--Color',
-                detail: '#b8bbbe',
-                kind: 15,
-                documentation: '#b8bbbe',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--warning--Color',
-                detail: '#f0ab00',
-                kind: 15,
-                documentation: '#f0ab00',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--danger--Color',
-                detail: '#c9190b',
-                kind: 15,
-                documentation: '#c9190b',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--dynamic--pie--Height',
-                detail: '202',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--dynamic--pie--Padding',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--dynamic--pie--Width',
-                detail: '202',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--static--pie--Height',
-                detail: '230',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--static--pie--angle--Padding',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--static--pie--Padding',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-donut--threshold--static--pie--Width',
-                detail: '230',
-            },
-            {
-                label: '--pf-v5-chart-donut--utilization--dynamic--pie--Height',
-                detail: '230',
-            },
-            {
-                label: '--pf-v5-chart-donut--utilization--dynamic--pie--angle--Padding',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-donut--utilization--dynamic--pie--Padding',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-donut--utilization--dynamic--pie--Width',
-                detail: '230',
-            },
-            {
-                label: '--pf-v5-chart-donut--utilization--static--pie--Padding',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-errorbar--BorderWidth',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-errorbar--data--Fill',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-errorbar--data--Opacity',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-errorbar--data-stroke--Width',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-errorbar--data-stroke--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-legend--gutter--Width',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-legend--orientation',
-                detail: 'horizontal',
-            },
-            {
-                label: '--pf-v5-chart-legend--position',
-                detail: 'right',
-            },
-            {
-                label: '--pf-v5-chart-legend--title--orientation',
-                detail: 'top',
-            },
-            {
-                label: '--pf-v5-chart-legend--data--type',
-                detail: 'square',
-            },
-            {
-                label: '--pf-v5-chart-legend--title--Padding',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-legend--Margin',
-                detail: '16',
-            },
-            {
-                label: '--pf-v5-chart-line--data--Fill',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-line--data--Opacity',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-line--data--stroke--Width',
-                detail: '2',
-            },
-            {
-                label: '--pf-v5-chart-line--data--stroke--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-pie--Padding',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-pie--data--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-pie--data--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-pie--data--stroke--Color',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-pie--labels--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-pie--Height',
-                detail: '230',
-            },
-            {
-                label: '--pf-v5-chart-pie--Width',
-                detail: '230',
-            },
-            {
-                label: '--pf-v5-chart-scatter--data--stroke--Color',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-scatter--data--stroke--Width',
-                detail: '0',
-            },
-            {
-                label: '--pf-v5-chart-scatter--data--Opacity',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-scatter--data--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-scatter--active--size',
-                detail: '5',
-            },
-            {
-                label: '--pf-v5-chart-scatter--size',
-                detail: '3',
-            },
-            {
-                label: '--pf-v5-chart-stack--data--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-threshold--stroke-dash-array',
-                detail: '4,2',
-            },
-            {
-                label: '--pf-v5-chart-threshold--stroke--Width',
-                detail: '1.5',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--corner-radius',
-                detail: '0',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--pointer-length',
-                detail: '10',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--Fill',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--flyoutStyle--corner-radius',
-                detail: '0',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--flyoutStyle--stroke--Width',
-                detail: '0',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--flyoutStyle--PointerEvents',
-                detail: 'none',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--flyoutStyle--stroke--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--flyoutStyle--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--pointer--Width',
-                detail: '20',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-tooltip--PointerEvents',
-                detail: 'none',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--data--Fill',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--data--stroke--Color',
-                detail: 'transparent',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--data--stroke--Width',
-                detail: '0',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--labels--Padding',
-                detail: '8',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--labels--Fill',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--labels--PointerEvents',
-                detail: 'none',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--flyout--stroke--Width',
-                detail: '1',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--flyout--PointerEvents',
-                detail: 'none',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--flyout--stroke--Color',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--flyout--stroke--Fill',
-                detail: '#151515',
-                kind: 15,
-                documentation: '#151515',
-            },
-            {
-                label: '--pf-v5-chart-voronoi--flyout--PointerEvents',
-                detail: 'none',
-            },
-            {
-                label: '--pf-v5-chart-theme--blue--ColorScale--100',
-                detail: '#06c',
-            },
-            {
-                label: '--pf-v5-chart-theme--blue--ColorScale--200',
-                detail: '#8bc1f7',
-                kind: 15,
-                documentation: '#8bc1f7',
-            },
-            {
-                label: '--pf-v5-chart-theme--blue--ColorScale--300',
-                detail: '#002f5d',
-                kind: 15,
-                documentation: '#002f5d',
-            },
-            {
-                label: '--pf-v5-chart-theme--blue--ColorScale--400',
-                detail: '#519de9',
-                kind: 15,
-                documentation: '#519de9',
-            },
-            {
-                label: '--pf-v5-chart-theme--blue--ColorScale--500',
-                detail: '#004b95',
-                kind: 15,
-                documentation: '#004b95',
-            },
-            {
-                label: '--pf-v5-chart-theme--cyan--ColorScale--100',
-                detail: '#009596',
-                kind: 15,
-                documentation: '#009596',
-            },
-            {
-                label: '--pf-v5-chart-theme--cyan--ColorScale--200',
-                detail: '#a2d9d9',
-                kind: 15,
-                documentation: '#a2d9d9',
-            },
-            {
-                label: '--pf-v5-chart-theme--cyan--ColorScale--300',
-                detail: '#003737',
-                kind: 15,
-                documentation: '#003737',
-            },
-            {
-                label: '--pf-v5-chart-theme--cyan--ColorScale--400',
-                detail: '#73c5c5',
-                kind: 15,
-                documentation: '#73c5c5',
-            },
-            {
-                label: '--pf-v5-chart-theme--cyan--ColorScale--500',
-                detail: '#005f60',
-                kind: 15,
-                documentation: '#005f60',
-            },
-            {
-                label: '--pf-v5-chart-theme--gold--ColorScale--100',
-                detail: '#f4c145',
-                kind: 15,
-                documentation: '#f4c145',
-            },
-            {
-                label: '--pf-v5-chart-theme--gold--ColorScale--200',
-                detail: '#f9e0a2',
-                kind: 15,
-                documentation: '#f9e0a2',
-            },
-            {
-                label: '--pf-v5-chart-theme--gold--ColorScale--300',
-                detail: '#c58c00',
-                kind: 15,
-                documentation: '#c58c00',
-            },
-            {
-                label: '--pf-v5-chart-theme--gold--ColorScale--400',
-                detail: '#f6d173',
-                kind: 15,
-                documentation: '#f6d173',
-            },
-            {
-                label: '--pf-v5-chart-theme--gold--ColorScale--500',
-                detail: '#f0ab00',
-                kind: 15,
-                documentation: '#f0ab00',
-            },
-            {
-                label: '--pf-v5-chart-theme--gray--ColorScale--100',
-                detail: '#b8bbbe',
-                kind: 15,
-                documentation: '#b8bbbe',
-            },
-            {
-                label: '--pf-v5-chart-theme--gray--ColorScale--200',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-theme--gray--ColorScale--300',
-                detail: '#6a6e73',
-                kind: 15,
-                documentation: '#6a6e73',
-            },
-            {
-                label: '--pf-v5-chart-theme--gray--ColorScale--400',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-theme--gray--ColorScale--500',
-                detail: '#8a8d90',
-                kind: 15,
-                documentation: '#8a8d90',
-            },
-            {
-                label: '--pf-v5-chart-theme--green--ColorScale--100',
-                detail: '#4cb140',
-                kind: 15,
-                documentation: '#4cb140',
-            },
-            {
-                label: '--pf-v5-chart-theme--green--ColorScale--200',
-                detail: '#bde2b9',
-                kind: 15,
-                documentation: '#bde2b9',
-            },
-            {
-                label: '--pf-v5-chart-theme--green--ColorScale--300',
-                detail: '#23511e',
-                kind: 15,
-                documentation: '#23511e',
-            },
-            {
-                label: '--pf-v5-chart-theme--green--ColorScale--400',
-                detail: '#7cc674',
-                kind: 15,
-                documentation: '#7cc674',
-            },
-            {
-                label: '--pf-v5-chart-theme--green--ColorScale--500',
-                detail: '#38812f',
-                kind: 15,
-                documentation: '#38812f',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--100',
-                detail: '#06c',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--200',
-                detail: '#4cb140',
-                kind: 15,
-                documentation: '#4cb140',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--300',
-                detail: '#009596',
-                kind: 15,
-                documentation: '#009596',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--400',
-                detail: '#f4c145',
-                kind: 15,
-                documentation: '#f4c145',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--500',
-                detail: '#ec7a08',
-                kind: 15,
-                documentation: '#ec7a08',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--600',
-                detail: '#8bc1f7',
-                kind: 15,
-                documentation: '#8bc1f7',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--700',
-                detail: '#23511e',
-                kind: 15,
-                documentation: '#23511e',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--800',
-                detail: '#a2d9d9',
-                kind: 15,
-                documentation: '#a2d9d9',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--900',
-                detail: '#f9e0a2',
-                kind: 15,
-                documentation: '#f9e0a2',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1000',
-                detail: '#8f4700',
-                kind: 15,
-                documentation: '#8f4700',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1100',
-                detail: '#002f5d',
-                kind: 15,
-                documentation: '#002f5d',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1200',
-                detail: '#bde2b9',
-                kind: 15,
-                documentation: '#bde2b9',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1300',
-                detail: '#003737',
-                kind: 15,
-                documentation: '#003737',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1400',
-                detail: '#c58c00',
-                kind: 15,
-                documentation: '#c58c00',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1500',
-                detail: '#f4b678',
-                kind: 15,
-                documentation: '#f4b678',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1600',
-                detail: '#519de9',
-                kind: 15,
-                documentation: '#519de9',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1700',
-                detail: '#38812f',
-                kind: 15,
-                documentation: '#38812f',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1800',
-                detail: '#73c5c5',
-                kind: 15,
-                documentation: '#73c5c5',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--1900',
-                detail: '#f6d173',
-                kind: 15,
-                documentation: '#f6d173',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--2000',
-                detail: '#c46100',
-                kind: 15,
-                documentation: '#c46100',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--2100',
-                detail: '#004b95',
-                kind: 15,
-                documentation: '#004b95',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--2200',
-                detail: '#7cc674',
-                kind: 15,
-                documentation: '#7cc674',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--2300',
-                detail: '#005f60',
-                kind: 15,
-                documentation: '#005f60',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--2400',
-                detail: '#f0ab00',
-                kind: 15,
-                documentation: '#f0ab00',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-ordered--ColorScale--2500',
-                detail: '#ef9234',
-                kind: 15,
-                documentation: '#ef9234',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--100',
-                detail: '#06c',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--200',
-                detail: '#f4c145',
-                kind: 15,
-                documentation: '#f4c145',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--300',
-                detail: '#4cb140',
-                kind: 15,
-                documentation: '#4cb140',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--400',
-                detail: '#5752d1',
-                kind: 15,
-                documentation: '#5752d1',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--500',
-                detail: '#ec7a08',
-                kind: 15,
-                documentation: '#ec7a08',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--600',
-                detail: '#009596',
-                kind: 15,
-                documentation: '#009596',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--700',
-                detail: '#b8bbbe',
-                kind: 15,
-                documentation: '#b8bbbe',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--800',
-                detail: '#8bc1f7',
-                kind: 15,
-                documentation: '#8bc1f7',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--900',
-                detail: '#c58c00',
-                kind: 15,
-                documentation: '#c58c00',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1000',
-                detail: '#bde2b9',
-                kind: 15,
-                documentation: '#bde2b9',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1100',
-                detail: '#2a265f',
-                kind: 15,
-                documentation: '#2a265f',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1200',
-                detail: '#f4b678',
-                kind: 15,
-                documentation: '#f4b678',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1300',
-                detail: '#003737',
-                kind: 15,
-                documentation: '#003737',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1400',
-                detail: '#f0f0f0',
-                kind: 15,
-                documentation: '#f0f0f0',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1500',
-                detail: '#002f5d',
-                kind: 15,
-                documentation: '#002f5d',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1600',
-                detail: '#f9e0a2',
-                kind: 15,
-                documentation: '#f9e0a2',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1700',
-                detail: '#23511e',
-                kind: 15,
-                documentation: '#23511e',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1800',
-                detail: '#b2b0ea',
-                kind: 15,
-                documentation: '#b2b0ea',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--1900',
-                detail: '#8f4700',
-                kind: 15,
-                documentation: '#8f4700',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2000',
-                detail: '#a2d9d9',
-                kind: 15,
-                documentation: '#a2d9d9',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2100',
-                detail: '#6a6e73',
-                kind: 15,
-                documentation: '#6a6e73',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2200',
-                detail: '#519de9',
-                kind: 15,
-                documentation: '#519de9',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2300',
-                detail: '#f0ab00',
-                kind: 15,
-                documentation: '#f0ab00',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2400',
-                detail: '#7cc674',
-                kind: 15,
-                documentation: '#7cc674',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2500',
-                detail: '#3c3d99',
-                kind: 15,
-                documentation: '#3c3d99',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2600',
-                detail: '#ef9234',
-                kind: 15,
-                documentation: '#ef9234',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2700',
-                detail: '#005f60',
-                kind: 15,
-                documentation: '#005f60',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2800',
-                detail: '#d2d2d2',
-                kind: 15,
-                documentation: '#d2d2d2',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--2900',
-                detail: '#004b95',
-                kind: 15,
-                documentation: '#004b95',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--3000',
-                detail: '#f6d173',
-                kind: 15,
-                documentation: '#f6d173',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--3100',
-                detail: '#38812f',
-                kind: 15,
-                documentation: '#38812f',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--3200',
-                detail: '#8481dd',
-                kind: 15,
-                documentation: '#8481dd',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--3300',
-                detail: '#c46100',
-                kind: 15,
-                documentation: '#c46100',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--3400',
-                detail: '#73c5c5',
-                kind: 15,
-                documentation: '#73c5c5',
-            },
-            {
-                label: '--pf-v5-chart-theme--multi-color-unordered--ColorScale--3500',
-                detail: '#8a8d90',
-                kind: 15,
-                documentation: '#8a8d90',
-            },
-            {
-                label: '--pf-v5-chart-theme--orange--ColorScale--100',
-                detail: '#ec7a08',
-                kind: 15,
-                documentation: '#ec7a08',
-            },
-            {
-                label: '--pf-v5-chart-theme--orange--ColorScale--200',
-                detail: '#f4b678',
-                kind: 15,
-                documentation: '#f4b678',
-            },
-            {
-                label: '--pf-v5-chart-theme--orange--ColorScale--300',
-                detail: '#8f4700',
-                kind: 15,
-                documentation: '#8f4700',
-            },
-            {
-                label: '--pf-v5-chart-theme--orange--ColorScale--400',
-                detail: '#ef9234',
-                kind: 15,
-                documentation: '#ef9234',
-            },
-            {
-                label: '--pf-v5-chart-theme--orange--ColorScale--500',
-                detail: '#c46100',
-                kind: 15,
-                documentation: '#c46100',
-            },
-            {
-                label: '--pf-v5-chart-theme--purple--ColorScale--100',
-                detail: '#5752d1',
-                kind: 15,
-                documentation: '#5752d1',
-            },
-            {
-                label: '--pf-v5-chart-theme--purple--ColorScale--200',
-                detail: '#b2b0ea',
-                kind: 15,
-                documentation: '#b2b0ea',
-            },
-            {
-                label: '--pf-v5-chart-theme--purple--ColorScale--300',
-                detail: '#2a265f',
-                kind: 15,
-                documentation: '#2a265f',
-            },
-            {
-                label: '--pf-v5-chart-theme--purple--ColorScale--400',
-                detail: '#8481dd',
-                kind: 15,
-                documentation: '#8481dd',
-            },
-            {
-                label: '--pf-v5-chart-theme--purple--ColorScale--500',
-                detail: '#3c3d99',
-                kind: 15,
-                documentation: '#3c3d99',
             },
         ],
     },

@@ -1,6 +1,7 @@
 {
     "name": "patternfly-autocomplete",
     "displayName": "PatternFly Autocomplete",
+    "publisher": "DavidVail",
     "description": "Provides autocompletion for PatternFly utility classes and more",
     "version": "0.1.0",
     "engines": {
