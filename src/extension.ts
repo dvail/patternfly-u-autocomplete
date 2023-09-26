@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 import * as cssTree from 'css-tree';
+import { uniqBy } from 'lodash';
 
 type Suggestions = {
     utilities: {
@@ -30,21 +31,17 @@ function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<S
         const ast = cssTree.parse(text);
 
         cssTree.walk(ast, (node) => {
-            const isUtilityV4 =
-                node.type === 'ClassSelector' && node.name.startsWith(V4_UTIL_CLASS_IDENTIFIER);
+            const isUtilityV4 = node.type === 'ClassSelector' && node.name.startsWith(V4_UTIL_CLASS_IDENTIFIER);
 
-            const isUtilityV5 =
-                node.type === 'ClassSelector' && node.name.startsWith(V5_UTIL_CLASS_IDENTIFIER);
+            const isUtilityV5 = node.type === 'ClassSelector' && node.name.startsWith(V5_UTIL_CLASS_IDENTIFIER);
 
             const isCssVarV4 =
                 node.type === 'Declaration' &&
-                (node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) ||
-                    node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`));
+                (node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) || node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`));
 
             const isCssVarV5 =
                 node.type === 'Declaration' &&
-                (node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) ||
-                    node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`));
+                (node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}global`) || node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}chart`));
 
             if (isUtilityV4) {
                 suggestions.utilities.v4.push({ label: node.name });
@@ -68,6 +65,12 @@ function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<S
                 destination.push(item);
             }
         });
+
+        // Trim out duplicate suggestions
+        suggestions.cssVars.v4 = uniqBy(suggestions.cssVars.v4, 'label');
+        suggestions.cssVars.v5 = uniqBy(suggestions.cssVars.v5, 'label');
+        suggestions.utilities.v4 = uniqBy(suggestions.utilities.v4, 'label');
+        suggestions.utilities.v5 = uniqBy(suggestions.utilities.v5, 'label');
 
         return suggestions;
     });
@@ -96,11 +99,7 @@ function collectNodeModulesSuggestions(): Thenable<Suggestions> {
     });
 }
 
-function registerUtilityCompletionProvider(
-    context: vscode.ExtensionContext,
-    supportedFileTypes: string[],
-    suggestions: Suggestions,
-) {
+function registerUtilityCompletionProvider(context: vscode.ExtensionContext, supportedFileTypes: string[], suggestions: Suggestions) {
     const triggers = ['-'];
     const completionProvider = vscode.languages.registerCompletionItemProvider(
         supportedFileTypes,
@@ -130,12 +129,7 @@ function registerUtilityCompletionProvider(
                     return undefined;
                 }
 
-                const range = new vscode.Range(
-                    position.line,
-                    completionTextStartPosition,
-                    position.line,
-                    position.character,
-                );
+                const range = new vscode.Range(position.line, completionTextStartPosition, position.line, position.character);
 
                 // We're going to directly mutate the completion items to add the range here
                 // for the sake of performance.
@@ -162,9 +156,7 @@ export function activate(context: vscode.ExtensionContext) {
     let completionProvider: vscode.Disposable | undefined;
 
     vscode.workspace.onDidChangeConfiguration(() => {
-        outputChannel.appendLine(
-            '[INFO] Extension configuration has changed - reloading completion provider.',
-        );
+        outputChannel.appendLine('[INFO] Extension configuration has changed - reloading completion provider.');
         completionProvider?.dispose();
         initializeCompletionProvider();
     });
@@ -173,8 +165,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     function initializeCompletionProvider() {
         const configuration = vscode.workspace.getConfiguration('patternFlyAutocomplete');
-        const useBundledCompletionItems =
-            configuration.get<boolean>('useBundledCompletionItems') ?? false;
+        const useBundledCompletionItems = configuration.get<boolean>('useBundledCompletionItems') ?? false;
         const supportedFileTypes = configuration.get<string[]>('supportedFileTypes') ?? [];
 
         if (supportedFileTypes.length === 0) {
@@ -190,11 +181,7 @@ export function activate(context: vscode.ExtensionContext) {
 
             import('./suggestions').then((fileContents) => {
                 const suggestions = fileContents.default;
-                completionProvider = registerUtilityCompletionProvider(
-                    context,
-                    supportedFileTypes,
-                    suggestions,
-                );
+                completionProvider = registerUtilityCompletionProvider(context, supportedFileTypes, suggestions);
             });
         } else {
             collectNodeModulesSuggestions().then((suggestions) => {
@@ -202,20 +189,13 @@ export function activate(context: vscode.ExtensionContext) {
                     outputChannel.appendLine(
                         '[WARN] No CSS variables found for completion items. Please ensure you have installed PatternFly, or set `patternFlyAutocomplete.useBundledCompletionItems` to `true`.',
                     );
-                } else if (
-                    suggestions.utilities.v4.length === 0 &&
-                    suggestions.utilities.v5.length === 0
-                ) {
+                } else if (suggestions.utilities.v4.length === 0 && suggestions.utilities.v5.length === 0) {
                     outputChannel.appendLine(
                         '[WARN] No utility classes found for completion items. Please ensure you have installed PatternFly, or set `patternFlyAutocomplete.useBundledCompletionItems` to `true`.',
                     );
                 }
 
-                completionProvider = registerUtilityCompletionProvider(
-                    context,
-                    supportedFileTypes,
-                    suggestions,
-                );
+                completionProvider = registerUtilityCompletionProvider(context, supportedFileTypes, suggestions);
             });
         }
     }

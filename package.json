@@ -72,6 +72,8 @@
         "webpack-cli": "^5.1.4"
     },
     "dependencies": {
-        "css-tree": "^2.3.1"
+        "@types/lodash": "^4.14.199",
+        "css-tree": "^2.3.1",
+        "lodash": "^4.17.21"
     }
 }
