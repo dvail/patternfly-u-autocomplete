@@ -16,7 +16,7 @@ const V5_UTIL_REGEXP = new RegExp(`${V5_UTIL_CLASS_IDENTIFIER}[\\w|-]*$`);
 const V4_CSS_VAR_REGEXP = new RegExp(`${V4_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 const V5_CSS_VAR_REGEXP = new RegExp(`${V5_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 
-function parseUtilityClasses(suggestions: Suggestions, uri: vscode.Uri): Thenable<Suggestions> {
+function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<Suggestions> {
     return vscode.workspace.openTextDocument(uri).then((document) => {
         const text = document.getText();
         const ast = cssTree.parse(text);
@@ -125,15 +125,15 @@ export function activate(context: vscode.ExtensionContext) {
     Promise.all(patternflyFileFinders)
         .then((uriResults) => {
             const uris = uriResults.flat();
-            const parsedSuggestionSets = {
+            const parsedSuggestions = {
                 utilities: [],
                 cssVars: [],
             };
-            return Promise.all(
-                uris.map((uri) => parseUtilityClasses(parsedSuggestionSets, uri)),
-            ).then(() => {
-                return parsedSuggestionSets;
-            });
+            return Promise.all(uris.map((uri) => parseSuggestions(parsedSuggestions, uri))).then(
+                () => {
+                    return parsedSuggestions;
+                },
+            );
         })
         .then((results) => {
             registerUtilityCompletionProvider(context, results);
