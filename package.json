@@ -3,7 +3,7 @@
     "displayName": "PatternFly Autocomplete",
     "publisher": "DavidVail",
     "description": "Provides autocompletion for PatternFly utility classes and more",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "engines": {
         "vscode": "^1.82.0"
     },
