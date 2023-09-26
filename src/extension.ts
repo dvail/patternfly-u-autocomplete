@@ -95,7 +95,7 @@ function collectNodeModulesSuggestions(): Thenable<Suggestions> {
     });
 }
 
-function registerUtilityCompletionProvider(context: vscode.ExtensionContext, supportedFileTypes: string[], suggestions: Suggestions) {
+function createUtilityCompletionProvider(context: vscode.ExtensionContext, supportedFileTypes: string[], suggestions: Suggestions) {
     const triggers = ['-'];
     const completionProvider = vscode.languages.registerCompletionItemProvider(
         supportedFileTypes,
@@ -139,9 +139,14 @@ function registerUtilityCompletionProvider(context: vscode.ExtensionContext, sup
         ...triggers,
     );
 
-    context.subscriptions.push(completionProvider);
-
     return completionProvider;
+}
+
+function deregisterCompletionProvider(context: vscode.ExtensionContext, provider: vscode.Disposable | undefined) {
+    if (provider && context.subscriptions.includes(provider)) {
+        context.subscriptions.splice(context.subscriptions.indexOf(provider), 1);
+        provider.dispose();
+    }
 }
 
 export function activate(context: vscode.ExtensionContext) {
@@ -153,7 +158,6 @@ export function activate(context: vscode.ExtensionContext) {
 
     vscode.workspace.onDidChangeConfiguration(() => {
         outputChannel.appendLine('[INFO] Extension configuration has changed - reloading completion provider.');
-        completionProvider?.dispose();
         initializeCompletionProvider();
     });
 
@@ -177,7 +181,10 @@ export function activate(context: vscode.ExtensionContext) {
 
             import('./suggestions').then((fileContents) => {
                 const suggestions = fileContents.default;
-                completionProvider = registerUtilityCompletionProvider(context, supportedFileTypes, suggestions);
+                const newProvider = createUtilityCompletionProvider(context, supportedFileTypes, suggestions);
+                deregisterCompletionProvider(context, completionProvider);
+                completionProvider = newProvider;
+                context.subscriptions.push(completionProvider);
             });
         } else {
             collectNodeModulesSuggestions().then((suggestions) => {
@@ -199,7 +206,10 @@ export function activate(context: vscode.ExtensionContext) {
                     );
                 }
 
-                completionProvider = registerUtilityCompletionProvider(context, supportedFileTypes, suggestions);
+                const newProvider = createUtilityCompletionProvider(context, supportedFileTypes, suggestions);
+                deregisterCompletionProvider(context, completionProvider);
+                completionProvider = newProvider;
+                context.subscriptions.push(completionProvider);
             });
         }
     }
