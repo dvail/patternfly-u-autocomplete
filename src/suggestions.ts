@@ -1,5 +1,5601 @@
+// Manually exported values from the PF 4 and PF 5 CSS files of the following versions.
+// v4.92.8
+// v5.0.1
+
 export default {
     utilities: [
+        {
+            label: 'pf-v5-u-display-none',
+        },
+        {
+            label: 'pf-v5-u-display-inline-block',
+        },
+        {
+            label: 'pf-v5-u-display-block',
+        },
+        {
+            label: 'pf-v5-u-display-inline',
+        },
+        {
+            label: 'pf-v5-u-display-table',
+        },
+        {
+            label: 'pf-v5-u-display-table-cell',
+        },
+        {
+            label: 'pf-v5-u-display-table-row',
+        },
+        {
+            label: 'pf-v5-u-display-flex',
+        },
+        {
+            label: 'pf-v5-u-display-inline-flex',
+        },
+        {
+            label: 'pf-v5-u-display-none-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-inline-block-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-block-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-inline-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-table-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-table-cell-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-table-row-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-flex-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-inline-flex-on-sm',
+        },
+        {
+            label: 'pf-v5-u-display-none-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-inline-block-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-block-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-inline-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-table-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-table-cell-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-table-row-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-flex-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-inline-flex-on-md',
+        },
+        {
+            label: 'pf-v5-u-display-none-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-inline-block-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-block-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-inline-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-table-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-table-cell-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-table-row-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-flex-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-inline-flex-on-lg',
+        },
+        {
+            label: 'pf-v5-u-display-none-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-inline-block-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-block-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-inline-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-table-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-table-cell-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-table-row-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-flex-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-inline-flex-on-xl',
+        },
+        {
+            label: 'pf-v5-u-display-none-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-display-inline-block-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-display-block-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-display-inline-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-display-table-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-display-table-cell-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-display-table-row-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-display-flex-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-display-inline-flex-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-text-align-left',
+        },
+        {
+            label: 'pf-v5-u-text-align-center',
+        },
+        {
+            label: 'pf-v5-u-text-align-right',
+        },
+        {
+            label: 'pf-v5-u-text-align-justify',
+        },
+        {
+            label: 'pf-v5-u-text-align-left-on-sm',
+        },
+        {
+            label: 'pf-v5-u-text-align-center-on-sm',
+        },
+        {
+            label: 'pf-v5-u-text-align-right-on-sm',
+        },
+        {
+            label: 'pf-v5-u-text-align-justify-on-sm',
+        },
+        {
+            label: 'pf-v5-u-text-align-left-on-md',
+        },
+        {
+            label: 'pf-v5-u-text-align-center-on-md',
+        },
+        {
+            label: 'pf-v5-u-text-align-right-on-md',
+        },
+        {
+            label: 'pf-v5-u-text-align-justify-on-md',
+        },
+        {
+            label: 'pf-v5-u-text-align-left-on-lg',
+        },
+        {
+            label: 'pf-v5-u-text-align-center-on-lg',
+        },
+        {
+            label: 'pf-v5-u-text-align-right-on-lg',
+        },
+        {
+            label: 'pf-v5-u-text-align-justify-on-lg',
+        },
+        {
+            label: 'pf-v5-u-text-align-left-on-xl',
+        },
+        {
+            label: 'pf-v5-u-text-align-center-on-xl',
+        },
+        {
+            label: 'pf-v5-u-text-align-right-on-xl',
+        },
+        {
+            label: 'pf-v5-u-text-align-justify-on-xl',
+        },
+        {
+            label: 'pf-v5-u-text-align-left-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-text-align-center-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-text-align-right-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-text-align-justify-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-sm',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-sm-top',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-sm-right',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-sm-bottom',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-sm-left',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-md',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-md-top',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-md-right',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-md-bottom',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-md-left',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-lg',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-lg-top',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-lg-right',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-lg-bottom',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-lg-left',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-xl',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-xl-top',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-xl-right',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-xl-bottom',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-xl-left',
+        },
+        {
+            label: 'pf-v5-u-box-shadow-inset',
+        },
+        {
+            label: 'pf-v5-u-screen-reader',
+        },
+        {
+            label: 'pf-v5-u-visible',
+        },
+        {
+            label: 'pf-v5-u-hidden',
+        },
+        {
+            label: 'pf-v5-u-screen-reader-on-sm',
+        },
+        {
+            label: 'pf-v5-u-visible-on-sm',
+        },
+        {
+            label: 'pf-v5-u-hidden-on-sm',
+        },
+        {
+            label: 'pf-v5-u-screen-reader-on-md',
+        },
+        {
+            label: 'pf-v5-u-visible-on-md',
+        },
+        {
+            label: 'pf-v5-u-hidden-on-md',
+        },
+        {
+            label: 'pf-v5-u-screen-reader-on-lg',
+        },
+        {
+            label: 'pf-v5-u-visible-on-lg',
+        },
+        {
+            label: 'pf-v5-u-hidden-on-lg',
+        },
+        {
+            label: 'pf-v5-u-screen-reader-on-xl',
+        },
+        {
+            label: 'pf-v5-u-visible-on-xl',
+        },
+        {
+            label: 'pf-v5-u-hidden-on-xl',
+        },
+        {
+            label: 'pf-v5-u-screen-reader-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-visible-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-hidden-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-reverse',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-reverse',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-reverse-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-reverse-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-reverse-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-reverse-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-reverse-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-reverse-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-reverse-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-reverse-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-column-reverse-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-direction-row-reverse-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap',
+        },
+        {
+            label: 'pf-v5-u-flex-nowrap',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-reverse',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-nowrap-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-reverse-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-nowrap-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-reverse-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-nowrap-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-reverse-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-nowrap-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-reverse-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-nowrap-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-wrap-reverse-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-start',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-end',
+        },
+        {
+            label: 'pf-v5-u-align-items-center',
+        },
+        {
+            label: 'pf-v5-u-align-items-baseline',
+        },
+        {
+            label: 'pf-v5-u-align-items-stretch',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-start-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-end-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-items-center-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-items-baseline-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-items-stretch-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-start-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-end-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-items-center-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-items-baseline-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-items-stretch-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-start-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-end-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-items-center-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-items-baseline-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-items-stretch-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-start-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-end-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-center-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-baseline-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-stretch-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-start-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-flex-end-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-center-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-baseline-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-items-stretch-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-start',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-end',
+        },
+        {
+            label: 'pf-v5-u-align-self-center',
+        },
+        {
+            label: 'pf-v5-u-align-self-baseline',
+        },
+        {
+            label: 'pf-v5-u-align-self-stretch',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-start-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-end-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-self-center-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-self-baseline-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-self-stretch-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-start-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-end-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-self-center-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-self-baseline-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-self-stretch-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-start-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-end-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-self-center-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-self-baseline-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-self-stretch-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-start-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-end-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-center-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-baseline-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-stretch-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-start-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-flex-end-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-center-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-baseline-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-self-stretch-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-start',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-end',
+        },
+        {
+            label: 'pf-v5-u-align-content-center',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-between',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-around',
+        },
+        {
+            label: 'pf-v5-u-align-content-stretch',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-start-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-end-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-content-center-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-between-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-around-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-content-stretch-on-sm',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-start-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-end-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-content-center-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-between-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-around-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-content-stretch-on-md',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-start-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-end-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-content-center-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-between-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-around-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-content-stretch-on-lg',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-start-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-end-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-center-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-between-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-around-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-stretch-on-xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-start-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-flex-end-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-center-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-between-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-space-around-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-align-content-stretch-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-start',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-end',
+        },
+        {
+            label: 'pf-v5-u-justify-content-center',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-between',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-around',
+        },
+        {
+            label: 'pf-v5-u-justify-content-stretch',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-start-on-sm',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-end-on-sm',
+        },
+        {
+            label: 'pf-v5-u-justify-content-center-on-sm',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-between-on-sm',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-around-on-sm',
+        },
+        {
+            label: 'pf-v5-u-justify-content-stretch-on-sm',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-start-on-md',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-end-on-md',
+        },
+        {
+            label: 'pf-v5-u-justify-content-center-on-md',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-between-on-md',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-around-on-md',
+        },
+        {
+            label: 'pf-v5-u-justify-content-stretch-on-md',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-start-on-lg',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-end-on-lg',
+        },
+        {
+            label: 'pf-v5-u-justify-content-center-on-lg',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-between-on-lg',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-around-on-lg',
+        },
+        {
+            label: 'pf-v5-u-justify-content-stretch-on-lg',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-start-on-xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-end-on-xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-center-on-xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-between-on-xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-around-on-xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-stretch-on-xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-start-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-flex-end-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-center-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-between-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-space-around-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-justify-content-stretch-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-1',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-1',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-0',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-0',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-1-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-1-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-1-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-1-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-1-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-1-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-1-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-1-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-1-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-1-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-shrink-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-grow-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-0',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-auto',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-basis-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-none',
+        },
+        {
+            label: 'pf-v5-u-flex-1',
+        },
+        {
+            label: 'pf-v5-u-flex-none-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-1-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-none-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-1-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-none-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-1-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-none-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-1-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-none-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-1-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-flex-fill',
+        },
+        {
+            label: 'pf-v5-u-flex-fill-on-sm',
+        },
+        {
+            label: 'pf-v5-u-flex-fill-on-md',
+        },
+        {
+            label: 'pf-v5-u-flex-fill-on-lg',
+        },
+        {
+            label: 'pf-v5-u-flex-fill-on-xl',
+        },
+        {
+            label: 'pf-v5-u-flex-fill-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-family-text',
+        },
+        {
+            label: 'pf-v5-u-font-family-heading',
+        },
+        {
+            label: 'pf-v5-u-font-family-monospace',
+        },
+        {
+            label: 'pf-v5-u-font-family-text-vf',
+        },
+        {
+            label: 'pf-v5-u-font-family-heading-vf',
+        },
+        {
+            label: 'pf-v5-u-font-family-monospace-vf',
+        },
+        {
+            label: 'pf-v5-u-font-size-xs',
+        },
+        {
+            label: 'pf-v5-u-font-size-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-3xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-4xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-size-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-size-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-size-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-size-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-weight-normal',
+        },
+        {
+            label: 'pf-v5-u-font-weight-bold',
+        },
+        {
+            label: 'pf-v5-u-font-weight-normal-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-weight-bold-on-sm',
+        },
+        {
+            label: 'pf-v5-u-font-weight-normal-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-weight-bold-on-md',
+        },
+        {
+            label: 'pf-v5-u-font-weight-normal-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-weight-bold-on-lg',
+        },
+        {
+            label: 'pf-v5-u-font-weight-normal-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-weight-bold-on-xl',
+        },
+        {
+            label: 'pf-v5-u-font-weight-normal-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-font-weight-bold-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-color-100',
+        },
+        {
+            label: 'pf-v5-u-color-200',
+        },
+        {
+            label: 'pf-v5-u-color-300',
+        },
+        {
+            label: 'pf-v5-u-color-400',
+        },
+        {
+            label: 'pf-v5-u-active-color-100',
+        },
+        {
+            label: 'pf-v5-u-active-color-400',
+        },
+        {
+            label: 'pf-v5-u-primary-color-100',
+        },
+        {
+            label: 'pf-v5-u-color-light-100',
+        },
+        {
+            label: 'pf-v5-u-color-light-200',
+        },
+        {
+            label: 'pf-v5-u-link-color',
+        },
+        {
+            label: 'pf-v5-u-link-color-hover',
+        },
+        {
+            label: 'pf-v5-u-link-color-light',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-hover',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-hover',
+        },
+        {
+            label: 'pf-v5-u-link-color-visited',
+        },
+        {
+            label: 'pf-v5-u-custom-color-100',
+        },
+        {
+            label: 'pf-v5-u-custom-color-200',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300',
+        },
+        {
+            label: 'pf-v5-u-success-color-100',
+        },
+        {
+            label: 'pf-v5-u-success-color-200',
+        },
+        {
+            label: 'pf-v5-u-info-color-100',
+        },
+        {
+            label: 'pf-v5-u-info-color-200',
+        },
+        {
+            label: 'pf-v5-u-warning-color-100',
+        },
+        {
+            label: 'pf-v5-u-warning-color-200',
+        },
+        {
+            label: 'pf-v5-u-danger-color-100',
+        },
+        {
+            label: 'pf-v5-u-danger-color-200',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-100',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-200',
+        },
+        {
+            label: 'pf-v5-u-icon-color-light',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark',
+        },
+        {
+            label: 'pf-v5-u-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-400-on-sm',
+        },
+        {
+            label: 'pf-v5-u-active-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-active-color-400-on-sm',
+        },
+        {
+            label: 'pf-v5-u-primary-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-link-color-on-sm',
+        },
+        {
+            label: 'pf-v5-u-link-color-hover-on-sm',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-on-sm',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-hover-on-sm',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-on-sm',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-hover-on-sm',
+        },
+        {
+            label: 'pf-v5-u-link-color-visited-on-sm',
+        },
+        {
+            label: 'pf-v5-u-custom-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-custom-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-success-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-info-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-warning-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-warning-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-danger-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-danger-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-icon-color-light-on-sm',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-400-on-md',
+        },
+        {
+            label: 'pf-v5-u-active-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-active-color-400-on-md',
+        },
+        {
+            label: 'pf-v5-u-primary-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-link-color-on-md',
+        },
+        {
+            label: 'pf-v5-u-link-color-hover-on-md',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-on-md',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-hover-on-md',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-on-md',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-hover-on-md',
+        },
+        {
+            label: 'pf-v5-u-link-color-visited-on-md',
+        },
+        {
+            label: 'pf-v5-u-custom-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-custom-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-success-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-info-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-warning-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-warning-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-danger-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-danger-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-icon-color-light-on-md',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-400-on-lg',
+        },
+        {
+            label: 'pf-v5-u-active-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-active-color-400-on-lg',
+        },
+        {
+            label: 'pf-v5-u-primary-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-link-color-on-lg',
+        },
+        {
+            label: 'pf-v5-u-link-color-hover-on-lg',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-on-lg',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-hover-on-lg',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-on-lg',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-hover-on-lg',
+        },
+        {
+            label: 'pf-v5-u-link-color-visited-on-lg',
+        },
+        {
+            label: 'pf-v5-u-custom-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-custom-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-success-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-info-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-warning-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-warning-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-danger-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-danger-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-icon-color-light-on-lg',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-400-on-xl',
+        },
+        {
+            label: 'pf-v5-u-active-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-active-color-400-on-xl',
+        },
+        {
+            label: 'pf-v5-u-primary-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-on-xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-hover-on-xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-on-xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-hover-on-xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-on-xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-hover-on-xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-visited-on-xl',
+        },
+        {
+            label: 'pf-v5-u-custom-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-custom-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-success-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-info-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-warning-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-warning-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-danger-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-danger-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-icon-color-light-on-xl',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-color-400-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-active-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-active-color-400-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-primary-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-hover-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-light-hover-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-dark-hover-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-link-color-visited-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-custom-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-custom-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-success-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-info-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-warning-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-warning-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-danger-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-danger-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-disabled-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-icon-color-light-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-text-break-word',
+        },
+        {
+            label: 'pf-v5-u-text-nowrap',
+        },
+        {
+            label: 'pf-v5-u-text-wrap',
+        },
+        {
+            label: 'pf-v5-u-text-break-word-on-sm',
+        },
+        {
+            label: 'pf-v5-u-text-nowrap-on-sm',
+        },
+        {
+            label: 'pf-v5-u-text-wrap-on-sm',
+        },
+        {
+            label: 'pf-v5-u-text-break-word-on-md',
+        },
+        {
+            label: 'pf-v5-u-text-nowrap-on-md',
+        },
+        {
+            label: 'pf-v5-u-text-wrap-on-md',
+        },
+        {
+            label: 'pf-v5-u-text-break-word-on-lg',
+        },
+        {
+            label: 'pf-v5-u-text-nowrap-on-lg',
+        },
+        {
+            label: 'pf-v5-u-text-wrap-on-lg',
+        },
+        {
+            label: 'pf-v5-u-text-break-word-on-xl',
+        },
+        {
+            label: 'pf-v5-u-text-nowrap-on-xl',
+        },
+        {
+            label: 'pf-v5-u-text-wrap-on-xl',
+        },
+        {
+            label: 'pf-v5-u-text-break-word-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-text-nowrap-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-text-wrap-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-text-truncate',
+        },
+        {
+            label: 'pf-v5-u-color-300',
+        },
+        {
+            label: 'pf-v5-u-color-light-100',
+        },
+        {
+            label: 'pf-v5-u-color-light-200',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300',
+        },
+        {
+            label: 'pf-v5-u-success-color-200',
+        },
+        {
+            label: 'pf-v5-u-info-color-200',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-sm',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-md',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-lg',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-xl',
+        },
+        {
+            label: 'pf-v5-u-color-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-color-light-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-color-light-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-custom-color-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-success-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-info-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-danger-color-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-icon-color-dark-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-auto',
+        },
+        {
+            label: 'pf-v5-u-m-0',
+        },
+        {
+            label: 'pf-v5-u-m-xs',
+        },
+        {
+            label: 'pf-v5-u-m-sm',
+        },
+        {
+            label: 'pf-v5-u-m-md',
+        },
+        {
+            label: 'pf-v5-u-m-lg',
+        },
+        {
+            label: 'pf-v5-u-m-xl',
+        },
+        {
+            label: 'pf-v5-u-m-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-3xl',
+        },
+        {
+            label: 'pf-v5-u-m-4xl',
+        },
+        {
+            label: 'pf-v5-u-mt-auto',
+        },
+        {
+            label: 'pf-v5-u-mt-0',
+        },
+        {
+            label: 'pf-v5-u-mt-xs',
+        },
+        {
+            label: 'pf-v5-u-mt-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-md',
+        },
+        {
+            label: 'pf-v5-u-mt-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-3xl',
+        },
+        {
+            label: 'pf-v5-u-mt-4xl',
+        },
+        {
+            label: 'pf-v5-u-mr-auto',
+        },
+        {
+            label: 'pf-v5-u-mr-0',
+        },
+        {
+            label: 'pf-v5-u-mr-xs',
+        },
+        {
+            label: 'pf-v5-u-mr-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-md',
+        },
+        {
+            label: 'pf-v5-u-mr-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-3xl',
+        },
+        {
+            label: 'pf-v5-u-mr-4xl',
+        },
+        {
+            label: 'pf-v5-u-mb-auto',
+        },
+        {
+            label: 'pf-v5-u-mb-0',
+        },
+        {
+            label: 'pf-v5-u-mb-xs',
+        },
+        {
+            label: 'pf-v5-u-mb-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-md',
+        },
+        {
+            label: 'pf-v5-u-mb-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-3xl',
+        },
+        {
+            label: 'pf-v5-u-mb-4xl',
+        },
+        {
+            label: 'pf-v5-u-ml-auto',
+        },
+        {
+            label: 'pf-v5-u-ml-0',
+        },
+        {
+            label: 'pf-v5-u-ml-xs',
+        },
+        {
+            label: 'pf-v5-u-ml-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-md',
+        },
+        {
+            label: 'pf-v5-u-ml-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-3xl',
+        },
+        {
+            label: 'pf-v5-u-ml-4xl',
+        },
+        {
+            label: 'pf-v5-u-mx-auto',
+        },
+        {
+            label: 'pf-v5-u-mx-0',
+        },
+        {
+            label: 'pf-v5-u-mx-xs',
+        },
+        {
+            label: 'pf-v5-u-mx-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-md',
+        },
+        {
+            label: 'pf-v5-u-mx-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-3xl',
+        },
+        {
+            label: 'pf-v5-u-mx-4xl',
+        },
+        {
+            label: 'pf-v5-u-my-auto',
+        },
+        {
+            label: 'pf-v5-u-my-0',
+        },
+        {
+            label: 'pf-v5-u-my-xs',
+        },
+        {
+            label: 'pf-v5-u-my-sm',
+        },
+        {
+            label: 'pf-v5-u-my-md',
+        },
+        {
+            label: 'pf-v5-u-my-lg',
+        },
+        {
+            label: 'pf-v5-u-my-xl',
+        },
+        {
+            label: 'pf-v5-u-my-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-3xl',
+        },
+        {
+            label: 'pf-v5-u-my-4xl',
+        },
+        {
+            label: 'pf-v5-u-p-auto',
+        },
+        {
+            label: 'pf-v5-u-p-0',
+        },
+        {
+            label: 'pf-v5-u-p-xs',
+        },
+        {
+            label: 'pf-v5-u-p-sm',
+        },
+        {
+            label: 'pf-v5-u-p-md',
+        },
+        {
+            label: 'pf-v5-u-p-lg',
+        },
+        {
+            label: 'pf-v5-u-p-xl',
+        },
+        {
+            label: 'pf-v5-u-p-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-3xl',
+        },
+        {
+            label: 'pf-v5-u-p-4xl',
+        },
+        {
+            label: 'pf-v5-u-pt-auto',
+        },
+        {
+            label: 'pf-v5-u-pt-0',
+        },
+        {
+            label: 'pf-v5-u-pt-xs',
+        },
+        {
+            label: 'pf-v5-u-pt-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-md',
+        },
+        {
+            label: 'pf-v5-u-pt-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-3xl',
+        },
+        {
+            label: 'pf-v5-u-pt-4xl',
+        },
+        {
+            label: 'pf-v5-u-pr-auto',
+        },
+        {
+            label: 'pf-v5-u-pr-0',
+        },
+        {
+            label: 'pf-v5-u-pr-xs',
+        },
+        {
+            label: 'pf-v5-u-pr-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-md',
+        },
+        {
+            label: 'pf-v5-u-pr-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-3xl',
+        },
+        {
+            label: 'pf-v5-u-pr-4xl',
+        },
+        {
+            label: 'pf-v5-u-pb-auto',
+        },
+        {
+            label: 'pf-v5-u-pb-0',
+        },
+        {
+            label: 'pf-v5-u-pb-xs',
+        },
+        {
+            label: 'pf-v5-u-pb-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-md',
+        },
+        {
+            label: 'pf-v5-u-pb-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-3xl',
+        },
+        {
+            label: 'pf-v5-u-pb-4xl',
+        },
+        {
+            label: 'pf-v5-u-pl-auto',
+        },
+        {
+            label: 'pf-v5-u-pl-0',
+        },
+        {
+            label: 'pf-v5-u-pl-xs',
+        },
+        {
+            label: 'pf-v5-u-pl-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-md',
+        },
+        {
+            label: 'pf-v5-u-pl-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-3xl',
+        },
+        {
+            label: 'pf-v5-u-pl-4xl',
+        },
+        {
+            label: 'pf-v5-u-px-auto',
+        },
+        {
+            label: 'pf-v5-u-px-0',
+        },
+        {
+            label: 'pf-v5-u-px-xs',
+        },
+        {
+            label: 'pf-v5-u-px-sm',
+        },
+        {
+            label: 'pf-v5-u-px-md',
+        },
+        {
+            label: 'pf-v5-u-px-lg',
+        },
+        {
+            label: 'pf-v5-u-px-xl',
+        },
+        {
+            label: 'pf-v5-u-px-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-3xl',
+        },
+        {
+            label: 'pf-v5-u-px-4xl',
+        },
+        {
+            label: 'pf-v5-u-py-auto',
+        },
+        {
+            label: 'pf-v5-u-py-0',
+        },
+        {
+            label: 'pf-v5-u-py-xs',
+        },
+        {
+            label: 'pf-v5-u-py-sm',
+        },
+        {
+            label: 'pf-v5-u-py-md',
+        },
+        {
+            label: 'pf-v5-u-py-lg',
+        },
+        {
+            label: 'pf-v5-u-py-xl',
+        },
+        {
+            label: 'pf-v5-u-py-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-3xl',
+        },
+        {
+            label: 'pf-v5-u-py-4xl',
+        },
+        {
+            label: 'pf-v5-u-m-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mt-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mr-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mb-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-ml-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-mx-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-my-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-p-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pt-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pr-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pb-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-pl-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-px-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-xs-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-sm-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-md-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-lg-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-2xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-3xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-py-4xl-on-sm',
+        },
+        {
+            label: 'pf-v5-u-m-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mt-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mr-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mb-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-ml-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-mx-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-my-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-p-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pt-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pr-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pb-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-pl-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-px-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-xs-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-sm-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-md-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-lg-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-2xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-3xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-py-4xl-on-md',
+        },
+        {
+            label: 'pf-v5-u-m-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mt-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mr-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mb-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-ml-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-mx-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-my-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-p-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pt-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pr-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pb-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-pl-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-px-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-xs-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-sm-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-md-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-lg-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-2xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-3xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-py-4xl-on-lg',
+        },
+        {
+            label: 'pf-v5-u-m-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mt-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mr-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mb-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-ml-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-mx-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-my-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-p-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pt-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pr-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pb-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-pl-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-px-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-xs-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-sm-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-md-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-lg-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-2xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-3xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-py-4xl-on-xl',
+        },
+        {
+            label: 'pf-v5-u-m-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-m-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mt-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mr-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mb-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-ml-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-mx-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-my-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-p-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pt-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pr-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pb-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-pl-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-px-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-xs-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-sm-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-md-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-lg-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-2xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-3xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-py-4xl-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-float-left',
+        },
+        {
+            label: 'pf-v5-u-float-right',
+        },
+        {
+            label: 'pf-v5-u-float-left-on-sm',
+        },
+        {
+            label: 'pf-v5-u-float-right-on-sm',
+        },
+        {
+            label: 'pf-v5-u-float-left-on-md',
+        },
+        {
+            label: 'pf-v5-u-float-right-on-md',
+        },
+        {
+            label: 'pf-v5-u-float-left-on-lg',
+        },
+        {
+            label: 'pf-v5-u-float-right-on-lg',
+        },
+        {
+            label: 'pf-v5-u-float-left-on-xl',
+        },
+        {
+            label: 'pf-v5-u-float-right-on-xl',
+        },
+        {
+            label: 'pf-v5-u-float-left-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-float-right-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-100',
+        },
+        {
+            label: 'pf-v5-u-background-color-200',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-100',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-300',
+        },
+        {
+            label: 'pf-v5-u-background-color-primary-color-200',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-100',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-200',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-300',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-400',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-200',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-300',
+        },
+        {
+            label: 'pf-v5-u-background-color-default',
+        },
+        {
+            label: 'pf-v5-u-background-color-success',
+        },
+        {
+            label: 'pf-v5-u-background-color-info',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger',
+        },
+        {
+            label: 'pf-v5-u-background-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-primary-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-400-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-200-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-300-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-primary-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-400-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-200-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-300-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-primary-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-400-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-200-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-300-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-primary-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-400-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-200-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-300-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-active-color-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-primary-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-dark-400-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-200-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-disabled-color-300-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-default',
+        },
+        {
+            label: 'pf-v5-u-background-color-success',
+        },
+        {
+            label: 'pf-v5-u-background-color-info',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-sm',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-md',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-lg',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-default-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-success-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-info-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-warning-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-background-color-danger-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-auto',
+        },
+        {
+            label: 'pf-v5-u-w-initial',
+        },
+        {
+            label: 'pf-v5-u-w-inherit',
+        },
+        {
+            label: 'pf-v5-u-w-0',
+        },
+        {
+            label: 'pf-v5-u-w-25',
+        },
+        {
+            label: 'pf-v5-u-w-33',
+        },
+        {
+            label: 'pf-v5-u-w-50',
+        },
+        {
+            label: 'pf-v5-u-w-66',
+        },
+        {
+            label: 'pf-v5-u-w-75',
+        },
+        {
+            label: 'pf-v5-u-w-100',
+        },
+        {
+            label: 'pf-v5-u-w-25vw',
+        },
+        {
+            label: 'pf-v5-u-w-33vw',
+        },
+        {
+            label: 'pf-v5-u-w-50vw',
+        },
+        {
+            label: 'pf-v5-u-w-66vw',
+        },
+        {
+            label: 'pf-v5-u-w-75vw',
+        },
+        {
+            label: 'pf-v5-u-w-100vw',
+        },
+        {
+            label: 'pf-v5-u-w-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-initial-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-inherit-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-25-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-33-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-50-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-66-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-75-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-25vw-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-33vw-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-50vw-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-66vw-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-75vw-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-100vw-on-sm',
+        },
+        {
+            label: 'pf-v5-u-w-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-initial-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-inherit-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-25-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-33-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-50-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-66-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-75-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-25vw-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-33vw-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-50vw-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-66vw-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-75vw-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-100vw-on-md',
+        },
+        {
+            label: 'pf-v5-u-w-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-initial-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-inherit-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-25-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-33-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-50-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-66-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-75-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-25vw-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-33vw-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-50vw-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-66vw-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-75vw-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-100vw-on-lg',
+        },
+        {
+            label: 'pf-v5-u-w-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-initial-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-inherit-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-25-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-33-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-50-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-66-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-75-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-25vw-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-33vw-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-50vw-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-66vw-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-75vw-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-100vw-on-xl',
+        },
+        {
+            label: 'pf-v5-u-w-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-initial-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-inherit-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-25-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-33-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-50-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-66-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-75-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-25vw-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-33vw-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-50vw-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-66vw-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-75vw-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-w-100vw-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-auto',
+        },
+        {
+            label: 'pf-v5-u-h-initial',
+        },
+        {
+            label: 'pf-v5-u-h-inherit',
+        },
+        {
+            label: 'pf-v5-u-h-0',
+        },
+        {
+            label: 'pf-v5-u-h-25',
+        },
+        {
+            label: 'pf-v5-u-h-33',
+        },
+        {
+            label: 'pf-v5-u-h-50',
+        },
+        {
+            label: 'pf-v5-u-h-66',
+        },
+        {
+            label: 'pf-v5-u-h-75',
+        },
+        {
+            label: 'pf-v5-u-h-100',
+        },
+        {
+            label: 'pf-v5-u-h-25vh',
+        },
+        {
+            label: 'pf-v5-u-h-33vh',
+        },
+        {
+            label: 'pf-v5-u-h-50vh',
+        },
+        {
+            label: 'pf-v5-u-h-66vh',
+        },
+        {
+            label: 'pf-v5-u-h-75vh',
+        },
+        {
+            label: 'pf-v5-u-h-100vh',
+        },
+        {
+            label: 'pf-v5-u-h-auto-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-initial-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-inherit-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-0-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-25-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-33-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-50-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-66-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-75-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-100-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-25vh-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-33vh-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-50vh-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-66vh-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-75vh-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-100vh-on-sm',
+        },
+        {
+            label: 'pf-v5-u-h-auto-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-initial-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-inherit-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-0-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-25-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-33-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-50-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-66-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-75-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-100-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-25vh-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-33vh-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-50vh-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-66vh-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-75vh-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-100vh-on-md',
+        },
+        {
+            label: 'pf-v5-u-h-auto-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-initial-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-inherit-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-0-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-25-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-33-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-50-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-66-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-75-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-100-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-25vh-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-33vh-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-50vh-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-66vh-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-75vh-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-100vh-on-lg',
+        },
+        {
+            label: 'pf-v5-u-h-auto-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-initial-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-inherit-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-0-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-25-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-33-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-50-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-66-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-75-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-100-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-25vh-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-33vh-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-50vh-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-66vh-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-75vh-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-100vh-on-xl',
+        },
+        {
+            label: 'pf-v5-u-h-auto-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-initial-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-inherit-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-0-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-25-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-33-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-50-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-66-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-75-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-100-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-25vh-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-33vh-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-50vh-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-66vh-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-75vh-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-h-100vh-on-2xl',
+        },
+        {
+            label: 'pf-v5-u-min-width',
+        },
+        {
+            label: 'pf-v5-u-min-width',
+        },
+        {
+            label: 'pf-v5-u-min-width',
+        },
+        {
+            label: 'pf-v5-u-min-width',
+        },
+        {
+            label: 'pf-v5-u-min-width',
+        },
+        {
+            label: 'pf-v5-u-min-width',
+        },
+        {
+            label: 'pf-v5-u-max-width',
+        },
+        {
+            label: 'pf-v5-u-max-width',
+        },
+        {
+            label: 'pf-v5-u-max-width',
+        },
+        {
+            label: 'pf-v5-u-max-width',
+        },
+        {
+            label: 'pf-v5-u-max-width',
+        },
+        {
+            label: 'pf-v5-u-max-width',
+        },
+        {
+            label: 'pf-v5-u-min-height',
+        },
+        {
+            label: 'pf-v5-u-min-height',
+        },
+        {
+            label: 'pf-v5-u-min-height',
+        },
+        {
+            label: 'pf-v5-u-min-height',
+        },
+        {
+            label: 'pf-v5-u-min-height',
+        },
+        {
+            label: 'pf-v5-u-min-height',
+        },
+        {
+            label: 'pf-v5-u-max-height',
+        },
+        {
+            label: 'pf-v5-u-max-height',
+        },
+        {
+            label: 'pf-v5-u-max-height',
+        },
+        {
+            label: 'pf-v5-u-max-height',
+        },
+        {
+            label: 'pf-v5-u-max-height',
+        },
+        {
+            label: 'pf-v5-u-max-height',
+        },
         {
             label: 'pf-u-flex-direction-column',
         },

@@ -1,7 +1,7 @@
 {
-    "name": "patternfly-u-autocomplete",
-    "displayName": "patternfly-u-autocomplete",
-    "description": "Provides autocompletion for PatternFly utility classes",
+    "name": "patternfly-autocomplete",
+    "displayName": "patternfly-autocomplete",
+    "description": "Provides autocompletion for PatternFly utility classes and more",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.82.0"
@@ -24,7 +24,7 @@
                 "patternFlyAutocomplete.useBundledCompletionItems": {
                     "type": "boolean",
                     "default": false,
-                    "description": "Does not attempt to parse installed node_modules for completion items. Instead, uses a bundled list of completion items. This is useful if you are using a custom build of PatternFly."
+                    "description": "Does not attempt to parse installed node_modules for completion items. Instead, uses a bundled list of completion items. This is useful if you are using a custom build of PatternFly or otherwise have PatternFly installed in a non-standard location, but may provide outdated or unsupported completion items."
                 },
                 "patternFlyAutocomplete.supportedFileTypes": {
                     "type": "array",

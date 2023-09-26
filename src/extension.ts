@@ -1,6 +1,5 @@
 import * as vscode from 'vscode';
 import * as cssTree from 'css-tree';
-import * as fs from 'fs';
 
 type Suggestions = {
     utilities: vscode.CompletionItem[];
@@ -16,6 +15,8 @@ const V4_UTIL_REGEXP = new RegExp(`${V4_UTIL_CLASS_IDENTIFIER}[\\w|-]*$`);
 const V5_UTIL_REGEXP = new RegExp(`${V5_UTIL_CLASS_IDENTIFIER}[\\w|-]*$`);
 const V4_CSS_VAR_REGEXP = new RegExp(`${V4_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
 const V5_CSS_VAR_REGEXP = new RegExp(`${V5_CSS_VAR_IDENTIFIER}[\\w|-]*$`);
+
+const HEX_COLOR_REGEXP = /#[a-fA-F0-9]{6}/;
 
 function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<Suggestions> {
     return vscode.workspace.openTextDocument(uri).then((document) => {
@@ -44,17 +45,16 @@ function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<S
                 if (value.type === 'Raw') {
                     item.detail = value.value.trim();
 
-                    if (value.value.trim().match(/#[a-fA-F0-9]{6}/)) {
+                    // Display color swatch for color variables
+                    if (item.detail.match(HEX_COLOR_REGEXP)) {
                         item.kind = vscode.CompletionItemKind.Color;
-                        item.documentation = value.value.trim();
+                        item.documentation = item.detail;
                     }
                 }
 
                 suggestions.cssVars.push(item);
             }
         });
-
-        fs.writeFileSync('/tmp/suggestions.json', JSON.stringify(suggestions, null, 2));
 
         return suggestions;
     });
@@ -64,9 +64,9 @@ function collectNodeModulesSuggestions(): Thenable<Suggestions> {
     // Attempt to parse PF modules from node_modules and gather utility classes
     // This will grab both v4 and v5 values if both versions are installed
     const patternflyFileFinders = [
-        '**/node_modules/@patternfly/patternfly/patternfly-base.css', // Plain PF CSS Vars
-        '**/node_modules/@patternfly/patternfly/patternfly-charts.css', // Plain PF CSS Vars (Charts)
-        '**/node_modules/@patternfly/patternfly/css/utilities/**/*.css', // Plain PF Utility Classes
+        '**/node_modules/@patternfly/patternfly/patternfly-base.css', // Non-React PF CSS Vars
+        '**/node_modules/@patternfly/patternfly/patternfly-charts.css', // Non-React PF CSS Vars (Charts)
+        '**/node_modules/@patternfly/patternfly/css/utilities/**/*.css', // Non-React PF Utility Classes
         '**/node_modules/@patternfly/react-core/dist/styles/base.css', // React CSS Vars
         '**/node_modules/@patternfly/react-styles/css/utilities/**/*.css', // React Utility Classes
     ].map((pattern) => vscode.workspace.findFiles(pattern));
@@ -141,15 +141,15 @@ function registerUtilityCompletionProvider(
 export function activate(context: vscode.ExtensionContext) {
     const outputChannel = vscode.window.createOutputChannel('PatternFly Autocomplete');
 
-    outputChannel.appendLine('PatternFly Autocomplete Activated');
+    outputChannel.appendLine('[INFO] PatternFly Autocomplete Activated');
 
     let completionProvider: vscode.Disposable | undefined;
 
     vscode.workspace.onDidChangeConfiguration(() => {
-        outputChannel.appendLine('Extension configuration has changed');
-
+        outputChannel.appendLine(
+            '[INFO] Extension configuration has changed - reloading completion provider.',
+        );
         completionProvider?.dispose();
-
         initializeCompletionProvider();
     });
 
@@ -163,16 +163,16 @@ export function activate(context: vscode.ExtensionContext) {
 
         if (supportedFileTypes.length === 0) {
             outputChannel.appendLine(
-                'No file types configured for patternfly-u-autocomplete. Please add a file type to the patternFlyAutocomplete.supportedFileTypes setting.',
+                '[WARN] No file types configured for patternfly-autocomplete. Please add a file type to the patternFlyAutocomplete.supportedFileTypes setting.',
             );
         }
 
         if (useBundledCompletionItems) {
             outputChannel.appendLine(
-                'useBundledCompletionItems is enabled. Using bundled completion items instead of parsing installed modules.',
+                '[INFO] `useBundledCompletionItems` is enabled. Using bundled completion items instead of parsing installed modules.',
             );
 
-            import('./suggestions.js').then((fileContents: { default: Suggestions }) => {
+            import('./suggestions').then((fileContents) => {
                 const suggestions = fileContents.default;
                 completionProvider = registerUtilityCompletionProvider(
                     context,
@@ -182,6 +182,16 @@ export function activate(context: vscode.ExtensionContext) {
             });
         } else {
             collectNodeModulesSuggestions().then((suggestions) => {
+                if (suggestions.cssVars.length === 0) {
+                    outputChannel.appendLine(
+                        '[WARN] No CSS variables found for completion items. Please ensure you have installed PatternFly, or set `patternFlyAutocomplete.useBundledCompletionItems` to `true`.',
+                    );
+                } else if (suggestions.utilities.length === 0) {
+                    outputChannel.appendLine(
+                        '[WARN] No utility classes found for completion items. Please ensure you have installed PatternFly, or set `patternFlyAutocomplete.useBundledCompletionItems` to `true`.',
+                    );
+                }
+
                 completionProvider = registerUtilityCompletionProvider(
                     context,
                     supportedFileTypes,
