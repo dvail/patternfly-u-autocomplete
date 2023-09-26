@@ -2,8 +2,14 @@ import * as vscode from 'vscode';
 import * as cssTree from 'css-tree';
 
 type Suggestions = {
-    utilities: vscode.CompletionItem[];
-    cssVars: vscode.CompletionItem[];
+    utilities: {
+        v4: vscode.CompletionItem[];
+        v5: vscode.CompletionItem[];
+    };
+    cssVars: {
+        v4: vscode.CompletionItem[];
+        v5: vscode.CompletionItem[];
+    };
 };
 
 const V4_UTIL_CLASS_IDENTIFIER = 'pf-u-';
@@ -24,21 +30,27 @@ function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<S
         const ast = cssTree.parse(text);
 
         cssTree.walk(ast, (node) => {
-            const isUtility =
-                node.type === 'ClassSelector' &&
-                (node.name.startsWith(V4_UTIL_CLASS_IDENTIFIER) ||
-                    node.name.startsWith(V5_UTIL_CLASS_IDENTIFIER));
+            const isUtilityV4 =
+                node.type === 'ClassSelector' && node.name.startsWith(V4_UTIL_CLASS_IDENTIFIER);
 
-            const isCssVar =
+            const isUtilityV5 =
+                node.type === 'ClassSelector' && node.name.startsWith(V5_UTIL_CLASS_IDENTIFIER);
+
+            const isCssVarV4 =
                 node.type === 'Declaration' &&
-                (node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}global`) ||
-                    node.property.startsWith(`${V5_CSS_VAR_IDENTIFIER}chart`) ||
-                    node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) ||
+                (node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) ||
                     node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`));
 
-            if (isUtility) {
-                suggestions.utilities.push({ label: node.name });
-            } else if (isCssVar) {
+            const isCssVarV5 =
+                node.type === 'Declaration' &&
+                (node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}global`) ||
+                    node.property.startsWith(`${V4_CSS_VAR_IDENTIFIER}chart`));
+
+            if (isUtilityV4) {
+                suggestions.utilities.v4.push({ label: node.name });
+            } else if (isUtilityV5) {
+                suggestions.utilities.v5.push({ label: node.name });
+            } else if (isCssVarV4 || isCssVarV5) {
                 const { property, value } = node;
                 const item: vscode.CompletionItem = { label: property };
 
@@ -52,7 +64,8 @@ function parseSuggestions(suggestions: Suggestions, uri: vscode.Uri): Thenable<S
                     }
                 }
 
-                suggestions.cssVars.push(item);
+                const destination = isCssVarV4 ? suggestions.cssVars.v4 : suggestions.cssVars.v5;
+                destination.push(item);
             }
         });
 
@@ -74,8 +87,8 @@ function collectNodeModulesSuggestions(): Thenable<Suggestions> {
     return Promise.all(patternflyFileFinders).then((uriResults) => {
         const uris = uriResults.flat();
         const parsedSuggestions = {
-            utilities: [],
-            cssVars: [],
+            utilities: { v4: [], v5: [] },
+            cssVars: { v4: [], v5: [] },
         };
         return Promise.all(uris.map((uri) => parseSuggestions(parsedSuggestions, uri))).then(() => {
             return parsedSuggestions;
@@ -86,11 +99,8 @@ function collectNodeModulesSuggestions(): Thenable<Suggestions> {
 function registerUtilityCompletionProvider(
     context: vscode.ExtensionContext,
     supportedFileTypes: string[],
-    suggestionSets: Suggestions,
+    suggestions: Suggestions,
 ) {
-    const utilityClasses = [...suggestionSets.utilities];
-    const cssVariables = [...suggestionSets.cssVars];
-
     const triggers = ['-'];
     const completionProvider = vscode.languages.registerCompletionItemProvider(
         supportedFileTypes,
@@ -103,31 +113,37 @@ function registerUtilityCompletionProvider(
                 let completionTextStartPosition: number = -1;
                 let completionPool: vscode.CompletionItem[] = [];
 
-                if (linePrefix.match(V4_UTIL_REGEXP)) {
-                    completionTextStartPosition = linePrefix.lastIndexOf(V4_UTIL_CLASS_IDENTIFIER);
-                    completionPool = utilityClasses;
-                } else if (linePrefix.match(V5_UTIL_REGEXP)) {
+                // We need to check v5 matches first, since v4 matches will also match v5
+                if (linePrefix.match(V5_UTIL_REGEXP)) {
                     completionTextStartPosition = linePrefix.lastIndexOf(V5_UTIL_CLASS_IDENTIFIER);
-                    completionPool = utilityClasses;
-                } else if (linePrefix.match(V4_CSS_VAR_REGEXP)) {
-                    completionTextStartPosition = linePrefix.lastIndexOf(V4_CSS_VAR_IDENTIFIER);
-                    completionPool = cssVariables;
+                    completionPool = suggestions.utilities.v5;
+                } else if (linePrefix.match(V4_UTIL_REGEXP)) {
+                    completionTextStartPosition = linePrefix.lastIndexOf(V4_UTIL_CLASS_IDENTIFIER);
+                    completionPool = suggestions.utilities.v4;
                 } else if (linePrefix.match(V5_CSS_VAR_REGEXP)) {
                     completionTextStartPosition = linePrefix.lastIndexOf(V5_CSS_VAR_IDENTIFIER);
-                    completionPool = cssVariables;
+                    completionPool = suggestions.cssVars.v5;
+                } else if (linePrefix.match(V4_CSS_VAR_REGEXP)) {
+                    completionTextStartPosition = linePrefix.lastIndexOf(V4_CSS_VAR_IDENTIFIER);
+                    completionPool = suggestions.cssVars.v4;
                 } else {
                     return undefined;
                 }
 
-                return completionPool.map(({ ...properties }) => ({
-                    ...properties,
-                    range: new vscode.Range(
-                        position.line,
-                        completionTextStartPosition,
-                        position.line,
-                        position.character,
-                    ),
-                }));
+                const range = new vscode.Range(
+                    position.line,
+                    completionTextStartPosition,
+                    position.line,
+                    position.character,
+                );
+
+                // We're going to directly mutate the completion items to add the range here
+                // for the sake of performance.
+                completionPool.forEach((item) => {
+                    item.range = range;
+                });
+
+                return completionPool;
             },
         },
         ...triggers,
@@ -182,11 +198,14 @@ export function activate(context: vscode.ExtensionContext) {
             });
         } else {
             collectNodeModulesSuggestions().then((suggestions) => {
-                if (suggestions.cssVars.length === 0) {
+                if (suggestions.cssVars.v4.length === 0 && suggestions.cssVars.v5.length === 0) {
                     outputChannel.appendLine(
                         '[WARN] No CSS variables found for completion items. Please ensure you have installed PatternFly, or set `patternFlyAutocomplete.useBundledCompletionItems` to `true`.',
                     );
-                } else if (suggestions.utilities.length === 0) {
+                } else if (
+                    suggestions.utilities.v4.length === 0 &&
+                    suggestions.utilities.v5.length === 0
+                ) {
                     outputChannel.appendLine(
                         '[WARN] No utility classes found for completion items. Please ensure you have installed PatternFly, or set `patternFlyAutocomplete.useBundledCompletionItems` to `true`.',
                     );

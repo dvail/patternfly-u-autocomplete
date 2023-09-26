@@ -24,7 +24,7 @@
                 "patternFlyAutocomplete.useBundledCompletionItems": {
                     "type": "boolean",
                     "default": false,
-                    "description": "Does not attempt to parse installed node_modules for completion items. Instead, uses a bundled list of completion items. This is useful if you are using a custom build of PatternFly or otherwise have PatternFly installed in a non-standard location, but may provide outdated or unsupported completion items."
+                    "description": "Do not attempt to parse installed node_modules for completion items and instead use a bundled list of completion items. This is useful if you are using a custom build of PatternFly or otherwise have PatternFly installed in a non-standard location, but may provide outdated or unsupported completion items."
                 },
                 "patternFlyAutocomplete.supportedFileTypes": {
                     "type": "array",
